@@ -54,7 +54,7 @@ $valid = $vorname !== '' && $nachname !== ''
     && strlen(preg_replace('/\D/', '', $telefon) ?? '') >= 6
     && filter_var($email, FILTER_VALIDATE_EMAIL) !== false
     && field('einwilligung', 10) === 'ja'
-    && str_starts_with(field('agb', 40), 'ja');
+    && strpos(field('agb', 40), 'ja') === 0;
 if (!$valid) answer(false, 422);
 
 $lines = [$forms[$form]['title'] . ' über nordpflege24.de', ''];
