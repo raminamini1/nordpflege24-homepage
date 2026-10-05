@@ -24,6 +24,7 @@ RedirectMatch 404 ^/_build
   Header always set Strict-Transport-Security "max-age=31536000"
 </IfModule>
 
+ErrorDocument 404 /404.html
 Options -Indexes
 AddDefaultCharset UTF-8
 

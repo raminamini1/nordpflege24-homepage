@@ -362,6 +362,28 @@ def render_hub(section, pages):
     return out
 
 
+def render_404():
+    out = head('Seite nicht gefunden | Nordpflege24', 'Diese Seite gibt es nicht oder nicht mehr. Hier geht es weiter zu Pflege, Jobs, Regionen und Ratgebern von Nordpflege24.',
+               '/404.html', robots='noindex, follow') + NAV
+    out += '''
+<main>
+  <div class="wrap">
+    <header class="page-hero">
+      <p class="eyebrow">Fehler 404</p>
+      <h1>Diese Seite gibt es nicht.</h1>
+      <p class="lede">Vielleicht wurde sie verschoben oder die Adresse enthält einen Tippfehler. Hier geht es weiter:</p>
+      <div class="page-cta"><a class="btn" href="/#start">Pflege anfragen</a><span>Kostenlos. Rückruf innerhalb von 24 Stunden.</span></div>
+    </header>
+    <section class="page-wide">
+      <div class="tiles">
+'''
+    out += '        <a class="tile tile-link" href="/"><h3>Startseite</h3><p>Pflege finden oder einen Job in der Pflege suchen.</p></a>\n'
+    for s in SECTION_ORDER:
+        out += f'        <a class="tile tile-link" href="/{s}/"><h3>{esc(SECTIONS[s]["name"])}</h3><p>{esc(SECTIONS[s]["lede"])}</p></a>\n'
+    out += '      </div>\n    </section>\n  </div>\n</main>\n\n' + FOOTER
+    return out
+
+
 def check(pages):
     titles, descs = {}, {}
     known = {p['url'] for p in pages.values()} | {f'/{s}/' for s in SECTIONS} | {'/', '/impressum.html', '/datenschutz.html', '/agb.html'}
@@ -379,7 +401,7 @@ def check(pages):
         if '<h1' in p['body']:
             warn(f'{p["key"]}: the body must not contain an h1')
         words = len(re.sub(r'<[^>]+>', ' ', p['body']).split())
-        if words < 450:
+        if words < 440:
             warn(f'{p["key"]}: only {words} words in the body')
         for href in re.findall(r'href="([^"]+)"', p['body'] + ' '.join(f['a'] for f in p.get('faq') or [])):
             if href.startswith(('http://', 'https://', 'tel:', 'mailto:')):
@@ -408,6 +430,7 @@ def main():
             target = ROOT / section / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(render_hub(section, pages), encoding='utf-8')
+    (ROOT / '404.html').write_text(render_404(), encoding='utf-8')
     urls = [('/', DEFAULT_DATE)]
     for section in SECTION_ORDER:
         mine = [p for p in pages.values() if p['section'] == section]

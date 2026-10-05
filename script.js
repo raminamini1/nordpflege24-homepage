@@ -281,5 +281,11 @@
   /* The menu on the legal pages links to index.html#job: open the page with the job questions. */
   if(location.hash==='#job') state.flow='job';
 
+  /* A region page links here with ?ort=Kiel: the place is filled in already, the visitor can still change it. */
+  try{
+    var ortParam=new URLSearchParams(location.search).get('ort');
+    if(ortParam&&ortOk(ortParam)){ortParam=ortParam.slice(0,60);state.answers.pflege.ort=ortParam;state.answers.job.ort=ortParam;}
+  }catch(e){}
+
   render(false);
 })();
