@@ -268,11 +268,11 @@
   });
   plzInput.addEventListener('input',function(){plzErr.hidden=true;});
 
-  /* Photos: every slot starts as a quiet labelled tile; once its file under /images loads, the photo takes over. */
+  /* Photos: if a file under /images is missing, the slot stays a quiet empty tile instead of a broken-image icon. */
   Array.prototype.forEach.call(document.querySelectorAll('.photo img'),function(img){
-    function show(){img.parentNode.classList.remove('is-empty');}
-    if(img.complete&&img.naturalWidth) show();
-    else img.addEventListener('load',show);
+    function hide(){img.parentNode.classList.add('is-empty');}
+    if(img.complete&&!img.naturalWidth) hide();
+    else img.addEventListener('error',hide);
   });
 
   /* Exposed for a quick check of the field set; not used by the page itself. */
