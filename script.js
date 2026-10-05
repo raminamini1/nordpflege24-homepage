@@ -266,5 +266,8 @@
   /* Exposed for a quick check of the field set; not used by the page itself. */
   window.__np24={payload:payload,encode:encode,state:state};
 
+  /* The menu on the legal pages links to index.html#job: open the page with the job questions. */
+  if(location.hash==='#job') state.flow='job';
+
   render(false);
 })();
