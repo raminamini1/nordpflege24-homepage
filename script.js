@@ -24,7 +24,7 @@
         {key:'ort',type:'ort',q:'Wo wird die Pflege gebraucht?'}
       ],
       contact:{q:'Wohin dürfen wir uns melden?',hint:'Wir rufen innerhalb von 24 Stunden zurück.',submit:'Rückruf anfordern',
-        consent:'Ich willige ein, dass Nordpflege24 meine Angaben, auch die zum Pflegebedarf (Gesundheitsdaten), verarbeitet, um mich zurückzurufen und passende Pflegedienste zu suchen. An einen Pflegedienst werden meine Daten erst weitergegeben, wenn ich dem ausdrücklich zugestimmt habe. Die Einwilligung kann ich jederzeit widerrufen.'},
+        consent:'Ich willige ein, dass Nordpflege24 (RAIT Solution, Hamburg) meine Angaben einschließlich der Angaben zum Pflegebedarf (Gesundheitsdaten) verarbeitet, um mich zurückzurufen und passende Pflegedienste zu suchen. Frage ich für eine andere Person an, ist sie einverstanden oder ich darf sie vertreten. An einen Pflegedienst gehen die Daten erst nach meiner ausdrücklichen Zustimmung. Die Einwilligung kann ich jederzeit widerrufen, zum Beispiel per E-Mail an kontakt@nordpflege24.de.'},
       done:'Wir rufen Sie innerhalb von 24 Stunden zurück unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuchen Sie es noch einmal oder rufen Sie uns an: '
     },
@@ -45,7 +45,7 @@
         {key:'ort',type:'ort',q:'Wo wohnst du?'}
       ],
       contact:{q:'Wie erreichen wir dich?',hint:'Wir melden uns innerhalb von 24 Stunden.',submit:'Jobs anfragen',
-        consent:'Ich willige ein, dass Nordpflege24 meine Angaben verarbeitet, um mich zurückzurufen und mir passende Stellen vorzuschlagen. An einen Arbeitgeber werden meine Daten erst weitergegeben, wenn ich dem ausdrücklich zugestimmt habe. Die Einwilligung kann ich jederzeit widerrufen.'},
+        consent:'Ich willige ein, dass Nordpflege24 (RAIT Solution, Hamburg) meine Angaben verarbeitet, um mich zurückzurufen und mir passende Stellen vorzuschlagen. An einen Arbeitgeber gehen die Daten erst nach meiner ausdrücklichen Zustimmung. Die Einwilligung kann ich jederzeit widerrufen, zum Beispiel per E-Mail an kontakt@nordpflege24.de.'},
       done:'Wir melden uns innerhalb von 24 Stunden bei dir unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuch es noch einmal oder ruf uns an: '
     }
@@ -140,7 +140,7 @@
     h+='<div class="two">'+fieldView('telefon','Telefon','tel','tel','tel')+fieldView('email','E-Mail','email','email','email')+'</div>';
     h+='<label class="consent" for="f-consent"><input id="f-consent" name="consent" type="checkbox"'+(state.contact.consent?' checked':'')+(e.consent?' aria-invalid="true" aria-describedby="e-consent"':'')+'><span>'+esc(f.contact.consent)+' Mehr dazu im <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutz</a>.</span></label>';
     if(e.consent) h+='<span class="err" id="e-consent">'+esc(e.consent)+'</span>';
-    h+='<label class="consent" for="f-agb"><input id="f-agb" name="agb" type="checkbox"'+(state.contact.agb?' checked':'')+(e.agb?' aria-invalid="true" aria-describedby="e-agb"':'')+'><span>Ich habe die <a href="agb.html" target="_blank" rel="noopener">AGB</a> gelesen und stimme ihnen zu.</span></label>';
+    h+='<label class="consent" for="f-agb"><input id="f-agb" name="agb" type="checkbox"'+(state.contact.agb?' checked':'')+(e.agb?' aria-invalid="true" aria-describedby="e-agb"':'')+'><span>Ich stimme den <a href="agb.html" target="_blank" rel="noopener">AGB</a> zu.</span></label>';
     if(e.agb) h+='<span class="err" id="e-agb">'+esc(e.agb)+'</span>';
     if(state.sendError) h+='<span class="err" role="alert">'+esc(state.sendError)+'</span>';
     h+='<div class="fnav"><button type="button" class="linkbtn" data-act="back">Zurück</button><button type="submit" class="btn"'+(state.sending?' disabled':'')+'>'+esc(state.sending?'Wird gesendet …':f.contact.submit)+'</button></div></form>';
