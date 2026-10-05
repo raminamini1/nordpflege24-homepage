@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 const RECIPIENT = 'kontakt@nordpflege24.de';
-const SENDER    = 'formular@nordpflege24.de';
+const SENDER    = 'kontakt@nordpflege24.de';
 const SITE_HOST = 'nordpflege24.de';
 
 header('Content-Type: application/json; charset=utf-8');
