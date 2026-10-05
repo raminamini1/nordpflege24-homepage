@@ -15,6 +15,7 @@ RewriteRule ^index\.html$ https://nordpflege24.de/ [L,R=301]
   Require all denied
 </FilesMatch>
 RedirectMatch 404 ^/\.git
+RedirectMatch 404 ^/_build
 
 <IfModule mod_headers.c>
   Header always set X-Frame-Options "DENY"
