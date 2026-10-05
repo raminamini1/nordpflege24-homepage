@@ -280,3 +280,5 @@ a.tile-link h3{font-size:1.2rem}
 .more-links{display:flex;flex-wrap:wrap;gap:0 22px;font-size:.98rem}
 .more-links a{color:var(--accent);text-underline-offset:4px;padding-block:10px}
 .more-center{justify-content:center}
+.foot-bottom .foot-more a{color:inherit;text-decoration:none}
+.foot-bottom .foot-more a:hover{color:var(--accent)}
