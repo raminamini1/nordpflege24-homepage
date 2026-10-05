@@ -136,6 +136,7 @@ img{max-width:100%}
 .head{display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
 .head h2,.wide h2{font-size:clamp(2rem,5.2vw,3.5rem);font-weight:700;line-height:1.06;letter-spacing:-.035em;max-width:14em}
 .head p{font-size:clamp(1.1rem,1.8vw,1.3rem);line-height:1.38;color:var(--soft);max-width:30em}
+.head .eyebrow{font-size:1.0625rem;color:var(--accent)}
 
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:32px 24px;text-align:center}
 .stats li{display:flex;flex-direction:column;gap:4px;min-width:0}
@@ -193,22 +194,36 @@ img{max-width:100%}
 .faq summary{cursor:pointer;font-size:1.2rem;font-weight:600;line-height:1.3;letter-spacing:-.018em;padding-block:20px}
 .faq details p{color:var(--soft);padding:0 0 20px;margin-top:-10px}
 
-.foot{background:var(--tile);padding-block:36px;color:var(--soft);font-size:.82rem;line-height:1.5}
-.foot .wrap{display:flex;flex-direction:column;gap:14px}
-.foot-row{display:flex;flex-wrap:wrap;gap:6px 24px}
-.foot a{text-decoration:none;display:inline-block;padding-block:10px;margin-block:-10px}
-.foot-links a:hover{color:var(--ink);text-decoration:underline}
-.foot-rule{border:0;border-top:1px solid var(--line);margin:0}
+.foot{background:var(--tile);padding-block:clamp(48px,6vw,72px) 104px;color:var(--soft);font-size:.95rem;line-height:1.5}
+.foot .wrap{display:flex;flex-direction:column;gap:clamp(32px,4vw,48px)}
+.foot-grid{display:grid;grid-template-columns:minmax(0,1.4fr) max-content minmax(0,1fr) minmax(0,.9fr);gap:40px 56px}
+.foot-brand{display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-width:0}
+.foot-brand p{max-width:24em}
+.foot-col{display:flex;flex-direction:column;gap:14px;min-width:0}
+.foot-col h2{font-size:.78rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--ink)}
+.foot-col ul{display:flex;flex-direction:column;gap:10px}
+.foot-col address{font-style:normal;color:var(--ink)}
+.foot a{color:var(--ink);text-decoration:none}
+.foot a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.foot-contact{display:flex;flex-direction:column;gap:10px;margin:0}
+.foot-contact div{display:grid;grid-template-columns:5.5em 1fr;gap:8px;align-items:baseline}
+.foot-contact dt{color:var(--soft)}
+.foot-contact dd{margin:0;min-width:0;white-space:nowrap;font-variant-numeric:tabular-nums}
+.foot-note{font-size:.88rem}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;padding-top:24px;border-top:1px solid var(--line);font-size:.82rem}
+@media (max-width:900px){.foot-grid{grid-template-columns:max-content minmax(0,1fr)}.foot-brand{grid-column:1/-1}}
+@media (max-width:520px){.foot-grid{grid-template-columns:minmax(0,1fr);gap:32px}.foot-col ul,.foot-contact{gap:2px}.foot-col a{display:inline-block;padding-block:9px}.foot-contact div{align-items:center}.foot-contact dd{white-space:normal;overflow-wrap:anywhere}}
 
 /* WhatsApp: always within reach, bottom right */
 .wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;display:inline-flex;align-items:center;gap:8px;min-height:56px;padding:0 20px 0 8px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);font:600 1rem var(--sans);letter-spacing:-.011em;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.18)}
 .wa:hover{border-color:var(--ink)}
 .wa img{flex:none;width:40px;height:40px;display:block}
-@media (max-width:520px){.wa{width:56px;padding:0;border:0;background:none;box-shadow:none}.wa span{display:none}.wa img{width:56px;height:56px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.28))}.foot{padding-bottom:104px}}
+@media (max-width:520px){.wa{width:56px;padding:0;border:0;background:none;box-shadow:none}.wa span{display:none}.wa img{width:56px;height:56px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.28))}}
 
 /* legal pages */
 .legal{max-width:760px;margin-inline:auto;padding-block:clamp(40px,7vw,88px);display:flex;flex-direction:column;gap:18px}
-.legal h1{font-size:clamp(2.2rem,6vw,3.5rem);font-weight:700;line-height:1.05;letter-spacing:-.035em}
+.legal h1{font-size:clamp(1.9rem,6vw,3.5rem);font-weight:700;line-height:1.08;letter-spacing:-.035em;-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}
+.legal>*{min-width:0;max-width:100%}
 .legal h2{font-size:1.4rem;font-weight:600;letter-spacing:-.02em;padding-top:18px}
 .legal p,.legal li{color:var(--soft)}
 .legal address{font-style:normal;color:var(--ink)}

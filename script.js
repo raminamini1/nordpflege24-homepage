@@ -24,7 +24,7 @@
         {key:'ort',type:'ort',q:'Wo wird die Pflege gebraucht?'}
       ],
       contact:{q:'Wohin dürfen wir uns melden?',hint:'Wir rufen innerhalb von 24 Stunden zurück.',submit:'Rückruf anfordern',
-        consent:'Ich bin einverstanden, dass Nordpflege24 meine Angaben, auch die zum Pflegebedarf, nutzt, um mich zurückzurufen und passende Pflegedienste vorzuschlagen.'},
+        consent:'Ich willige ein, dass Nordpflege24 meine Angaben, auch die zum Pflegebedarf (Gesundheitsdaten), verarbeitet, um mich zurückzurufen und passende Pflegedienste zu suchen. An einen Pflegedienst werden meine Daten erst weitergegeben, wenn ich dem ausdrücklich zugestimmt habe. Die Einwilligung kann ich jederzeit widerrufen.'},
       done:'Wir rufen Sie innerhalb von 24 Stunden zurück unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuchen Sie es noch einmal oder rufen Sie uns an: '
     },
@@ -45,7 +45,7 @@
         {key:'ort',type:'ort',q:'Wo wohnst du?'}
       ],
       contact:{q:'Wie erreichen wir dich?',hint:'Wir melden uns innerhalb von 24 Stunden.',submit:'Jobs anfragen',
-        consent:'Ich bin einverstanden, dass Nordpflege24 meine Angaben nutzt, um mich zurückzurufen und mir passende Stellen vorzuschlagen.'},
+        consent:'Ich willige ein, dass Nordpflege24 meine Angaben verarbeitet, um mich zurückzurufen und mir passende Stellen vorzuschlagen. An einen Arbeitgeber werden meine Daten erst weitergegeben, wenn ich dem ausdrücklich zugestimmt habe. Die Einwilligung kann ich jederzeit widerrufen.'},
       done:'Wir melden uns innerhalb von 24 Stunden bei dir unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuch es noch einmal oder ruf uns an: '
     }
@@ -58,7 +58,7 @@
     flow:'pflege',
     pos:{pflege:{step:0,done:false},job:{step:0,done:false}},
     answers:{pflege:{},job:{}},
-    contact:{vorname:'',nachname:'',telefon:'',email:'',consent:false},
+    contact:{vorname:'',nachname:'',telefon:'',email:'',consent:false,agb:false},
     errors:{},
     sending:false,
     sendError:''
@@ -77,6 +77,7 @@
     if(c.telefon.replace(/\D/g,'').length<6) e.telefon='Bitte eine Telefonnummer eintragen, unter der wir zurückrufen können.';
     if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(c.email.trim())) e.email='Diese E-Mail-Adresse ist unvollständig. Beispiel: name@beispiel.de';
     if(!c.consent) e.consent='Bitte die Einwilligung ankreuzen. Ohne sie dürfen wir nicht zurückrufen.';
+    if(!c.agb) e.agb='Bitte den AGB zustimmen. Ohne Zustimmung können wir die Anfrage nicht annehmen.';
     return e;
   }
 
@@ -87,6 +88,10 @@
     f.steps.forEach(function(s){var v=a[s.key];data[s.key]=Array.isArray(v)?v.join(', '):(v||'');});
     data.vorname=c.vorname.trim();data.nachname=c.nachname.trim();data.telefon=c.telefon.trim();data.email=c.email.trim();
     data.einwilligung=c.consent?'ja':'nein';
+    /* Proof of consent: the exact wording shown and the moment of the click travel with the request. */
+    data.einwilligung_text=f.contact.consent;
+    data.einwilligung_zeit=new Date().toISOString();
+    data.agb=c.agb?'ja, Stand Oktober 2026':'nein';
     return data;
   }
   function encode(data){
@@ -133,8 +138,10 @@
     h+='<p class="summary">'+sum.map(esc).join(' · ')+'</p>';
     h+='<form id="contact-form" novalidate><div class="two">'+fieldView('vorname','Vorname','text','given-name')+fieldView('nachname','Nachname','text','family-name')+'</div>';
     h+='<div class="two">'+fieldView('telefon','Telefon','tel','tel','tel')+fieldView('email','E-Mail','email','email','email')+'</div>';
-    h+='<label class="consent" for="f-consent"><input id="f-consent" name="consent" type="checkbox"'+(state.contact.consent?' checked':'')+'><span>'+esc(f.contact.consent)+' Mehr dazu im <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutz</a>.</span></label>';
+    h+='<label class="consent" for="f-consent"><input id="f-consent" name="consent" type="checkbox"'+(state.contact.consent?' checked':'')+(e.consent?' aria-invalid="true" aria-describedby="e-consent"':'')+'><span>'+esc(f.contact.consent)+' Mehr dazu im <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutz</a>.</span></label>';
     if(e.consent) h+='<span class="err" id="e-consent">'+esc(e.consent)+'</span>';
+    h+='<label class="consent" for="f-agb"><input id="f-agb" name="agb" type="checkbox"'+(state.contact.agb?' checked':'')+(e.agb?' aria-invalid="true" aria-describedby="e-agb"':'')+'><span>Ich habe die <a href="agb.html" target="_blank" rel="noopener">AGB</a> gelesen und stimme ihnen zu.</span></label>';
+    if(e.agb) h+='<span class="err" id="e-agb">'+esc(e.agb)+'</span>';
     if(state.sendError) h+='<span class="err" role="alert">'+esc(state.sendError)+'</span>';
     h+='<div class="fnav"><button type="button" class="linkbtn" data-act="back">Zurück</button><button type="submit" class="btn"'+(state.sending?' disabled':'')+'>'+esc(state.sending?'Wird gesendet …':f.contact.submit)+'</button></div></form>';
     return h;
@@ -198,7 +205,7 @@
     }
     else if(act==='next'){p.step++;render(true);}
     else if(act==='back'){state.errors={};state.sendError='';p.step=Math.max(0,p.step-1);render(true);}
-    else if(act==='reset'){p.done=false;p.step=0;state.answers[state.flow]={};state.contact.consent=false;state.errors={};render(true);}
+    else if(act==='reset'){p.done=false;p.step=0;state.answers[state.flow]={};state.contact.consent=false;state.contact.agb=false;state.errors={};render(true);}
   });
 
   body.addEventListener('input',function(ev){
@@ -208,7 +215,7 @@
       document.getElementById('next-btn').disabled=!ortOk(t.value);
       return;
     }
-    if(t.name==='consent'){state.contact.consent=t.checked;}
+    if(t.name==='consent'||t.name==='agb'){state.contact[t.name]=t.checked;}
     else if(t.name&&Object.prototype.hasOwnProperty.call(state.contact,t.name)){state.contact[t.name]=t.value;}
     else return;
     if(state.errors[t.name]){
