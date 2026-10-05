@@ -1,8 +1,10 @@
 /* Nordpflege24: question funnel (Pflege / Job), postcode entry, photo fallbacks. No dependencies. */
 (function(){
   var PHONE='040 65 39 04 31';
-  /* Real sending only on the live site (Netlify Forms). Everywhere else the funnel runs as a preview. */
-  var LIVE=/(^|\.)nordpflege24\.de$|\.netlify\.app$/.test(location.hostname);
+  /* Form service: form.taxi (company in Austria, servers in Germany). Paste the form URL from the form.taxi account here,
+     e.g. 'https://form.taxi/s/abc123'. While it is empty, or off the live site, the funnel runs as a preview and sends nothing. */
+  var FORM_ENDPOINT='';
+  var LIVE=!!FORM_ENDPOINT&&/(^|\.)nordpflege24\.de$|\.github\.io$/.test(location.hostname);
 
   var FLOWS={
     pflege:{
@@ -84,7 +86,7 @@
   /* Builds the field set the host receives. Kept separate so it can be checked on its own. */
   function payload(flow){
     var f=FLOWS[flow], a=state.answers[flow], c=state.contact;
-    var data={'form-name':f.form,website:''};
+    var data={formular:f.form,_gotcha:''};
     f.steps.forEach(function(s){var v=a[s.key];data[s.key]=Array.isArray(v)?v.join(', '):(v||'');});
     data.vorname=c.vorname.trim();data.nachname=c.nachname.trim();data.telefon=c.telefon.trim();data.email=c.email.trim();
     data.einwilligung=c.consent?'ja':'nein';
@@ -187,8 +189,11 @@
   function send(flow){
     if(!LIVE){finish(flow);return;}
     state.sending=true;state.sendError='';render(false);
-    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:encode(payload(flow))})
-      .then(function(r){if(!r.ok) throw new Error('HTTP '+r.status);finish(flow);})
+    var data=payload(flow), fd=new FormData();
+    Object.keys(data).forEach(function(k){fd.append(k,data[k]);});
+    fetch(FORM_ENDPOINT,{method:'POST',headers:{'Accept':'application/json'},body:fd})
+      .then(function(r){if(!r.ok) throw new Error('HTTP '+r.status);return r.json();})
+      .then(function(d){if(!d||d.success===false) throw new Error('rejected');finish(flow);})
       .catch(function(){state.sending=false;state.sendError=FLOWS[flow].fail+PHONE;render(true);});
   }
 
