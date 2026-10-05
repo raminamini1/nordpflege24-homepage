@@ -52,12 +52,10 @@ img{max-width:100%}
 .nav-links{display:flex;gap:28px;font-size:.82rem}
 .nav-links a{color:var(--soft);text-decoration:none}
 .nav-links a:hover{color:var(--accent)}
-.nav-call{font-size:.88rem;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--on-accent);background:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border-radius:999px}
+.nav-call{font-size:.88rem;font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--on-accent);background:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px 0 12px;border-radius:999px}
 .nav-call:hover{background:var(--accent-deep)}
-.nav-call svg{flex:none}
-.nav-short{display:none}
-@media (max-width:520px){.nav-num{display:none}.nav-short{display:inline}}
-@media (max-width:400px){.nav-short{display:none}.nav-call{padding:0;width:44px;min-height:44px;justify-content:center}.nav .logo{font-size:1.15rem}}
+.nav-call img{flex:none;width:22px;height:22px}
+@media (max-width:400px){.nav-num{display:none}.nav-call{padding:0;width:44px;min-height:44px;justify-content:center}.nav .logo{font-size:1.15rem}}
 @media (max-width:820px){.nav-links{display:none}}
 
 /* buttons */
