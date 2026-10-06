@@ -209,6 +209,8 @@ img{max-width:100%}
 .foot-contact div{display:contents}
 .foot-contact dt{color:var(--soft)}
 .foot-contact dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.foot-contact dd a{color:var(--accent);font-weight:600;text-decoration:underline;text-decoration-color:var(--accent-tint);text-decoration-thickness:1.5px;text-underline-offset:4px}
+.foot-contact dd a:hover{color:var(--accent-deep);text-decoration-color:currentColor}
 .foot-note{font-size:.88rem}
 .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 24px;padding-top:24px;border-top:1px solid var(--line);font-size:.82rem}
 @media (max-width:900px){.foot-grid{grid-template-columns:max-content minmax(0,1fr)}.foot-brand{grid-column:1/-1}}

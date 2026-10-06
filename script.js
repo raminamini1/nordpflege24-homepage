@@ -1,6 +1,6 @@
 /* Nordpflege24: question funnel (Pflege / Job), postcode entry, photo fallbacks. No dependencies. */
 (function(){
-  var PHONE='040 65 39 04 31';
+  var PHONE='+49 40 65 39 04 31';
   /* Requests go to send.php on the same server (netcup, Germany), which mails them to the Nordpflege24 mailbox.
      Real sending only on the live domain. Everywhere else the funnel runs as a preview and sends nothing. */
   var FORM_ENDPOINT='send.php';
