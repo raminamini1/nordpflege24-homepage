@@ -42,7 +42,7 @@ Regionen (`pflegedienst`):
 - [x] Kreis Stormarn (Ahrensburg, Bad Oldesloe, Reinbek), erledigt 6. Oktober 2026
 - [x] Kreis Segeberg (Norderstedt ist schon da: Henstedt-Ulzburg, Kaltenkirchen, Bad Segeberg), erledigt 6. Oktober 2026
 - [x] Kreis Herzogtum Lauenburg (Geesthacht, Schwarzenbek, Ratzeburg), erledigt 6. Oktober 2026
-- [ ] Landkreis Harburg (Buchholz, Winsen, Seevetal)
+- [x] Landkreis Harburg (Buchholz, Winsen, Seevetal), erledigt 6. Oktober 2026
 - [ ] Niedersachsen (Überblick)
 - [ ] Mecklenburg-Vorpommern (Überblick)
 - [ ] Hamburg-Rahlstedt
@@ -68,7 +68,7 @@ Regionen (`pflegedienst`):
 - [ ] Cuxhaven
 
 Ratgeber (`ratgeber`):
-- [ ] Tagespflege: Ablauf, Kosten, Anspruch
+- [x] Tagespflege: Ablauf, Kosten, Anspruch, erledigt 6. Oktober 2026
 - [ ] Kurzzeitpflege und Gemeinsamer Jahresbetrag
 - [ ] Pflegegrad 1: was es gibt
 - [ ] Pflegegrad 2: Leistungen und Beispiele

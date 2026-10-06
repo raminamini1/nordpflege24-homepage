@@ -16,3 +16,13 @@
   - /pflegedienst/kreis-herzogtum-lauenburg/
 - Verlinkt von: Schleswig-Holstein, Norderstedt, Hamburg-Wandsbek, Hamburg-Bergedorf, Lübeck (Links im Text). Sitemap jetzt 53 Adressen.
 - Hinweis für später: Im November 2026 soll die Pflegestatistik 2025 erscheinen. Dann die Kreiszahlen auf den Kreisseiten (Pinneberg, Stormarn, Segeberg, Herzogtum Lauenburg) und in `_build/lokal/schleswig-holstein.md` erneuern. Die Bevölkerungszahlen gibt es inzwischen auch für das 2. Quartal 2026 (Statistikamt Nord, A I 2 vj 2/26); verwendet wurde der Jahresendstand 31.12.2025.
+
+## 6. Oktober 2026, zweiter Lauf (von Hand ausgelöst, mit dem Wunsch nach einem Ratgeber-Thema)
+- Geprüft: Faktenstand vom Vormittag gilt weiter. Zusätzlich am Gesetz geprüft: § 41 SGB XI (Tages- und Nachtpflege, Beträge 721 / 1.357 / 1.685 / 2.085 Euro, keine Anrechnung, Beförderung), § 45b SGB XI (Entlastungsbetrag für Tagespflege), § 33 SGB XI (Leistungen auf Antrag), § 64g SGB XII (Hilfe zur Pflege, teilstationär). Entwurf Pflegeneuordnungsgesetz: Sozialraumbudget nur noch für anerkannte Alltagsangebote, also nicht mehr für den Eigenanteil der Tagespflege; am Budget nach § 41 ändert der Entwurf nach den Übersichten nichts.
+- Neu (2 Seiten):
+  - /ratgeber/tagespflege/ (rund 1.000 Wörter, mit Hinweiskasten zur Reform)
+  - /pflegedienst/landkreis-harburg/ (rund 800 Wörter, Einwohner Ende 2025 vom Landkreis, Pflegestatistik 2023, Senioren- und Pflegestützpunkt, Krankenhäuser Buchholz und Winsen)
+- Verlinkt von: Hamburg-Harburg, Stade, Lüneburg, Pflegegrade und Leistungen, Entlastungsbetrag, Demenzbetreuung (Links im Text). Sitemap jetzt 55 Adressen, 50 Hintergrundseiten.
+- `build.py`: Schlusszeile auch bei "Landkreis ..." mit "im".
+- Nicht geschrieben: eine dritte Seite. Am selben Tag waren schon drei Regionsseiten erschienen, deshalb in diesem Lauf nur zwei.
+- Hinweis für später: Wird das Pflegeneuordnungsgesetz verkündet, auch den Hinweiskasten auf /ratgeber/tagespflege/ anpassen.

@@ -28,3 +28,21 @@ Zwischenstand – wird ergänzt. Alles ohne Quelle gilt als "nicht verifiziert".
 
 - Einwohner 31.12.2025: Niedersachsen 8.000.826; Bremen 706.915; Mecklenburg-Vorpommern 1.573.685; Hamburg 1.869.473; Schleswig-Holstein 2.958.519.
 - Quelle: https://www.statistikportal.de/de/bevoelkerung/flaeche-und-bevoelkerung
+
+## Landkreis Harburg (geprüft 06.10.2026)
+
+- Einwohner 31.12.2025: Landkreis 265.727; Seevetal 44.091; Buchholz i.d.N. 41.636; Winsen (Luhe) 37.050; Neu Wulmstorf 23.552; Rosengarten 13.946; Stelle 12.082; Samtgemeinden Tostedt 27.105, Hanstedt 15.565, Salzhausen 14.612, Elbmarsch 13.036, Hollenstedt 12.154, Jesteburg 10.898. Kreisstadt Winsen (Luhe).
+- Quelle: Landkreis Harburg, "Fläche und Einwohnerzahlen der Gemeinden im Landkreis Harburg 2023-2025" (Download auf landkreis-harburg.de, Adresse steht in den Quellen der Seite).
+- Pflegestatistik 2023: 14.173 Pflegebedürftige; ambulante Pflege 2.913; vollstationär 2.061 (Dauerpflege 2.006, Kurzzeitpflege 55); nur Pflegegeld 7.676. Zum Vergleich Landkreis Stade 13.678 / 2.130 / 2.147 / 7.941; Landkreis Lüneburg 10.656 / 2.373 / 1.847 / 5.278.
+- Quelle: https://metropolregion.hamburg.de/unsere-services/statistikportal/pflegebeduerftige-14890 (Quelle dort: Statistikämter, Regio-Stat)
+- Senioren- und Pflegestützpunkt Niedersachsen im Landkreis Harburg: Schloßplatz 6, 21423 Winsen (Luhe), Tel. 04171 693-338; Termine nach Absprache, Hausbesuche; feste Ansprechpersonen je Gemeinde.
+- Quelle: https://www.landkreis-harburg.de/portal/seiten/senioren-und-pflegestuetzpunkt-niedersachsen-kontakt-901000069-20100.html
+- Krankenhaus Buchholz und Winsen gemeinnützige GmbH: Buchholz, Steinbecker Straße 44; Winsen, Friedrich-Lichtenauer-Allee 1.
+- Quelle: https://www.krankenhaus-buchholz.de/ und https://www.krankenhaus-winsen.de/
+- Zahl der ambulanten Dienste: nur aus der Presse bekannt (33 laut Pflegebericht 2023 des Landkreises, Stand 2021), nicht verifiziert, nicht verwendet.
+
+## Niedersachsen (Überblick, für die geplante Seite)
+
+- Pflegestatistik 2023 (Pflegegrade 2 bis 5): 344.914 nur Pflegegeld; 52.597 Pflegegeld mit ambulanter Sachleistung; 63.423 ambulante Pflege ohne Pflegegeld; 93.678 vollstationär; 24.345 teilstationär. In jedem Landkreis und jeder kreisfreien Stadt gibt es einen Senioren- und Pflegestützpunkt.
+- Quelle: https://www.ms.niedersachsen.de/download/221463/Anlagenbericht_2025.pdf
+- Kreistabellen: https://www.statistik.niedersachsen.de/pflegestatistik/pflege-in-niedersachsen-tabellen-207905.html
