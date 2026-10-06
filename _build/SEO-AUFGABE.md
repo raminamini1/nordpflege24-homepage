@@ -34,14 +34,14 @@ Die Website soll ohne bezahlte Werbung bei Google und Bing gefunden werden. Daf�
 - Leistungsbeträge der Pflegeversicherung (Übersicht des Bundesgesundheitsministeriums), vor allem zum Jahreswechsel.
 - Pflegemindestlohn (nächste Stufe 1. Juli 2027) und regional übliche Entlohnungsniveaus (jährlich im Herbst).
 - Pflegestatistik der Statistikämter, wenn neue Zahlen erscheinen.
-- `DEFAULT_DATE` und `DEFAULT_STAND` in `_build/build.py` auf den Monat der letzten Faktenprüfung setzen.
+- `DEFAULT_DATE` und `DEFAULT_STAND` in `_build/build.py` auf den Tag und Monat der letzten Faktenprüfung setzen. Neue Ratgeberseiten bekommen im Kopf zusätzlich `"erstellt": "JJJJ-MM-TT"` (Tag der ersten Veröffentlichung), sonst gilt für sie der 5. Oktober 2026.
 
 ## Themenliste
 
 Regionen (`pflegedienst`):
-- [ ] Kreis Stormarn (Ahrensburg, Bad Oldesloe, Reinbek)
-- [ ] Kreis Segeberg (Norderstedt ist schon da: Henstedt-Ulzburg, Kaltenkirchen, Bad Segeberg)
-- [ ] Kreis Herzogtum Lauenburg (Geesthacht, Schwarzenbek, Ratzeburg)
+- [x] Kreis Stormarn (Ahrensburg, Bad Oldesloe, Reinbek), erledigt 6. Oktober 2026
+- [x] Kreis Segeberg (Norderstedt ist schon da: Henstedt-Ulzburg, Kaltenkirchen, Bad Segeberg), erledigt 6. Oktober 2026
+- [x] Kreis Herzogtum Lauenburg (Geesthacht, Schwarzenbek, Ratzeburg), erledigt 6. Oktober 2026
 - [ ] Landkreis Harburg (Buchholz, Winsen, Seevetal)
 - [ ] Niedersachsen (Überblick)
 - [ ] Mecklenburg-Vorpommern (Überblick)

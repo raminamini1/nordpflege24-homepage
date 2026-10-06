@@ -37,3 +37,32 @@ Quelle (Ausblick 2025): https://www.landtag.ltsh.de/infothek/wahl20/drucks/04700
 - PSP Kreis Segeberg: Heidbergstraße 28, 22846 Norderstedt, 040 52883-830. Quelle: https://www.pflegestuetzpunkt-se.de/kontakt/
 - PSP Kreis Pinneberg: Heinrich-Christiansen-Str. 45, 25421 Pinneberg, 04101 555-464; Elmshorn Hamburger Str. 160, 04121 898 58 04. Quelle: https://www.pflegestuetzpunkt-pinneberg.de/sprechzeiten.htm
 - Pflege-Nottelefon 01802 49 48 47 (AWO Pflege SH, gefördert vom Sozialministerium). Quelle: https://awo-pflege-sh.de/projekte
+
+## Kreise Stormarn, Segeberg, Herzogtum Lauenburg (geprüft 06.10.2026)
+
+### Pflegestatistik 2023, Kreiswerte (insgesamt / ambulante Pflege / vollstationär / nur Pflegegeld / PG 1 ohne Leistungen / ambulante Dienste / Pflegeheime)
+- Stormarn: 14.849 / 4.035 / 3.139 / 5.973 / 1.702 / 63 / 51
+- Segeberg: 15.981 / 3.299 / 3.227 / 7.295 / 2.160 / 58 / 66
+- Herzogtum Lauenburg: 12.355 / 2.537 / 2.221 / 6.093 / 1.504 / 48 / 56
+- Land: 175.323 / 37.328 / 34.046 / 81.148 / 22.801 / 573 / 693. Stormarn hat die meisten ambulanten Dienste aller Kreise und kreisfreien Städte.
+
+Quelle: https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/SHHeft_derivate_00014919/K_II_8_2j_2023_SH.pdf (Tabellen 5 und 9)
+
+### Einwohner 31.12.2025 (A I 2 vj 4/25 SH, herausgegeben 12.06.2026)
+- Kreis Stormarn 247.394 (55 Gemeinden, eigene Auszählung der Gemeindetabelle): Ahrensburg 34.531; Reinbek 28.146; Bad Oldesloe 24.981; Glinde 18.856; Bargteheide 16.385; Barsbüttel 13.342; Ammersbek 10.088; Großhansdorf 9.476; Reinfeld 9.127; Trittau 9.057; Oststeinbek 9.052.
+- Kreis Segeberg 283.770 (95 Gemeinden): Norderstedt 83.196; Henstedt-Ulzburg 28.345; Kaltenkirchen 23.585; Bad Segeberg 18.508; Bad Bramstedt 15.363; Wahlstedt 9.749; Ellerau 6.042.
+- Kreis Herzogtum Lauenburg 206.492 (132 Gemeinden): Geesthacht 33.955; Mölln 19.513; Schwarzenbek 16.923; Ratzeburg 14.952; Wentorf bei Hamburg 13.477; Lauenburg/Elbe 11.701; Büchen 6.783.
+- ACHTUNG: Im Bericht A I 1 vj 4/25 (Rangliste der Gemeinden ab 10.000 Einwohnern) sind Barsbüttel/Fehmarn, Lauenburg/Scharbeutz und Büdelsdorf/Barmstedt gegenüber A I 2 vertauscht. Die Werte aus A I 2 gehen in den Kreissummen auf. Auf den Seiten deshalb für diese Orte keine genaue Zahl nennen. Barmstedt hat nach A I 2 10.402 Einwohner (oben steht 10.371 aus A I 1).
+- Neuere Ausgabe: A I 2 vj 2/26 (2. Quartal 2026, herausgegeben 02.10.2026): https://www.statistik-nord.de/fileadmin/Dokumente/A_I_2_vj_26-2_Zensus22_SH.pdf
+
+Quelle: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_2_vj_25-4_Zensus22_SH.pdf
+
+### Pflegestützpunkte
+- Stormarn: Mommsenstraße 13 (Gebäude C, Raum C 117), 23843 Bad Oldesloe, 04531 160-2032; telefonisch Mo, Di, Do, Fr 8.30 bis 12 Uhr, Do 14 bis 17 Uhr; Außensprechstunden nach Termin: Glinde (Gutshaus, Möllner Landstraße 53c, 1. Mittwoch 10 bis 13 Uhr), Ahrensburg (Peter-Rantzau-Haus, Manfred-Samusch-Straße 9, 2. Donnerstag 9.30 bis 12.30 Uhr), Reinbek (Jürgen-Rickertsen-Haus, Schulstraße 7, 3. Mittwoch 9.30 bis 12.30 Uhr). Quelle: https://www.kreis-stormarn.de/kreis/sonderbereiche/pflegestuetzpunkt-im-kreis-stormarn/
+- Segeberg: Hauptbüro Heidbergstraße 28, 22846 Norderstedt, 040 528 83 830, Mo, Mi, Fr 9 bis 12 Uhr, Di 14 bis 17 Uhr; nach Vereinbarung in Bad Segeberg (Kirchstraße 9), Bad Bramstedt (Altonaer Str. 2), Kaltenkirchen (Flottkamp 13b), Henstedt-Ulzburg (Rathausplatz 3), Bornhöved (Lindenstraße 5). Quelle: https://www.pflegestuetzpunkt-se.de/kontakt/
+- Herzogtum Lauenburg: Geschäftsstelle Wasserkrüger Weg 7, 23879 Mölln, 04542 826549; Geesthacht Bogenstraße 7, 04152 805795; Außensprechstunden in Lauenburg, Sandesneben, Schwarzenbek, Wentorf, Groß Grönau, Ratzeburg, Berkenthin, Büchen (Landesseite, Stand 21.01.2026; die Angaben zu Schwarzenbek weichen auf älteren Seiten ab, deshalb keine Uhrzeiten auf der Website). Quelle: https://www.schleswig-holstein.de/DE/fachinhalte/P/pflege/Pflegestuetzpunkte/herzogtumlauenburg
+
+### Krankenhäuser
+- Stormarn: Asklepios Klinik Bad Oldesloe (Grund- und Regelversorgung, Schwerpunkte Kardiologie und Geriatrie), Krankenhaus Reinbek St. Adolf-Stift (Einzugsgebiet auch Glinde, Trittau, Aumühle, Schwarzenbek, Barsbüttel, Geesthacht), LungenClinic Grosshansdorf (Fachklinik).
+- Segeberg: Segeberger Kliniken in Bad Segeberg (Allgemeine Klinik, Herz- und Gefäßzentrum, Neurologisches Zentrum), Paracelsus Klinik Henstedt-Ulzburg.
+- Herzogtum Lauenburg: DRK-Krankenhaus Mölln-Ratzeburg (Röpersberg 2, Ratzeburg); Krankenhaus Geesthacht am Vitalcampus (seit 2026 Geriatrie, Psychiatrie, Innere Medizin mit internistischer Aufnahme; laut Fachpresse nach zwei Insolvenzen neu aufgestellt, Notaufnahme und Geburtshilfe zum 1. April 2026 geschlossen. Das steht nur in Fach- und Tagespresse, deshalb nicht auf der Website).

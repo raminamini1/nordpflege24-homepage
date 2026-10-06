@@ -43,7 +43,7 @@ Quellen: https://www.gesetze-im-internet.de/estg/__33b.html, https://www.gesetze
 
 ## 13. Reformstand (vorläufig)
 
-Pflegeneuordnungsgesetz (PNOG): Referentenentwurf 05.06.2026, Kabinettsbeschluss 30.09.2026. Nur Gesetzentwurf, nicht in Kraft; Bundestag und Bundesrat stehen aus. Heute gelten unverändert die Beträge aus Abschnitt 0.
+Pflegeneuordnungsgesetz (PNOG): Referentenentwurf 05.06.2026, Kabinettsbeschluss 30.09.2026. Nur Gesetzentwurf, nicht in Kraft; Bundestag und Bundesrat stehen aus (erneut geprüft 06.10.2026: unverändert, noch keine Beratungstermine veröffentlicht; Einsetzung der Pflegestrukturkommission für 7. Oktober 2026 vorgesehen). Heute gelten unverändert die Beträge aus Abschnitt 0.
 Quellen: https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz, https://www.bundesregierung.de/breg-de/aktuelles/pflegeneuordnungsgesetz-2454862
 
 (Weitere Abschnitte folgen.)

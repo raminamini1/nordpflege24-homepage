@@ -18,7 +18,8 @@ import urllib.parse
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / '_build' / 'content'
 BASE = 'https://nordpflege24.de'
-DEFAULT_DATE = '2026-10-05'
+DEFAULT_DATE = '2026-10-06'
+FIRST_DATE = '2026-10-05'  # first publication of the pages without their own "erstellt"
 DEFAULT_STAND = 'Oktober 2026'
 ORG_ID = BASE + '/#organisation'
 
@@ -198,7 +199,7 @@ def closing_band(meta):
     where = 'in Ihrer Nähe'
     if meta.get('ort'):
         href = '/?ort=' + urllib.parse.quote(meta['ort']) + '#start'
-        where = 'in ' + esc(meta['ort'])
+        where = ('im ' if meta['ort'].startswith('Kreis ') else 'in ') + esc(meta['ort'])
     return (f'<h2>Pflege {where} gesucht?</h2><p>Sagen Sie uns in 30 Sekunden, was gebraucht wird. Wir fragen bei den Pflegediensten nach und rufen innerhalb von 24 Stunden zurück.</p>'
             f'<a class="btn btn-light" href="{href}">Pflege anfragen</a>')
 
@@ -261,7 +262,7 @@ def render_page(meta, pages):
     org = {'@type': 'Organization', '@id': ORG_ID, 'name': 'Nordpflege24', 'url': BASE + '/'}
     if meta['section'] == 'ratgeber':
         extra += ld({'@context': 'https://schema.org', '@type': 'Article', 'headline': meta['h1'], 'description': meta['description'],
-                     'inLanguage': 'de', 'datePublished': meta.get('erstellt', meta['datum']), 'dateModified': meta['datum'],
+                     'inLanguage': 'de', 'datePublished': meta.get('erstellt', FIRST_DATE), 'dateModified': meta['datum'],
                      'author': org, 'publisher': org, 'image': BASE + '/images/hero.jpg', 'mainEntityOfPage': BASE + meta['url']})
     elif meta['section'] in ('leistungen', 'pflegedienst'):
         service = {'@context': 'https://schema.org', '@type': 'Service', 'name': meta['h1'], 'description': meta['description'],
