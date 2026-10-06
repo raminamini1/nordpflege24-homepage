@@ -104,9 +104,11 @@ img{max-width:100%}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
 .field{display:grid;gap:6px;min-width:0}
 .field label{font-weight:600;font-size:.88rem}
-.field input,.plz-form input{font:inherit;width:100%;min-width:0;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink)}
-.field input:hover{border-color:var(--soft)}
-.field input:focus,.plz-form input:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 1px var(--accent)}
+.field input,.field textarea,.plz-form input{font:inherit;width:100%;min-width:0;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink)}
+.field input:hover,.field textarea:hover{border-color:var(--soft)}
+.field textarea{display:block;resize:vertical;min-height:84px;line-height:1.45}
+.field .opt-label{font-weight:400;color:var(--soft)}
+.field input:focus,.field textarea:focus,.plz-form input:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 1px var(--accent)}
 .field input[aria-invalid="true"]{border-color:var(--error)}
 .err{color:var(--error);font-size:.9rem}
 .summary{font-size:.95rem;color:var(--soft);text-align:center}

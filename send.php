@@ -27,6 +27,16 @@ function field(string $key, int $max = 200): string {
     return mb_substr(trim($v), 0, $max);
 }
 
+/* Free text over several lines: line breaks stay, other control characters go. */
+function text(string $key, int $max = 1000): string {
+    $v = $_POST[$key] ?? '';
+    if (!is_string($v)) return '';
+    $v = str_replace(["\r\n", "\r"], "\n", $v);
+    $v = preg_replace('/[\x00-\x09\x0B-\x1F\x7F]+/u', ' ', $v) ?? '';
+    $v = preg_replace('/\n{3,}/', "\n\n", $v) ?? '';
+    return mb_substr(trim($v), 0, $max);
+}
+
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') answer(false, 405);
 
 /* Only the website itself may send: the browser states where the request comes from. */
@@ -66,6 +76,12 @@ $lines[] = 'Vorname: ' . $vorname;
 $lines[] = 'Nachname: ' . $nachname;
 $lines[] = 'Telefon: ' . $telefon;
 $lines[] = 'E-Mail: ' . $email;
+$nachricht = text('nachricht');
+if ($nachricht !== '') {
+    $lines[] = '';
+    $lines[] = 'Nachricht:';
+    foreach (explode("\n", $nachricht) as $row) $lines[] = wordwrap($row, 200, "\r\n");
+}
 $lines[] = '';
 $lines[] = 'Einwilligung: ' . field('einwilligung', 10);
 $lines[] = 'Zeitpunkt (Browser): ' . field('einwilligung_zeit', 40);

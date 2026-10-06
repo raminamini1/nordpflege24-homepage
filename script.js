@@ -12,7 +12,7 @@
       hero:{
         h1:'Pflege finden. Im Norden.',
         lead:'Sie sagen uns in 30 Sekunden, was gebraucht wird. Wir finden einen Pflegedienst mit freier Kapazität und rufen innerhalb von 24 Stunden zurück.',
-        promises:['Unverbindlich','Ohne Anmeldung','Rückruf in 24 Stunden','Keine Weitergabe ohne Ihr Okay']
+        promises:['Unverbindlich','Ohne Anmeldung','Rückruf in 24 Stunden','Keine Weitergabe ohne Ihr Einverständnis']
       },
       steps:[
         {key:'fuer',type:'single',q:'Für wen suchen Sie Pflege?',opts:[{v:'Für einen Angehörigen'},{v:'Für mich selbst'}]},
@@ -26,6 +26,7 @@
         {key:'ort',type:'ort',q:'Wo wird die Pflege gebraucht?'}
       ],
       contact:{q:'Wohin dürfen wir uns melden?',hint:'Wir rufen innerhalb von 24 Stunden zurück.',submit:'Rückruf anfordern',
+        note:'Möchten Sie uns noch etwas mitteilen?',
         consent:'Ich willige ein, dass Nordpflege24 (RAIT Solution, Hamburg) meine Angaben einschließlich der Angaben zum Pflegebedarf (Gesundheitsdaten) verarbeitet, um mich zurückzurufen und passende Pflegedienste zu suchen. Frage ich für eine andere Person an, ist sie einverstanden oder ich darf sie vertreten. An einen Pflegedienst gehen die Daten erst nach meiner ausdrücklichen Zustimmung. Die Einwilligung kann ich jederzeit widerrufen, zum Beispiel per E-Mail an kontakt@nordpflege24.de.'},
       done:'Wir rufen Sie innerhalb von 24 Stunden zurück unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuchen Sie es noch einmal oder rufen Sie uns an: '
@@ -35,7 +36,7 @@
       hero:{
         h1:'Dein Job in der Pflege.',
         lead:'Drei Klicks, kein Lebenslauf. Wir kennen viele Pflegedienste im Norden und melden uns innerhalb von 24 Stunden bei dir.',
-        promises:['Unverbindlich','Kein Lebenslauf','Rückruf in 24 Stunden','Keine Weitergabe ohne dein Okay']
+        promises:['Unverbindlich','Kein Lebenslauf','Rückruf in 24 Stunden','Keine Weitergabe ohne dein Einverständnis']
       },
       steps:[
         {key:'ausbildung',type:'single',q:'Was ist deine Ausbildung?',opts:[
@@ -47,6 +48,7 @@
         {key:'ort',type:'ort',q:'Wo wohnst du?'}
       ],
       contact:{q:'Wie erreichen wir dich?',hint:'Wir melden uns innerhalb von 24 Stunden.',submit:'Jobs anfragen',
+        note:'Möchtest du uns noch etwas mitteilen?',
         consent:'Ich willige ein, dass Nordpflege24 (RAIT Solution, Hamburg) meine Angaben verarbeitet, um mich zurückzurufen und mir passende Stellen vorzuschlagen. An einen Arbeitgeber gehen die Daten erst nach meiner ausdrücklichen Zustimmung. Die Einwilligung kann ich jederzeit widerrufen, zum Beispiel per E-Mail an kontakt@nordpflege24.de.'},
       done:'Wir melden uns innerhalb von 24 Stunden bei dir unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuch es noch einmal oder ruf uns an: '
@@ -60,7 +62,7 @@
     flow:'pflege',
     pos:{pflege:{step:0,done:false},job:{step:0,done:false}},
     answers:{pflege:{},job:{}},
-    contact:{vorname:'',nachname:'',telefon:'',email:'',consent:false,agb:false},
+    contact:{vorname:'',nachname:'',telefon:'',email:'',nachricht:'',consent:false,agb:false},
     errors:{},
     sending:false,
     sendError:''
@@ -89,6 +91,7 @@
     var data={formular:f.form,_gotcha:''};
     f.steps.forEach(function(s){var v=a[s.key];data[s.key]=Array.isArray(v)?v.join(', '):(v||'');});
     data.vorname=c.vorname.trim();data.nachname=c.nachname.trim();data.telefon=c.telefon.trim();data.email=c.email.trim();
+    data.nachricht=c.nachricht.trim().slice(0,1000);
     data.einwilligung=c.consent?'ja':'nein';
     /* Proof of consent: the exact wording shown and the moment of the click travel with the request. */
     data.einwilligung_text=f.contact.consent;
@@ -140,6 +143,7 @@
     h+='<p class="summary">'+sum.map(esc).join(' · ')+'</p>';
     h+='<form id="contact-form" novalidate><div class="two">'+fieldView('vorname','Vorname','text','given-name')+fieldView('nachname','Nachname','text','family-name')+'</div>';
     h+='<div class="two">'+fieldView('telefon','Telefon','tel','tel','tel')+fieldView('email','E-Mail','email','email','email')+'</div>';
+    h+='<div class="field"><label for="f-nachricht">Nachricht <span class="opt-label">(optional)</span></label><textarea id="f-nachricht" name="nachricht" rows="3" maxlength="1000" placeholder="'+esc(f.contact.note)+'">'+esc(state.contact.nachricht)+'</textarea></div>';
     h+='<label class="consent" for="f-consent"><input id="f-consent" name="consent" type="checkbox"'+(state.contact.consent?' checked':'')+(e.consent?' aria-invalid="true" aria-describedby="e-consent"':'')+'><span>'+esc(f.contact.consent)+' Mehr dazu im <a href="datenschutz.html" target="_blank" rel="noopener">Datenschutz</a>.</span></label>';
     if(e.consent) h+='<span class="err" id="e-consent">'+esc(e.consent)+'</span>';
     h+='<label class="consent" for="f-agb"><input id="f-agb" name="agb" type="checkbox"'+(state.contact.agb?' checked':'')+(e.agb?' aria-invalid="true" aria-describedby="e-agb"':'')+'><span>Ich stimme den <a href="agb.html" target="_blank" rel="noopener">AGB</a> zu.</span></label>';
@@ -210,7 +214,7 @@
     }
     else if(act==='next'){p.step++;render(true);}
     else if(act==='back'){state.errors={};state.sendError='';p.step=Math.max(0,p.step-1);render(true);}
-    else if(act==='reset'){p.done=false;p.step=0;state.answers[state.flow]={};state.contact.consent=false;state.contact.agb=false;state.errors={};render(true);}
+    else if(act==='reset'){p.done=false;p.step=0;state.answers[state.flow]={};state.contact.nachricht='';state.contact.consent=false;state.contact.agb=false;state.errors={};render(true);}
   });
 
   body.addEventListener('input',function(ev){
