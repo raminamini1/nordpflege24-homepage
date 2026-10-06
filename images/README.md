@@ -13,8 +13,9 @@ Die Startseite zeigt zehn Fotos aus diesem Ordner. Fehlt eine Datei, bleibt an d
 | besuch.jpg | 4:3, 1400 x 1050 | Pflegekraft begrüßt Seniorin an der Haustür (Abschnitt "So unterstützen wir Sie") |
 | alltag.jpg | 4:3, 1400 x 1050 | Pfleger lacht mit zwei Senioren am Küchentisch |
 | unterwegs.jpg | 4:3, 1400 x 1050 | Zwei Pflegekräfte gehen durch eine Wohnstraße |
-| team.jpg | 4:3, 1400 x 1050 | Gruppe von Pflegekräften vor Backsteinhaus (Abschnitt "Über uns", mit sichtbarem Hinweis "Symbolbild", weil es nicht das echte Team zeigt) |
+| team.jpg | 4:3, 1400 x 1050 | Gruppe von Pflegekräften vor Backsteinhaus (Abschnitt "Über uns") |
 
 Die Bilder sind KI-erzeugte Symbolbilder (Higgsfield, Oktober 2026), das Impressum nennt das unter "Bildnachweis".
 Bildstil: hell, viel Weiß, ruhige Farben, natürliches Licht, Alltagsszenen zu Hause, Menschen mit europäischem Aussehen, Pflegekleidung in Petrol.
 Beim Austausch denselben Dateinamen und dasselbe Format verwenden.
+Auf den Bildern selbst steht kein Hinweis wie "Symbolbild" (Wunsch des Inhabers); der Hinweis steht im Impressum.
