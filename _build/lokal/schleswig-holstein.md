@@ -66,3 +66,15 @@ Quelle: https://www.statistik-nord.de/fileadmin/Dokumente/A_I_2_vj_25-4_Zensus22
 - Stormarn: Asklepios Klinik Bad Oldesloe (Grund- und Regelversorgung, Schwerpunkte Kardiologie und Geriatrie), Krankenhaus Reinbek St. Adolf-Stift (Einzugsgebiet auch Glinde, Trittau, Aumühle, Schwarzenbek, Barsbüttel, Geesthacht), LungenClinic Grosshansdorf (Fachklinik).
 - Segeberg: Segeberger Kliniken in Bad Segeberg (Allgemeine Klinik, Herz- und Gefäßzentrum, Neurologisches Zentrum), Paracelsus Klinik Henstedt-Ulzburg.
 - Herzogtum Lauenburg: DRK-Krankenhaus Mölln-Ratzeburg (Röpersberg 2, Ratzeburg); Krankenhaus Geesthacht am Vitalcampus (seit 2026 Geriatrie, Psychiatrie, Innere Medizin mit internistischer Aufnahme; laut Fachpresse nach zwei Insolvenzen neu aufgestellt, Notaufnahme und Geburtshilfe zum 1. April 2026 geschlossen. Das steht nur in Fach- und Tagespresse, deshalb nicht auf der Website).
+
+## Personal und Einrichtungen je Kreis, Pflegestatistik 2023 (geprüft 07.10.2026)
+
+Ambulante Dienste / Beschäftigte ambulant / Pflegeheime / Beschäftigte Heime (Tabellen 7 und 9; Summen gehen im Landeswert auf):
+- Kiel 54 / 2.179 / 34 / 1.705; Lübeck 42 / 1.038 / 45 / 2.836; Flensburg 14 / 482 / 18 / 913; Neumünster 17 / 464 / 21 / 882
+- Dithmarschen 29 / 750 / 41 / 1.770; Herzogtum Lauenburg 48 / 1.165 / 56 / 2.101; Nordfriesland 33 / 724 / 45 / 1.779; Ostholstein 34 / 714 / 57 / 2.579; Pinneberg 59 / 1.516 / 55 / 2.645; Plön 17 / 505 / 25 / 1.144; Rendsburg-Eckernförde 41 / 1.171 / 65 / 2.832; Schleswig-Flensburg 34 / 1.289 / 76 / 2.755; Segeberg 58 / 1.456 / 66 / 3.077; Steinburg 30 / 834 / 38 / 1.627; Stormarn 63 / 1.858 / 51 / 2.800
+- Land: 573 / 16.145 / 693 / 31.445; Personal insgesamt 47.590 (2021: 47.499), davon 14.962 über 55 Jahre. Ambulant: 4.182 Vollzeit, 11.559 Teilzeit einschließlich geringfügig (26 % Vollzeit, 42 % Teilzeit über 50 %, 13 % bis 50 %, 17 % geringfügig, 3 % Ausbildung/Praktikum/Freiwilligendienst).
+- Abschlüsse ambulant (Tabelle 8): Altenpflege 3.579; Gesundheits- und Krankenpflege 2.443; Pflegefachfrau/-mann 246; Kinderkrankenpflege 202; Altenpflegehilfe 1.009; Krankenpflegehilfe 433; sonstiger Berufsabschluss 3.379; ohne Berufsabschluss 2.787; in Ausbildung 380.
+- Regional übliche Zuschläge Schleswig-Holstein (Stand 30.09.2026): Nacht 21 %, Sonntag 32 %, Feiertag mit Freizeitausgleich 38 %, ohne 134 %.
+- Pflegefachassistenz: Gesetzentwurf der Landesregierung Drucksache 20/4763 (01.09.2026), am 18.09.2026 an den Sozialausschuss überwiesen; 36 Pflegeschulen, einige starten ab 1. März 2027, die Mehrheit im Herbst 2027, zwei bieten 2027 noch die einjährige Pflegehilfe an.
+
+Quellen: https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/SHHeft_derivate_00014919/K_II_8_2j_2023_SH.pdf, https://www.statistik-nord.de/fileadmin/user_upload/SI25_041.pdf, https://www.aok.de/gp/entlohnung-nach-tarif/tarifuebersicht/bundesweite-uebersicht-der-regional-ueblichen-entlohnungsniveaus, https://www.landtag.ltsh.de/infothek/wahl20/drucks/04700/drucksache-20-04763.pdf

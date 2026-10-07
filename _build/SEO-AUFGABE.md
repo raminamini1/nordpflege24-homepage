@@ -118,7 +118,7 @@ Leistungen (`leistungen`):
 - [ ] Pflegeberatung und Beratungseinsatz
 
 Jobs (`jobs`):
-- [ ] Pflege-Jobs in Schleswig-Holstein
+- [x] Pflege-Jobs in Schleswig-Holstein, erledigt 7. Oktober 2026
 - [ ] Pflege-Jobs in Kiel
 - [ ] Pflege-Jobs in Lübeck
 - [ ] Pflegedienstleitung: Aufgaben und Gehalt

@@ -26,3 +26,13 @@
 - `build.py`: Schlusszeile auch bei "Landkreis ..." mit "im".
 - Nicht geschrieben: eine dritte Seite. Am selben Tag waren schon drei Regionsseiten erschienen, deshalb in diesem Lauf nur zwei.
 - Hinweis für später: Wird das Pflegeneuordnungsgesetz verkündet, auch den Hinweiskasten auf /ratgeber/tagespflege/ anpassen.
+
+## 7. Oktober 2026 (Mittwoch: neue Seiten)
+- Wochengrenze: In dieser Woche (5. bis 11. Oktober) waren am 6. Oktober schon fünf neue Seiten erschienen. Erlaubt sind sechs pro Woche, deshalb heute nur eine neue Seite statt zwei. Bis einschließlich Sonntag, 11. Oktober, keine weiteren neuen Seiten; Freitag und Sonntag stattdessen bestehende Seiten vertiefen.
+- Geprüft (heute abgerufen): regional übliche Entlohnungsniveaus und Zuschläge Stand 30. September 2026 (AOK/GKV-Spitzenverband, alle Nordländer unverändert), § 72 Abs. 3a/3b SGB XI, Pflegemindestlohn (Bundesregierung), IAB-Entgelte 2024 für Schleswig-Holstein, Pflegestatistik Schleswig-Holstein 2023 (Tabellen 2, 7, 8, 9), Pflegehilfeausbildung Schleswig-Holstein (Landesseite), Gesetzentwurf des Landes zur Pflegefachassistenz (Drucksache 20/4763 vom 1. September 2026, am 18. September 2026 an den Sozialausschuss überwiesen, noch nicht beschlossen), Anerkennung ausländischer Abschlüsse beim SHIBB.
+- Neu (1 Seite, Bereich Jobs, rund 1.250 Wörter): /jobs/schleswig-holstein/ mit Tabelle der ambulanten Dienste, Pflegeheime und Beschäftigten je Kreis, Löhnen im Vergleich zu Hamburg, Teilzeitanteilen, Abschlüssen des Personals, Pflegehilfe und Pflegefachassistenz ab 2027, Anerkennung.
+- Verlinkt von: Pflege-Jobs in Hamburg, Gehalt in der Pflege, Jobs für Pflegefachkräfte, Jobs für Pflegehelfer (Links im Text, bei Hamburg und Gehalt auch unter "Weiterlesen"). Sitemap jetzt 56 Adressen, 51 Hintergrundseiten.
+- Berichtigt: Auf /jobs/pflegehelfer/ hieß die Landesausbildung in Schleswig-Holstein "Pflegeassistenz". Richtig ist Altenpflegehilfe und Krankenpflegehilfe.
+- Nicht geändert: `DEFAULT_DATE` in `build.py` (bleibt beim Tag der letzten vollständigen Faktenprüfung, 6. Oktober 2026).
+- Hinweis für später: Beschließt der Landtag Schleswig-Holstein das Ausführungsgesetz zur Pflegefachassistenz, den Abschnitt "Pflegefachassistenz ab 2027" auf /jobs/schleswig-holstein/ anpassen. Erscheint die Pflegestatistik 2025 (ambulant und Kreise), dort die Tabelle und die Zahlen erneuern. Das IAB veröffentlicht die Entgelte für 2025 voraussichtlich im Spätherbst.
+- Vertieft bisher: noch keine Seite. Zuerst die kürzesten: leistungen/verhinderungspflege, pflegedienst/rostock, pflegedienst/schwerin, leistungen/grundpflege.
