@@ -36,3 +36,10 @@
 - Nicht geändert: `DEFAULT_DATE` in `build.py` (bleibt beim Tag der letzten vollständigen Faktenprüfung, 6. Oktober 2026).
 - Hinweis für später: Beschließt der Landtag Schleswig-Holstein das Ausführungsgesetz zur Pflegefachassistenz, den Abschnitt "Pflegefachassistenz ab 2027" auf /jobs/schleswig-holstein/ anpassen. Erscheint die Pflegestatistik 2025 (ambulant und Kreise), dort die Tabelle und die Zahlen erneuern. Das IAB veröffentlicht die Entgelte für 2025 voraussichtlich im Spätherbst.
 - Vertieft bisher: noch keine Seite. Zuerst die kürzesten: leistungen/verhinderungspflege, pflegedienst/rostock, pflegedienst/schwerin, leistungen/grundpflege.
+
+## 7. Oktober 2026, nachmittags (Auftrag von Ramin, kein Lauf)
+- Ramin hat acmpflege.de (ambulanter Pflegedienst in Hamburg-Farmsen) mit unserer Seite verglichen und will die dort gut gelösten Themen auch bei uns: Stadtteilseiten im Bezirk Wandsbek, Beispielrechnungen je Pflegegrad, 24-Stunden-Pflege, Pflegeberatung.
+- Dafür steht in `_build/SEO-AUFGABE.md` ein Sonderauftrag mit zehn Seiten. Er geht ab dem 8. Oktober 2026 dem Wochenplan vor. Die Grenzen für die Zahl neuer Seiten sind auf Ramins Wunsch ausgesetzt, bis er erledigt ist. Der Satz oben "bis einschließlich Sonntag keine weiteren neuen Seiten" gilt damit nicht mehr.
+- Nicht übernommen: Kundenstimmen, "Pflegebeginn in 48 Stunden", Vergleich mit anderen Pflegediensten. Dafür fehlen echte Angaben von Ramin.
+- Heute wurden keine Seiten geändert.
+
