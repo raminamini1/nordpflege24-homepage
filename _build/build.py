@@ -178,6 +178,8 @@ def read_page(path):
     meta.setdefault('cta', SECTIONS[section]['cta'])
     meta.setdefault('stand', DEFAULT_STAND)
     meta.setdefault('datum', DEFAULT_DATE)
+    if meta.get('erstellt', '') > meta['datum']:  # a page cannot be older than its first publication
+        meta['datum'] = meta['erstellt']
     meta.setdefault('kurz', meta['description'])
     return meta
 

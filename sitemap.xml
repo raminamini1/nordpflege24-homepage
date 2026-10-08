@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://nordpflege24.de/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://nordpflege24.de/pflegedienst/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/bremen/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/flensburg/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-altona/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-bergedorf/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-bramfeld/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-eimsbuettel/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-farmsen-berne/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-harburg/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-mitte/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-nord/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-poppenbuettel/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-rahlstedt/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-sasel/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-tonndorf/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://nordpflege24.de/pflegedienst/hamburg-volksdorf/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/hamburg-wandsbek/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/kiel/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/kreis-herzogtum-lauenburg/</loc><lastmod>2026-10-06</lastmod></url>
@@ -26,16 +33,19 @@
   <url><loc>https://nordpflege24.de/pflegedienst/schleswig-holstein/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/schwerin/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/pflegedienst/stade/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://nordpflege24.de/leistungen/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/leistungen/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://nordpflege24.de/leistungen/24-stunden-pflege/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/behandlungspflege/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/betreuung/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/demenzbetreuung/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/grundpflege/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/hauswirtschaft/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/intensivpflege/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/leistungen/pflegeberatung-beratungseinsatz/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/leistungen/verhinderungspflege/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://nordpflege24.de/ratgeber/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/ratgeber/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/ratgeber/begutachtung-medizinischer-dienst/</loc><lastmod>2026-10-06</lastmod></url>
+  <url><loc>https://nordpflege24.de/ratgeber/beispielrechnungen-pflegegrad/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://nordpflege24.de/ratgeber/entlastungsbetrag/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/ratgeber/kosten-ambulante-pflege/</loc><lastmod>2026-10-06</lastmod></url>
   <url><loc>https://nordpflege24.de/ratgeber/pflege-nach-krankenhaus/</loc><lastmod>2026-10-06</lastmod></url>
