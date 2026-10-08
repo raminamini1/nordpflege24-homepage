@@ -60,3 +60,9 @@
 - Grenzen: In dieser Woche (5. bis 11. Oktober) sind 16 neue Seiten erschienen. Bis einschließlich Sonntag keine weiteren neuen Seiten. Freitag und Sonntag stattdessen vertiefen, Samstag ohnehin.
 - Hinweise für später: Der Qualitätslauf (Titel, Beschreibungen, Dopplungen) steht noch aus und sollte die zehn neuen Seiten einschließen. Die Liste der Seniorentreffs des Bezirksamts ist teilweise veraltet, Einträge immer beim Träger gegenprüfen (siehe `_build/lokal/hamburg.md`). Die Videoberatung beim Beratungseinsatz ist bis 31. März 2027 befristet: dann die Seite Pflegeberatung anpassen. Wird das Pflegeneuordnungsgesetz verkündet, auch die Hinweiskästen auf den drei neuen Themenseiten und das Beispiel zu Pflegegrad 1 anpassen. Die Stadtteil-Profile erscheinen jährlich im Sommer.
 - Vertieft bisher: noch keine Seite. Zuerst die kürzesten: leistungen/verhinderungspflege, pflegedienst/rostock, pflegedienst/schwerin, leistungen/grundpflege.
+
+## 8. Oktober 2026, vormittags (Entscheidung von Ramin, kein Lauf)
+- Ramin will jeden Tag eine neue Seite, Montag bis Sonntag. Wochenplan und Grenzen in `_build/SEO-AUFGABE.md` sind umgestellt: höchstens eine neue Seite pro Tag (sieben pro Woche), dazu die bisherige Tagesaufgabe in kleinerem Umfang. Gilt ab dem Lauf vom 9. Oktober 2026.
+- Die Sperre "bis Sonntag keine neuen Seiten" aus dem Eintrag oben ist damit aufgehoben.
+- Fünf Seiten pro Tag hat Ramin angefragt, das wurde nicht eingerichtet: Bei 35 Seiten pro Woche reichen die geprüften eigenen Fakten nicht, die Seiten würden austauschbar, und genau das wertet Google als massenhaft erzeugte Inhalte.
+- Der Text der geplanten Aufgabe verweist für die Grenzen jetzt auf die Arbeitsanweisung.

@@ -21,7 +21,7 @@ Die Website soll ohne bezahlte Werbung bei Google und Bing gefunden werden. Daf�
 
 ## Sonderauftrag von Ramin (erteilt am 7. Oktober 2026): erledigt am 8. Oktober 2026
 
-Alle zehn Seiten sind am 8. Oktober 2026 erschienen: `ratgeber/beispielrechnungen-pflegegrad`, `leistungen/24-stunden-pflege`, `leistungen/pflegeberatung-beratungseinsatz` und die sieben Stadtteilseiten `pflegedienst/hamburg-rahlstedt`, `-bramfeld`, `-farmsen-berne`, `-poppenbuettel`, `-volksdorf`, `-sasel`, `-tonndorf`. Einzelheiten stehen in `_build/seo-log.md`. Es ist kein Sonderauftrag mehr offen. Seit dem 9. Oktober 2026 gelten wieder der Wochenplan und die Grenzen für neue Seiten. In der Woche vom 5. bis 11. Oktober 2026 sind die sechs neuen Seiten weit überschritten: bis einschließlich Sonntag, 11. Oktober, keine neuen Seiten, an den Tagen mit "neue Seiten" stattdessen bestehende Seiten vertiefen.
+Alle zehn Seiten sind am 8. Oktober 2026 erschienen: `ratgeber/beispielrechnungen-pflegegrad`, `leistungen/24-stunden-pflege`, `leistungen/pflegeberatung-beratungseinsatz` und die sieben Stadtteilseiten `pflegedienst/hamburg-rahlstedt`, `-bramfeld`, `-farmsen-berne`, `-poppenbuettel`, `-volksdorf`, `-sasel`, `-tonndorf`. Einzelheiten stehen in `_build/seo-log.md`. Es ist kein Sonderauftrag mehr offen. Seit dem 9. Oktober 2026 gelten wieder der Wochenplan und die Grenzen für neue Seiten, und zwar in der neuen Fassung mit einer neuen Seite pro Tag. Die Sperre "bis Sonntag, 11. Oktober, keine neuen Seiten" hat Ramin am 8. Oktober 2026 aufgehoben.
 
 Weiter gilt, weil Angaben von Ramin fehlen: keine Kundenstimmen (nur echte), kein Versprechen wie "Pflegebeginn in 48 Stunden", kein Vergleich mit anderen Pflegediensten. Der Name des Pflegedienstes, dessen Website Ramin als Anregung genannt hat, wird nirgends genannt.
 
@@ -33,21 +33,21 @@ Zuerst prüfen, ob oben ein Sonderauftrag offen ist (Stand 8. Oktober 2026: kein
 
 | Tag | Aufgabe |
 |---|---|
-| Montag | Fakten prüfen (Abschnitt unten), Änderungen auf allen betroffenen Seiten einarbeiten. Danach zwei neue Seiten. |
-| Dienstag | Zwei bestehende Seiten vertiefen (siehe "Vertiefen"). |
-| Mittwoch | Zwei neue Seiten. |
-| Donnerstag | Qualität: Titel und Beschreibungen schärfen, interne Links ergänzen, Dopplungen und veraltete Sätze beseitigen, je Lauf fünf bis acht Seiten durchsehen. |
-| Freitag | Zwei neue Seiten. |
-| Samstag | Zwei bestehende Seiten vertiefen. |
-| Sonntag | Themenliste pflegen: fünf bis zehn neue Themen ergänzen, nach denen Menschen im Norden wirklich suchen (Orte, Fragen zur Pflege zu Hause, Pflegejobs). Dazu eine neue Seite, wenn die Zeit reicht. |
+| Montag | Fakten prüfen (Abschnitt unten), Änderungen auf allen betroffenen Seiten einarbeiten. Danach eine neue Seite. |
+| Dienstag | Eine neue Seite. Dazu eine bestehende Seite vertiefen (siehe "Vertiefen"). |
+| Mittwoch | Eine neue Seite. Dazu eine bestehende Seite vertiefen. |
+| Donnerstag | Eine neue Seite. Dazu Qualität: Titel und Beschreibungen schärfen, interne Links ergänzen, Dopplungen und veraltete Sätze beseitigen, je Lauf drei bis fünf Seiten durchsehen. |
+| Freitag | Eine neue Seite. Dazu eine bestehende Seite vertiefen. |
+| Samstag | Eine neue Seite. Dazu eine bestehende Seite vertiefen. |
+| Sonntag | Eine neue Seite. Dazu Themenliste pflegen: fünf bis zehn neue Themen ergänzen, nach denen Menschen im Norden wirklich suchen (Orte, Fragen zur Pflege zu Hause, Pflegejobs). |
 
 Grenzen, die immer gelten (Ausnahme nur für die Seitenzahl, solange oben ein Sonderauftrag offen ist):
 
-- Höchstens zwei neue Seiten pro Tag und höchstens sechs pro Woche. Viele dünne Seiten in kurzer Zeit wertet Google als Massenware und stuft die ganze Website ab. Qualität geht vor Menge.
+- Höchstens eine neue Seite pro Tag, von Montag bis Sonntag, also höchstens sieben pro Woche (von Ramin am 8. Oktober 2026 so festgelegt, gilt ab dem Lauf vom 9. Oktober 2026). Viele dünne Seiten in kurzer Zeit wertet Google als Massenware und stuft die ganze Website ab. Qualität geht vor Menge: Reicht die Faktenlage an einem Tag nicht für eine gute Seite, erscheint an diesem Tag keine, und sie wird nicht nachgeholt.
 - Wurde am selben Tag schon ein Lauf veröffentlicht (steht im Protokoll), nur noch Fehler beheben und nichts Neues anlegen.
 - Lässt sich an einem Tag nichts sinnvoll verbessern, nichts ändern und das im Bericht sagen. Kein Ändern um des Änderns willen.
 
-Neue Seiten: die obersten offenen Themen der Themenliste, abwechselnd aus den Bereichen (nicht nur Regionen).
+Neue Seiten: das oberste offene Thema der Themenliste, von Tag zu Tag abwechselnd aus den Bereichen (nicht nur Regionen).
 
 Vertiefen heißt: echten Mehrwert ergänzen, zum Beispiel weitere geprüfte Zahlen oder Anlaufstellen vor Ort, ein Rechenbeispiel, eine Checkliste, eine häufige Frage mit Antwort, einen Verweis auf eine neue passende Seite. Zuerst die ältesten und kürzesten Seiten. Im Protokoll festhalten, welche Seiten vertieft wurden, damit jede Seite an die Reihe kommt.
 
