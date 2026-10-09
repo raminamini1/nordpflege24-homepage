@@ -78,3 +78,11 @@ Ambulante Dienste / Beschäftigte ambulant / Pflegeheime / Beschäftigte Heime (
 - Pflegefachassistenz: Gesetzentwurf der Landesregierung Drucksache 20/4763 (01.09.2026), am 18.09.2026 an den Sozialausschuss überwiesen; 36 Pflegeschulen, einige starten ab 1. März 2027, die Mehrheit im Herbst 2027, zwei bieten 2027 noch die einjährige Pflegehilfe an.
 
 Quellen: https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/SHHeft_derivate_00014919/K_II_8_2j_2023_SH.pdf, https://www.statistik-nord.de/fileadmin/user_upload/SI25_041.pdf, https://www.aok.de/gp/entlohnung-nach-tarif/tarifuebersicht/bundesweite-uebersicht-der-regional-ueblichen-entlohnungsniveaus, https://www.landtag.ltsh.de/infothek/wahl20/drucks/04700/drucksache-20-04763.pdf
+
+## Kurzzeitpflege Schleswig-Holstein (geprüft am 09.10.2026)
+
+- Durchschnittliches Gesamtheimentgelt der Kurzzeitpflege je Tag (gültig 01.04.2026 bis 31.03.2027): Pflegegrad 1 115,95 €, 2 137,45 €, 3 155,44 €, 4 172,64 €, 5 180,37 €. Vorjahr: 104,26 / 124,52 / 141,22 / 157,91 / 165,39 €. Quelle: https://www.vdek.com/LVen/SHS/Vertragspartner/Pflegeversicherung61806/stationaere-pflege.html (Stand 19.03.2026)
+- Pflegeheime am 01.07.2026 (vdek, Tabelle Bund und Länder): Schleswig-Holstein Unterkunft und Verpflegung 1.060 €, Investitionskosten 573 €; Niedersachsen 857 / 568 €; Mecklenburg-Vorpommern 901 / 371 €; Bremen 1.179 / 630 €; Bund 1.068 / 521 €.
+- Land (Pressemitteilung 16.01.2025): 1.723 eingestreute Kurzzeitpflegeplätze; solitäre Einrichtung in Niebüll mit 30 Plätzen; in Flensburg (Sünderuper Weg) Neubau mit 46 Plätzen, Spatenstich 16.01.2025, Landesförderung 2,3 Mio. €. Der Träger schreibt am 09.10.2026 noch "entsteht in 2026" (https://am-gut.de/): Eröffnung nicht belegt, beim nächsten Mal prüfen. Quelle: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/VIII/Presse/PI/2025/250116_VIII_spatenstich_kurzzeitpflege_flensburg
+- Pflegestatistik 15.12.2023 (Destatis 22412-0010): Menschen in Kurzzeitpflege: Schleswig-Holstein 1.041, Niedersachsen 3.397, Bremen 165, Mecklenburg-Vorpommern 183.
+

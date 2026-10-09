@@ -98,7 +98,7 @@ Regionen (`pflegedienst`):
 
 Ratgeber (`ratgeber`):
 - [x] Tagespflege: Ablauf, Kosten, Anspruch, erledigt 6. Oktober 2026
-- [ ] Kurzzeitpflege und Gemeinsamer Jahresbetrag
+- [x] Kurzzeitpflege und Gemeinsamer Jahresbetrag, erledigt 9. Oktober 2026 (`ratgeber/kurzzeitpflege`)
 - [ ] Pflegegrad 1: was es gibt
 - [ ] Pflegegrad 2: Leistungen und Beispiele
 - [ ] Pflegegrad 3: Leistungen und Beispiele
