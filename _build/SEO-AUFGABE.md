@@ -127,7 +127,7 @@ Leistungen (`leistungen`):
 
 Jobs (`jobs`):
 - [x] Pflege-Jobs in Schleswig-Holstein, erledigt 7. Oktober 2026
-- [ ] Pflege-Jobs in Kiel
+- [x] Pflege-Jobs in Kiel, erledigt 10. Oktober 2026 (`jobs/kiel`)
 - [ ] Pflege-Jobs in Lübeck
 - [ ] Pflegedienstleitung: Aufgaben und Gehalt
 - [ ] Praxisanleitung
