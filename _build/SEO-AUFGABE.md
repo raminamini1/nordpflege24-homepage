@@ -73,7 +73,7 @@ Regionen (`pflegedienst`):
 - [x] Kreis Segeberg (Norderstedt ist schon da: Henstedt-Ulzburg, Kaltenkirchen, Bad Segeberg), erledigt 6. Oktober 2026
 - [x] Kreis Herzogtum Lauenburg (Geesthacht, Schwarzenbek, Ratzeburg), erledigt 6. Oktober 2026
 - [x] Landkreis Harburg (Buchholz, Winsen, Seevetal), erledigt 6. Oktober 2026
-- [ ] Niedersachsen (Überblick)
+- [x] Niedersachsen (Überblick), erledigt 11. Oktober 2026 (`pflegedienst/niedersachsen`)
 - [ ] Mecklenburg-Vorpommern (Überblick)
 - [x] Hamburg-Rahlstedt, Bramfeld, Farmsen-Berne, Poppenbüttel, Volksdorf, Sasel, Tonndorf (je eine eigene Seite), erledigt 8. Oktober 2026
 - [ ] Hamburg-Billstedt
@@ -95,6 +95,10 @@ Regionen (`pflegedienst`):
 - [ ] Oldenburg
 - [ ] Wismar
 - [ ] Cuxhaven
+- [ ] Landkreis Rotenburg (Wümme): Rotenburg, Zeven, Bremervörde (ergänzt 11. Oktober 2026)
+- [ ] Heidekreis: Soltau, Walsrode, Munster (ergänzt 11. Oktober 2026)
+- [ ] Kreis Dithmarschen: Heide, Brunsbüttel (ergänzt 11. Oktober 2026)
+- [ ] Kreis Nordfriesland: Husum, Niebüll, Inseln (ergänzt 11. Oktober 2026)
 
 Ratgeber (`ratgeber`):
 - [x] Tagespflege: Ablauf, Kosten, Anspruch, erledigt 6. Oktober 2026
@@ -116,6 +120,9 @@ Ratgeber (`ratgeber`):
 - [ ] Pflegevertrag mit dem Pflegedienst: worauf achten
 - [ ] Palliativversorgung zu Hause (SAPV)
 - [ ] Pflege und Steuern: was absetzbar ist
+- [ ] Nachbarschaftshilfe über den Entlastungsbetrag: Regeln in Hamburg, Schleswig-Holstein, Niedersachsen, Bremen und Mecklenburg-Vorpommern (ergänzt 11. Oktober 2026; Niedersachsen ist geprüft, siehe `_build/lokal/weitere.md`)
+- [ ] Investitionskosten beim Pflegedienst: was das ist und was je Land gilt (ergänzt 11. Oktober 2026)
+- [ ] Pflege-Wohngemeinschaft: Wohngruppenzuschlag, Kosten, Suche im Norden (ergänzt 11. Oktober 2026)
 
 Leistungen (`leistungen`):
 - [ ] Nachtpflege und Nachtwache
@@ -124,6 +131,8 @@ Leistungen (`leistungen`):
 - [ ] Wundversorgung
 - [x] 24-Stunden-Pflege und Betreuung zu Hause, erledigt 8. Oktober 2026
 - [x] Pflegeberatung und Beratungseinsatz nach § 37 Abs. 3 SGB XI, erledigt 8. Oktober 2026
+- [ ] Medikamentengabe und Tabletten stellen durch den Pflegedienst (ergänzt 11. Oktober 2026)
+- [ ] Kompressionsstrümpfe an- und ausziehen durch den Pflegedienst (ergänzt 11. Oktober 2026)
 
 Jobs (`jobs`):
 - [x] Pflege-Jobs in Schleswig-Holstein, erledigt 7. Oktober 2026
@@ -135,5 +144,6 @@ Jobs (`jobs`):
 - [ ] Anerkennung ausländischer Pflegeabschlüsse
 - [ ] Jobs in der außerklinischen Intensivpflege
 - [ ] Betreuungskraft nach § 53b SGB XI
+- [ ] Pflege-Jobs in Niedersachsen: Löhne, Pflegeassistenz, Landkreise im Hamburger Umland (ergänzt 11. Oktober 2026; der Landespflegebericht 2024 enthält Zahlen zu Beschäftigung, Teilzeit und Ausbildung)
 
 Ist die Liste abgearbeitet: eigene Themen ergänzen, die Menschen im Norden zur Pflege zu Hause oder zu Pflegejobs wirklich suchen, und bestehende Seiten vertiefen.
