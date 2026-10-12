@@ -16,6 +16,6 @@ Die Startseite zeigt zehn Fotos aus diesem Ordner. Fehlt eine Datei, bleibt an d
 | team.jpg | 4:3, 1400 x 1050 | Gruppe von Pflegekräften vor Backsteinhaus (Abschnitt "Über uns") |
 
 Die Bilder sind KI-erzeugte Symbolbilder (Higgsfield, Oktober 2026), das Impressum nennt das unter "Bildnachweis".
-Bildstil: hell, viel Weiß, ruhige Farben, natürliches Licht, Alltagsszenen zu Hause, Menschen mit europäischem Aussehen, Pflegekleidung in Petrol.
+Bildstil: hell, viel Weiß, ruhige Farben, natürliches Licht, Alltagsszenen zu Hause, Menschen unterschiedlicher Herkunft (Team, Alltag, Unterwegs), Pflegekleidung in Petrol.
 Beim Austausch denselben Dateinamen und dasselbe Format verwenden.
 Auf den Bildern selbst steht kein Hinweis wie "Symbolbild" (Wunsch des Inhabers); der Hinweis steht im Impressum.
