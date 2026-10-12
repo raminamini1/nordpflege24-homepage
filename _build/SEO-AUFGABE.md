@@ -27,6 +27,15 @@ Weiter gilt, weil Angaben von Ramin fehlen: keine Kundenstimmen (nur echte), kei
 
 Für weitere Stadtteilseiten in Hamburg gilt dasselbe Muster wie bei den sieben Wandsbeker Seiten: eigene Zahlen aus den Stadtteil-Profilen des Statistikamts Nord, Lage und Quartiere, Krankenhäuser in der Umgebung, Anlaufstellen mit Quelle, eigenes Fallbeispiel, eigene Fragen. Geprüfte Angaben und Fallstricke stehen in `_build/lokal/hamburg.md`.
 
+## Hamburg-Geografie (Pflicht, Ramin 12. Oktober 2026)
+
+- Hamburg ist ein eigenes Bundesland (Stadtstaat). Schleswig-Holstein ist ein anderes Bundesland. Niedersachsen auch.
+- Hamburg hat genau 7 Bezirke: Hamburg-Mitte, Altona, Eimsbüttel, Hamburg-Nord, Wandsbek, Bergedorf, Harburg. Darunter 104 Stadtteile (Liste unten, Quelle: Gesetz über die räumliche Gliederung der Freien und Hansestadt Hamburg, Stand seit 1. Januar 2011).
+- Ein Stadtteil ist kein Bezirk. Beispiel: Billstedt, Horn, Hamm und Wilhelmsburg sind Stadtteile im Bezirk Hamburg-Mitte. Lohbrügge und Neuallermöhe gehören zum Bezirk Bergedorf.
+- Fallstricke: Bezirk Harburg (Hamburg) ist nicht Landkreis Harburg (Niedersachsen). Norderstedt, Pinneberg, Wedel, Ahrensburg, Reinbek, Glinde und Barsbüttel liegen in Schleswig-Holstein, nicht in Hamburg. Sie sind tabu.
+- SEO-Arbeit nur an `/pflegedienst/hamburg/`, den 7 Bezirksseiten und den Stadtteilseiten. Adresse je Stadtteil: `/pflegedienst/hamburg-<stadtteil>/` (Umlaute als ae/oe/ue, ß als ss).
+- Mit * markierte Stadtteile haben kaum Einwohner: keine eigene Seite, im Nachbarstadtteil oder auf der Bezirksseite erwähnen.
+
 ## Vorgabe von Ramin (12. Oktober 2026): Fokus nur auf Hamburg
 
 Diese Vorgabe geht dem Wochenplan und der Themenliste vor, bis Ramin sie aufhebt.
@@ -85,27 +94,125 @@ Jeder Lauf endet so:
 
 ## Themenliste
 
-Hamburg-Stadtteile (`pflegedienst`, zum Abhaken; Reihenfolge nach Himmelsrichtung, siehe "Ablauf jeden Tag"):
-- [ ] Hamburg-Billstedt
-- [ ] Hamburg-Wilhelmsburg
-- [ ] Hamburg-Langenhorn
-- [ ] Hamburg-Niendorf
-- [ ] Hamburg-Blankenese und Elbvororte
-- [ ] Hamburg-Barmbek
-- [ ] Hamburg-Winterhude
-- [ ] Hamburg-Lurup und Osdorf
-- [ ] Hamburg-Eppendorf
-- [ ] Hamburg-Ottensen und Bahrenfeld
-- [ ] Hamburg-Lokstedt
-- [ ] Hamburg-Eidelstedt und Schnelsen
-- [ ] Hamburg-Lohbrügge
-- [ ] Hamburg-Neugraben-Fischbek
-- [ ] Hamburg-Hamm und Horn
-- [ ] Hamburg-Jenfeld
-- [ ] Hamburg-Wellingsbüttel und Hummelsbüttel
-- [ ] Hamburg-Fuhlsbüttel und Ohlsdorf
-- [ ] Hamburg-Uhlenhorst und Eilbek
-- [ ] Hamburg-Marienthal und Wandsbek-Kern
+Hamburg-Stadtteile (`pflegedienst`, je eine eigene Seite, zum Abhaken; Reihenfolge nach Himmelsrichtung, siehe "Ablauf jeden Tag"):
+
+Bezirk Hamburg-Mitte:
+- [ ] Hamburg-Altstadt
+- [ ] HafenCity
+- [ ] Neustadt
+- [ ] St. Pauli
+- [ ] St. Georg
+- [ ] Hammerbrook
+- [ ] Borgfelde
+- [ ] Hamm
+- [ ] Horn
+- [ ] Billstedt
+- [ ] Billbrook
+- [ ] Rothenburgsort
+- [ ] Veddel
+- [ ] Wilhelmsburg
+- [ ] Kleiner Grasbrook (kaum Einwohner, keine eigene Seite)
+- [ ] Steinwerder (kaum Einwohner, keine eigene Seite)
+- [ ] Waltershof (kaum Einwohner, keine eigene Seite)
+- [ ] Finkenwerder
+- [ ] Neuwerk (kaum Einwohner, keine eigene Seite)
+
+Bezirk Altona:
+- [ ] Altona-Altstadt
+- [ ] Sternschanze
+- [ ] Altona-Nord
+- [ ] Ottensen
+- [ ] Bahrenfeld
+- [ ] Groß Flottbek
+- [ ] Othmarschen
+- [ ] Lurup
+- [ ] Osdorf
+- [ ] Nienstedten
+- [ ] Blankenese
+- [ ] Iserbrook
+- [ ] Sülldorf
+- [ ] Rissen
+
+Bezirk Eimsbüttel:
+- [ ] Eimsbüttel
+- [ ] Rotherbaum
+- [ ] Harvestehude
+- [ ] Hoheluft-West
+- [ ] Lokstedt
+- [ ] Niendorf
+- [ ] Schnelsen
+- [ ] Eidelstedt
+- [ ] Stellingen
+
+Bezirk Hamburg-Nord:
+- [ ] Hoheluft-Ost
+- [ ] Eppendorf
+- [ ] Groß Borstel
+- [ ] Alsterdorf
+- [ ] Winterhude
+- [ ] Uhlenhorst
+- [ ] Hohenfelde
+- [ ] Barmbek-Süd
+- [ ] Dulsberg
+- [ ] Barmbek-Nord
+- [ ] Ohlsdorf
+- [ ] Fuhlsbüttel
+- [ ] Langenhorn
+
+Bezirk Wandsbek:
+- [ ] Eilbek
+- [ ] Wandsbek
+- [ ] Marienthal
+- [ ] Jenfeld
+- [x] Tonndorf (erledigt 8. Oktober 2026)
+- [x] Farmsen-Berne (erledigt 8. Oktober 2026)
+- [x] Bramfeld (erledigt 8. Oktober 2026)
+- [ ] Steilshoop
+- [ ] Wellingsbüttel
+- [x] Sasel (erledigt 8. Oktober 2026)
+- [x] Poppenbüttel (erledigt 8. Oktober 2026)
+- [ ] Hummelsbüttel
+- [ ] Lemsahl-Mellingstedt
+- [ ] Duvenstedt
+- [ ] Wohldorf-Ohlstedt
+- [ ] Bergstedt
+- [x] Volksdorf (erledigt 8. Oktober 2026)
+- [x] Rahlstedt (erledigt 8. Oktober 2026)
+
+Bezirk Bergedorf:
+- [ ] Lohbrügge
+- [ ] Bergedorf
+- [ ] Curslack
+- [ ] Altengamme
+- [ ] Neuengamme
+- [ ] Kirchwerder
+- [ ] Ochsenwerder
+- [ ] Reitbrook (kaum Einwohner, keine eigene Seite)
+- [ ] Allermöhe
+- [ ] Billwerder
+- [ ] Moorfleet
+- [ ] Tatenberg (kaum Einwohner, keine eigene Seite)
+- [ ] Spadenland (kaum Einwohner, keine eigene Seite)
+- [ ] Neuallermöhe
+
+Bezirk Harburg:
+- [ ] Harburg
+- [ ] Neuland
+- [ ] Gut Moor (kaum Einwohner, keine eigene Seite)
+- [ ] Wilstorf
+- [ ] Rönneburg
+- [ ] Langenbek
+- [ ] Sinstorf
+- [ ] Marmstorf
+- [ ] Eißendorf
+- [ ] Heimfeld
+- [ ] Moorburg (kaum Einwohner, keine eigene Seite)
+- [ ] Altenwerder (kaum Einwohner, keine eigene Seite)
+- [ ] Hausbruch
+- [ ] Neugraben-Fischbek
+- [ ] Francop (kaum Einwohner, keine eigene Seite)
+- [ ] Neuenfelde
+- [ ] Cranz (kaum Einwohner, keine eigene Seite)
 
 Regionen außerhalb Hamburgs (`pflegedienst`): PAUSIERT seit 12. Oktober 2026, nicht bearbeiten.
 - [x] Kreis Stormarn (Ahrensburg, Bad Oldesloe, Reinbek), erledigt 6. Oktober 2026
