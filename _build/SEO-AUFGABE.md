@@ -2,6 +2,15 @@
 
 Diese Datei ist die Arbeitsanweisung für die automatische SEO-Aufgabe. Sie läuft seit dem 7. Oktober 2026 jeden Tag (vorher wöchentlich). Sie liegt im Ordner `_build`, der auf der Website nicht abrufbar ist.
 
+## OBERSTE REGEL (Ramin, 12. Oktober 2026): SEO NUR FÜR HAMBURG
+
+- Hamburg ist ein eigenes Bundesland (Stadtstaat). Schleswig-Holstein, Niedersachsen, Bremen und Mecklenburg-Vorpommern werden NICHT bearbeitet: keine neuen Seiten, kein Vertiefen, keine Links.
+- Hamburg hat 7 Bezirke (Hamburg-Mitte, Altona, Eimsbüttel, Hamburg-Nord, Wandsbek, Bergedorf, Harburg) und 104 Stadtteile. Ein Stadtteil ist kein Bezirk (Billstedt, Horn, Hamm, Wilhelmsburg gehören zu Hamburg-Mitte, Lohbrügge zu Bergedorf).
+- Bezirk Harburg ist nicht Landkreis Harburg (Niedersachsen). Norderstedt, Pinneberg, Wedel, Ahrensburg und Reinbek liegen in Schleswig-Holstein und sind tabu.
+- Neue Seiten: nur Hamburger Stadtteile laut Liste in dieser Datei, eine pro Tag.
+- Vertiefen: zuerst /pflegedienst/hamburg/, dann die Bezirke, dann die Stadtteile.
+- Seit 12. Oktober 2026 verlinken die Hamburger Seiten nicht mehr auf Seiten außerhalb Hamburgs (auch nicht in `related`). Die Seiten außerhalb Hamburgs bleiben online, werden aber nicht mehr bearbeitet.
+
 ## Ziel
 
 Die Website soll ohne bezahlte Werbung bei Google und Bing gefunden werden. Dafür gibt es Hintergrundseiten (Regionen, Leistungen, Ratgeber, Jobs), die aus `_build/content/<bereich>/<slug>.html` erzeugt werden. Jeden Tag wird an den Seiten gearbeitet: neue Seiten, bessere bestehende Seiten, geprüfte Fakten.
@@ -106,7 +115,7 @@ Bezirk Hamburg-Mitte:
 - [ ] Borgfelde
 - [ ] Hamm
 - [ ] Horn
-- [ ] Billstedt
+- [x] Billstedt, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-billstedt`)
 - [ ] Billbrook
 - [ ] Rothenburgsort
 - [ ] Veddel
@@ -163,7 +172,7 @@ Bezirk Wandsbek:
 - [ ] Eilbek
 - [ ] Wandsbek
 - [ ] Marienthal
-- [ ] Jenfeld
+- [x] Jenfeld, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-jenfeld`)
 - [x] Tonndorf (erledigt 8. Oktober 2026)
 - [x] Farmsen-Berne (erledigt 8. Oktober 2026)
 - [x] Bramfeld (erledigt 8. Oktober 2026)

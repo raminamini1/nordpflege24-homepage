@@ -144,3 +144,12 @@
 - `build.py` ohne Warnung. Stand: 65 Hintergrundseiten, alle über 600 Wörtern, Sitemap mit 70 Adressen.
 - Offen: Kiel-Jobseite (Stellenanzeigen als Quellen) beim nächsten Qualitätslauf prüfen. Donnerstag, 15. Oktober: normaler Qualitätslauf über drei bis fünf Seiten. Vertiefen ab Dienstag wieder nach dem Alter der Seiten, alle Seiten haben jetzt die Mindestlänge.
 
+## 12. Oktober 2026, dritter Lauf (Ramin: SEO nur für Hamburg)
+- Neue oberste Regel von Ramin in `_build/SEO-AUFGABE.md`: nur Hamburg, keine Arbeit und keine Links außerhalb Hamburgs.
+- Neu auf Ramins ausdrücklichen Wunsch (zusätzlich zur Nachtpflege-Seite): /pflegedienst/hamburg-jenfeld/ (rund 1.270 Wörter) und /pflegedienst/hamburg-billstedt/ (rund 1.290 Wörter, Gruppe "Stadtteile im Bezirk Hamburg-Mitte").
+- Optimiert für die Suchwörter aus der Search Console: /pflegedienst/hamburg-wandsbek/ (Alten-, Kranken-, 24-Stunden- und Kurzzeitpflege, rund 1.870 Wörter), /pflegedienst/hamburg-rahlstedt/ (Titel, H1, Leistungsabschnitt), /pflegedienst/hamburg/ (Drehscheibe zu allen Bezirken und Stadtteilen, rund 1.350 Wörter).
+- Alle Links von Hamburger Seiten auf Seiten außerhalb Hamburgs entfernt (Text und `related`), zwei Fragen zum Umland gestrichen (Altona, Harburg).
+- Verlinkt: Jenfeld von Tonndorf, Rahlstedt, Wandsbek, Hamburg und Billstedt; Billstedt von Hamburg-Mitte, Hamburg und Jenfeld.
+- Neue geprüfte Fakten (Jenfeld, Billstedt, Pflegenottelefon 040 42899-1000, rund 50 Tagespflegen): Quellen stehen in den Seitenköpfen. In `_build/lokal/hamburg.md` beim nächsten Lauf nachtragen.
+- `build.py` ohne Warnung. Stand: 67 Seiten, Sitemap mit 72 Adressen.
+
