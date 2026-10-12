@@ -127,3 +127,20 @@
 - Reihenfolge der Bereiche für neue Seiten: Freitag Ratgeber, Samstag Jobs, Sonntag Regionen, Montag Leistungen, als Nächstes Ratgeber (Pflegegrad 1), dann Jobs (Pflege-Jobs in Lübeck), dann Regionen (Mecklenburg-Vorpommern Überblick).
 - Vertieft bisher: leistungen/verhinderungspflege (9. Oktober), leistungen/grundpflege (10. Oktober). Als Nächstes die kürzesten: pflegedienst/rostock, pflegedienst/schwerin, leistungen/hauswirtschaft, pflegedienst/bremen.
 - Offen: Dienstag, 13. Oktober: eine neue Seite und eine Seite vertiefen. Donnerstag, 15. Oktober: Qualitätslauf (die vierzehn neuen Seiten einschließen).
+
+## 12. Oktober 2026, zweiter Lauf (auf Wunsch von Ramin: "alles nachholen")
+- Ramin hat heute ausdrücklich verlangt, alles Offene nachzuholen. Deshalb ein zweiter Lauf am selben Tag, aber ohne neue Seite: Die Grenze von einer neuen Seite pro Tag ist mit /leistungen/nachtpflege-nachtwache/ ausgeschöpft.
+- Vertieft (34 Seiten, alle bisher unter 600 Wörtern, jetzt rund 765 bis 1.290 Wörter, je eine neue Frage):
+  - Regionen Hamburg: Altona, Eimsbüttel, Nord, Mitte, Harburg, Bergedorf, Wandsbek (Stadtteil-Profile 2025, Seniorenberatung der Bezirksämter, Rechenbeispiele mit Hamburger Punktzahlen, Hilfe zur Pflege in Mitte).
+  - Regionen Schleswig-Holstein: Kiel, Lübeck, Flensburg, Neumünster, Norderstedt, Kreis Pinneberg, Schleswig-Holstein (Pflegestatistik 2023 je Kreis, Stützpunkte mit Sprechzeiten, Anerkennung von Alltagshilfen, Pflege-Nottelefon).
+  - Weitere Regionen: Rostock, Schwerin, Bremen, Lüneburg, Stade (Landesstatistik, Pflegeberichte der Kreise, Stützpunkte, Nachbarschaftshilfe je Land).
+  - Leistungen: Hauswirtschaft, Betreuung, Behandlungspflege, Demenzbetreuung, Intensivpflege (Leistungskomplexe, Umwandlungsanspruch, HKP- und AKI-Richtlinie, Zahlen der Alzheimer Gesellschaft).
+  - Ratgeber: Pflegehilfsmittel und Wohnraumanpassung, Pflegedienst wechseln, Pflegedienst finden, Pflegegrade und Leistungen, Pflegegeld oder Pflegedienst.
+  - Jobs: Pflegehelfer, Hamburg, Quereinsteiger, Pflegefachkraft, Gehalt (Pflegefachassistenz ab 2027, Pflegestatistik Hamburg Personal, Umrechnung Stundenlohn in Monatslohn, Förderung der Umschulung).
+- Berichtigt dabei: Intensivpflege (Dauer der Folgeverordnung, verordnende Ärzte, Zuzahlung auch in Wohngruppen), Hauswirtschaft (§ 38 SGB V nur ohne Pflegegrad 2 bis 5), Pflegedienst wechseln (Kündigung durch den Dienst nach Verbraucherzentrale), Steuerhinweis Wohnraumanpassung (§ 35a Abs. 3 EStG).
+- Qualitätslauf (vorgezogen vom 15. Oktober): Titel, Beschreibungen, Fragen aller 65 Seiten maschinell geprüft (alle in den Grenzen). Gegenprüfung aller neuen Rechenbeispiele (alle richtig). Korrigiert: unbelegte Verallgemeinerungen auf zehn Seiten abgeschwächt oder gestrichen, Veranstaltungstermine in Flensburg und im Kreis Pinneberg durch dauerhafte Angaben ersetzt, Beispiel Norderstedt auf zwei Verordnungen (87,20 Euro) berichtigt, Pflegegeld in zwei Beispielen der pflegebedürftigen Person zugeordnet, Nottelefon (Anrufkosten), Stand des Pflegeberichts in Stade, Wortlaut § 52 PflFAssG, Halbgeviertstrich in einer Anschrift auf /pflegedienst/hamburg/.
+- Fallstricke: siehe neue Abschnitte in `_build/lokal/*.md` und Abschnitt 8 in `_build/fakten.md`. Wichtig: Nachbarschaftshilfe Schleswig-Holstein (Höchstsatz auf Landesseiten widersprüchlich, nicht genannt), Pflegenoten für ambulante Dienste seit 1. Juli 2026 abgeschafft, alte Broschüren mit 125 Euro, 4.000 Euro oder 1.612 Euro.
+- `related` hat auf vielen älteren Seiten mehr als 3 Einträge; das schadet nicht und blieb so.
+- `build.py` ohne Warnung. Stand: 65 Hintergrundseiten, alle über 600 Wörtern, Sitemap mit 70 Adressen.
+- Offen: Kiel-Jobseite (Stellenanzeigen als Quellen) beim nächsten Qualitätslauf prüfen. Donnerstag, 15. Oktober: normaler Qualitätslauf über drei bis fünf Seiten. Vertiefen ab Dienstag wieder nach dem Alter der Seiten, alle Seiten haben jetzt die Mindestlänge.
+

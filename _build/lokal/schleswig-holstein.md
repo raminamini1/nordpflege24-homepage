@@ -99,3 +99,45 @@ Quellen: https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/S
 - Anerkennung: SHIBB, Nichtakademische Gesundheitsberufe, Muhliusstraße 38, 24103 Kiel (Landesseite, Stand 14.04.2026).
 - Pflegefachassistenz Schleswig-Holstein: Drucksache 20/4763 am 10.10.2026 weiter im Sozialausschuss, kein Beschluss gefunden.
 
+
+## Städte und Kreise (geprüft am 12.10.2026)
+
+Für die Vertiefung von kiel, luebeck, flensburg, neumuenster, norderstedt, kreis-pinneberg und schleswig-holstein. Alle Werte heute abgerufen.
+
+### Pflegestatistik 2023, erneut geprüft (K II 8, https://www.statistik-nord.de/fileadmin/Dokumente/K_II_8_2j_23_SH.pdf)
+- Tabelle 5 (insgesamt / ambulant / vollstationär / nur Pflegegeld / PG 1 ohne Leistungen): Flensburg 5.298 / 1.125 / 988 / 2.471 / 714; Kiel 12.827 / 3.668 / 1.946 / 5.566 / 1.647; Lübeck 12.926 / 2.307 / 3.056 / 5.735 / 1.828; Neumünster 5.502 / 1.177 / 999 / 2.563 / 763; Pinneberg 17.129 / 3.278 / 3.271 / 8.346 / 2.234. Weitere Kreise: Dithmarschen 9.606 / 2.023 / 1.730; Nordfriesland 10.092 / 2.373 / 1.702; Ostholstein 13.105 / 2.119 / 3.054; Plön 6.994 / 1.151 / 1.306; Rendsburg-Eckernförde 15.502 / 3.215 / 2.986; Schleswig-Flensburg 13.845 / 3.398 / 2.698; Steinburg 9.312 / 1.623 / 1.723.
+- Tabelle 9 (ambulante Dienste / Heime / vollstationäre Plätze / teilstationäre Plätze): Flensburg 14 / 18 / 1.051 / 41; Kiel 54 / 34 / 2.092 / 205; Lübeck 42 / 45 / 3.271 / 139; Neumünster 17 / 21 / 1.060 / 137; Pinneberg 59 / 55 / 3.636 / 201; Land 573 / 693 / 37.712 / 3.090.
+- Abgeleitet: Anteil ambulant versorgt: Kiel 28,6 % (höchster Wert aller 15 Gebiete), Stormarn 27,2 %, Land 21,3 %, Lübeck 17,8 %, Ostholstein 16,2 % (niedrigster). Anteil vollstationär: Lübeck 23,6 % (höchster). Flensburg hat die wenigsten Dienste (14) und die wenigsten teilstationären Plätze (41); rund 80 ambulant Versorgte je Dienst (Land rund 65). Pinneberg hat die meisten Pflegebedürftigen; 48,7 % nur Pflegegeld.
+- Zeitreihe Land: 2013 87.774, 2021 158.546, 2023 175.323 (Verdoppelung in zehn Jahren). Vollstationär: Tabelle 1/2 nennt 33.957, Tabelle 5 34.046 (einschließlich 89 Personen mit PG 1 und teilstationärer Pflege).
+
+### Einwohner 31.12.2025 (A I 1 vj 4/25, erneut geprüft)
+- Veränderung zum Vorjahr: Flensburg -758 (-0,8 %), Kiel -826, Lübeck +172, Neumünster +336 (+0,4 %, stärkster relativer Zuwachs aller Kreise und kreisfreien Städte), Pinneberg +635. Pinneberg ist mit 325.858 der einwohnerstärkste Kreis. Norderstedt ist die viertgrößte Stadt (vor Neumünster), 29 % der Einwohner des Kreises Segeberg.
+- ACHTUNG Melderegister der Städte weicht ab: Kiel 250.396 (30.09.2025), Lübeck 223.261 (31.12.2025). Nicht mit Statistikamt-Werten mischen.
+
+### Kiel
+- Quartalsdaten der Stadt, Stand 30.09.2025 (Melderegister): 30 Stadtteile; 65+ 48.889 (19,5 %), 80+ 16.007. Schilksee 4.885 Einwohner, 2.193 ab 65 (44,9 %), 915 ab 80; Elmschenhagen 3.992 ab 65 (höchste Zahl), Wik 3.824, Mettenhof 3.802. Die Fassung 4. Quartal 2025 ist in der Textausgabe teils verstümmelt, deshalb 3. Quartal verwendet. Quelle: https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/_quartalsdaten_stadtteile/2025/Quartalsdaten_aus_den_Stadtteilen_III_2025.pdf
+- Pflegestützpunkt: Sprechzeiten Mo, Di, Do, Fr 8.30 bis 12.30 Uhr; Beratungsstelle Demenz und Pflege (Partner des PSP), Preetzer Straße 35, 24143 Kiel, 0431 77570-44. Nachtpflege: "In Kiel gibt es allerdings derzeit keine Einrichtungen, die eine Nachtpflege anbieten" (heute erneut bestätigt). Quelle: https://www.kiel.de/de/gesundheit_soziales/pflege/index.php
+
+### Lübeck
+- Pflegestützpunkt: Verwaltungszentrum Mühlentor, Haus Trave EG, Kronsforder Allee 2-6; 0451 122-4931, Anmeldung 122-4458; Beratung Mo, Di, Fr 9 bis 12, Do 14 bis 18 Uhr; Travemünde jeden 1. Mittwoch 9 bis 12 Uhr im Gesellschaftshaus Torstraße 1 (Anmeldung bis Dienstag 12 Uhr); Wohnberatung "Wohnen im Alter" Kolberger Platz 1, jeden 4. Mittwoch 10 bis 13 Uhr; Frühstück für pflegende Angehörige jeden 3. Donnerstag 10 bis 12 Uhr, Mehrgenerationenhaus Eichholz, 5 Euro. Quelle: https://www.luebeck.de/de/rathaus/verwaltung/soziale-sicherung/pflegestuetzpunkt
+- Kommunale Statistikstelle: zehn Stadtteile; St. Jürgen, St. Lorenz Nord, St. Gertrud je über 40.000, Schlutup knapp 6.000; in Travemünde anteilig die meisten Menschen über 65. Quelle: https://www.luebeck.de/de/rathaus/verwaltung/statistik/statistik
+
+### Flensburg
+- PSP: 2008 erstes Bundes-Modellprojekt; examinierte Pflegefachkräfte mit pädagogischer Zusatzqualifikation; je ein Drittel Land, Pflegekassen, Stadt; Privatversicherte an Compass (0800 101 88 00). Vorsorgefrühstück mit dem PSP am 30.10.2026, 9 bis 10.30 Uhr, Nikolaikirchhof 5, Thema Neuerungen in der Pflegeversicherung, Anmeldung 0461 570700. Sprechzeiten nennt die Seite nicht. Quelle: https://www.flensburg.de/Service/Suchergebnis/Adressen/500-4-Pflegest%C3%BCtzpunkt-in-der-Stadt-Flensburg.php?FID=2529.1494.1&ModID=9
+
+### Neumünster
+- PSP: Öffnungszeiten Di 9 bis 12, Do 14.30 bis 17 Uhr; Beratung im Büro, zu Hause oder per Video; weitere Nummern 942-2568, -2452. ACHTUNG: Die Seite nennt veraltete Beträge (1.612 Euro, vier Wochen bzw. 28 Tage, Entlastungsbetrag 125 Euro). Nicht übernehmen. Quelle: https://www.neumuenster.de/gesellschaft-soziales/aelter-werden-in-nms/informationberatung/pflegestuetzpunkt
+- Landesamt für Arbeitsschutz, Soziales und Gesundheit (LASG), Steinmetzstraße 1-11, 24534 Neumünster (Anschrift im Formular Selbsterklärung Nachbarschaftshilfe).
+
+### Norderstedt
+- Stadt: "Fast ein Viertel der Menschen, die in Norderstedt leben, ist über 65 Jahre alt." Norderstedter Hausbesuch: Pilotprojekt 01.01.2024 bis 31.12.2026, ab 65, kostenlos, Diakonie Altholstein, 040 5555 1556, bis zu zwei Folgetermine; zuerst angeschrieben Norderstedt-Mitte, dann Garstedt Zentrum, offen für alle Stadtteile. Seniorenbeirat mit offenen Sprechzeiten in der Rathauspassage und im Familienzentrum Glashütte; Verbraucherzentrale SH berät in Norderstedt rechtlich zur Pflege. Quellen: https://www.norderstedt.de/Soziales-und-Familie/Leben/Seniorinnen-und-Senioren/ , .../Norderstedter-Hausbesuch/ , .../Beratung/ , .../Pflege/
+- PSP Segeberg (heute erneut geprüft): Hauptbüro Heidbergstraße 28, Norderstedt, 040 528 83 830, Mo, Mi, Fr 9 bis 12, Di 14 bis 17 Uhr.
+
+### Kreis Pinneberg
+- PSP (heute geprüft): Pinneberg Heinrich-Christiansen-Str. 45, Quellental-Centrum 1. Stock, barrierefrei über Eingang 43, 04101 555 464, Mo bis Fr 9 bis 12 Uhr; Elmshorn Hamburger Str. 160, 04121 898 58 04, Di und Do 9 bis 12 Uhr. Außensprechstunden 2026: Quickborn Rathaus jeden 1. Donnerstag 14 bis 16 Uhr (5.11., 3.12.); Schenefeld Osterbrooksweg 4 (14.10., 9.12., 14 bis 16 Uhr); Uetersen Stadtbücherei Berliner Str. 17 (17.11., 14 bis 16 Uhr); Wedel Rathaus Rathausplatz 3-5 quartalsweise 9.30 bis 12 Uhr (letzter Termin 2026 am 6.10.). Alzheimer-Beratung (alzheimerpinneberg.de) im Büro Elmshorn, 04121 898 58 04 oder 04101 842 331. Quelle: https://www.pflegestuetzpunkt-pinneberg.de/sprechzeiten.htm
+
+### Land: Angebote zur Unterstützung im Alltag (AföVO)
+- Anerkennung durch das LASG; Anbieter: juristische Personen und Vereinigungen, gewerbliche Unternehmen, Einzelkräfte, zugelassene Pflegeeinrichtungen; jedes Angebot braucht eine Fachkraft (§ 6) oder Fachkraftbegleitung durch eine anerkannte Servicestelle. Schulung leistungserbringender Personen laut Antragsformular: Beschäftigte und Einzelkräfte mind. 120 UStd., Hilfe bei der Haushaltsführung mind. 30 UStd., Ehrenamtliche mind. 20 UStd. (je 45 Minuten).
+- Nachbarschaftshilfe (§ 12 AföVO): registriert, volljährig, nicht im Haushalt, nicht bis 2. Grad verwandt/verschwägert, keine Pflegeperson nach § 19 SGB XI, Kurs mind. 8 UE (Nachweis bis 6 Monate nach Aufnahme), max. 30 Std./Monat, Haftpflicht; Rechnung an die Pflegekasse.
+- WIDERSPRUCH: Höchstbetrag der Aufwandsentschädigung: 12 Euro je Stunde auf https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LASG/Aufgaben/AfoeVO/_documents/Allgemein/Nachbarschaftshilfe , 8 Euro auf https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LASG/Aufgaben/AfoeVO/UnterstuetzungImAlltag/InfoNachbarschaftshelfer und im Formular (beide Seiten "Letzte Aktualisierung 11.02.2025"). Ursprungsfassung der AföVO (Landtag Umdruck 19/334) nennt 8 Euro. Geltende Fassung bei gesetze-rechtsprechung.sh.juris.de prüfen, bis dahin keinen Betrag nennen. Weitere Quelle: https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LASG/Aufgaben/AfoeVO/_documents/Alltag/InformationenFuerAnbieter
+- Pflege-Nottelefon 01802 49 48 47 (Festnetz-/Regionaltarif), rund um die Uhr, vertraulich, anonym, kostenlose Beratung, gefördert vom Sozialministerium, Umsetzung AWO Pflege SH mit 40 Organisationen. Quellen: https://pflege-not-telefon.de/ , https://awo-pflege-sh.de/projekte

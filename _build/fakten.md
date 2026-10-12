@@ -61,6 +61,26 @@ Hamburg Nachtzuschlag: LK 101 bis 122 für Wochenende, Feiertage und 20 bis 6 Uh
 § 39a Abs. 2 SGB V: Krankenkassen fördern ambulante Hospizdienste für ehrenamtliche Sterbebegleitung zu Hause.
 Quellen: https://www.gesetze-im-internet.de/sgb_11/__41.html, https://www.bundesgesundheitsministerium.de/tagespflege-und-nachtpflege.html, https://www.hamburg.de/service/info/111105941/, https://www.gesetze-im-internet.de/sgb_5/__39a.html
 
+## 8. Ergänzungen aus der Vertiefung vom 12.10.2026 (alle heute abgerufen)
+
+- § 40 SGB XI: Abs. 3 Ablehnung eines Leihgeräts ohne Grund = volle Kosten; Abs. 4 4.180 € je Person, zusammen höchstens 16.720 €; Abs. 6 Empfehlung einer Pflegefachperson höchstens 2 Wochen alt, dann keine Verordnung; Abs. 7 Entscheidung in 3 Wochen (mit MD/Pflegefachperson 5 Wochen), sonst gilt als genehmigt. § 18b Abs. 3: Hilfsmittel-Empfehlung im Gutachten gilt mit Zustimmung als Antrag. Ältere BMG-Broschüre nennt noch 4.000/16.000 €: nicht verwenden.
+- Pflegehilfsmittelverzeichnis: PG 50, 51, 52 technisch, PG 54 Verbrauch (keine Verordnung, nicht ausgeschöpfter Betrag verfällt).
+- § 15 SGB XI und Anlage 2: Gewichtung 10/15/40/20/15 %, Modul 2/3 höherer Wert zählt; Schwellen 12,5/27/47,5/70/90; Kinder bis 18 Monate einen Grad höher; besondere Bedarfskonstellation Abs. 4.
+- Qualitätsprüfung: Regelprüfung höchstens jährlich (§ 114 Abs. 2), Aushang mit Prüfdatum (§ 115 Abs. 1a); ambulante Dienste seit 01.07.2026 nach neuen Prüfrichtlinien, Pflegenoten abgeschafft (vdek, 16.09.2026). Ältere vdek-Seiten sprechen noch von Pflegenoten.
+- § 45a Abs. 4 SGB XI: kein vorheriger Antrag, Umwandlung zählt bei der Kombinationsleistung als genutzte Sachleistung, Sachleistung wird vorrangig abgerechnet (Bremer Behördenseite schreibt fälschlich "auf Antrag").
+- § 38 SGB V Haushaltshilfe: nur ohne PG 2 bis 5, längstens 4 Wochen, mit Kind unter 12 bis 26 Wochen.
+- HKP-Richtlinie (Fassung 16.10.2025, in Kraft 12.12.2025): Krankenhaus verordnet bis 7 Tage, Erstverordnung soll 14 Tage nicht überschreiten, Folgeverordnung in den letzten 3 Arbeitstagen, Kostenübernahme bei Vorlage bis zum 4. Arbeitstag. https://www.g-ba.de/downloads/62-492-3999/HKP-RL_2025-10-16_iK-2025-12-12.pdf
+- AKI-Richtlinie (Fassung 22.01.2026, in Kraft 01.04.2026): Erstverordnung höchstens 5 Wochen, Folgeverordnung höchstens 6 Monate (ohne Entwöhnungspotenzial 12), Potenzialerhebung alle 6 bzw. 12 Monate; Zuzahlung 10 € je Tag auch in WG nach § 132l und Einrichtungen nach § 43a (§ 61 Satz 2 SGB V). https://www.g-ba.de/downloads/62-492-4092/AKI-RL_2026-01-22_iK-2026-04-01.pdf
+- § 61 und § 94 Abs. 1a SGB XII: Hilfe zur Pflege; Unterhalt von Kindern erst ab mehr als 100.000 € Jahreseinkommen.
+- Deutsche Alzheimer Gesellschaft, Infoblatt 1 (Stand Ende 2025): 1.783.000 Menschen mit Demenz, ab 65: Hamburg 32.000, SH 64.000, Niedersachsen 165.000, Bremen 14.000, MV 38.000; Neuerkrankungen 2023: 357.000.
+- Pflegebedürftige 31.12.2023 (Destatis 22421-0011): Bremen 47.628, MV 139.872, Niedersachsen 623.071, Hamburg 96.606, SH 175.323, Deutschland 5.688.473.
+- Nachbarschaftshilfe: MV höchstens 8 €/Std., 25 Std./Monat, 2 Pflegebedürftige; Hamburg höchstens 5 €/Std., 2 Pflegebedürftige; SH Höchstsatz widersprüchlich (Landesseiten 8 € und 12 €), nicht nennen; Bremen erkennt keine Einzelpersonen an.
+- Pflege-Nottelefon SH: 01802 49 48 47, rund um die Uhr, Beratung kostenlos, Anruf zum 01802-Tarif.
+- Pflegefachassistenz: § 52 PflFAssG (Landesausbildung, begonnen vor Ablauf des 31.12.2026, Abschluss bis 31.12.2029; Neustart bis Ende 2027 nur wenn das Land es vorsieht); PflFAssAPrV vom 02.06.2026: 1.050 Std. Unterricht, 1.280 Std. Praxis.
+- Destatis PM vom Juli 2026: 2025 63.900 neue Ausbildungsverträge Pflegefachberufe, rund 18 % der Neuen 30 oder älter. https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/07/PD26_231_212.html
+- § 87a SGB III: Prämie 1.000 € (Zwischenprüfung) und 1.500 € (Abschluss), Weiterbildungsgeld 150 € im Monat; nur Ausbildungen ab zwei Jahren Dauer.
+- Ortsdaten der Vertiefung: `_build/lokal/hamburg.md` (Bezirke), `_build/lokal/schleswig-holstein.md` (Städte und Kreise), `_build/lokal/weitere.md` (Rostock, Schwerin, Bremen, Lüneburg, Stade).
+
 ## 12. Steuern – bestätigt
 
 Pflege-Pauschbetrag (§ 33b Abs. 6 EStG): PG 2 600 €, PG 3 1.100 €, PG 4/5 oder hilflos 1.800 € pro Jahr; nur bei unentgeltlicher, persönlicher Pflege in der eigenen oder der Wohnung der gepflegten Person; bei mehreren Pflegenden wird geteilt; für PG 1 kein Pauschbetrag. Haushaltsnahe Dienstleistungen inkl. Pflege- und Betreuungsleistungen (§ 35a Abs. 2 EStG): 20 % der Aufwendungen, höchstens 4.000 € Steuerermäßigung pro Jahr; nur Arbeitskosten, Rechnung und Überweisung nötig.
