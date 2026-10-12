@@ -113,8 +113,8 @@ Bezirk Hamburg-Mitte:
 - [ ] St. Georg
 - [ ] Hammerbrook
 - [ ] Borgfelde
-- [ ] Hamm
-- [ ] Horn
+- [x] Hamm, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-hamm`)
+- [x] Horn, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-horn`)
 - [x] Billstedt, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-billstedt`)
 - [ ] Billbrook
 - [ ] Rothenburgsort
@@ -169,18 +169,18 @@ Bezirk Hamburg-Nord:
 - [ ] Langenhorn
 
 Bezirk Wandsbek:
-- [ ] Eilbek
+- [x] Eilbek, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-eilbek`)
 - [ ] Wandsbek
-- [ ] Marienthal
+- [x] Marienthal, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-marienthal`)
 - [x] Jenfeld, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-jenfeld`)
 - [x] Tonndorf (erledigt 8. Oktober 2026)
 - [x] Farmsen-Berne (erledigt 8. Oktober 2026)
 - [x] Bramfeld (erledigt 8. Oktober 2026)
 - [ ] Steilshoop
-- [ ] Wellingsbüttel
+- [x] Wellingsbüttel, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-wellingsbuettel`)
 - [x] Sasel (erledigt 8. Oktober 2026)
 - [x] Poppenbüttel (erledigt 8. Oktober 2026)
-- [ ] Hummelsbüttel
+- [x] Hummelsbüttel, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-hummelsbuettel`)
 - [ ] Lemsahl-Mellingstedt
 - [ ] Duvenstedt
 - [ ] Wohldorf-Ohlstedt

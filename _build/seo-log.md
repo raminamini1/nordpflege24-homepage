@@ -153,3 +153,9 @@
 - Neue geprüfte Fakten (Jenfeld, Billstedt, Pflegenottelefon 040 42899-1000, rund 50 Tagespflegen): Quellen stehen in den Seitenköpfen. In `_build/lokal/hamburg.md` beim nächsten Lauf nachtragen.
 - `build.py` ohne Warnung. Stand: 67 Seiten, Sitemap mit 72 Adressen.
 
+
+## 12. Oktober 2026, vierter Lauf (Ramin: "füge die neuen Hamburger Seiten hinzu, attacke")
+- Auf ausdrücklichen Wunsch von Ramin sechs weitere Hamburger Stadtteilseiten am selben Tag (Ausnahme von der Grenze eine pro Tag): /pflegedienst/hamburg-marienthal/, -eilbek/, -hummelsbuettel/, -wellingsbuettel/ (Bezirk Wandsbek), -horn/, -hamm/ (Bezirk Hamburg-Mitte). Je rund 1.300 bis 1.600 Wörter, eigene Zahlen (Statistikamt Nord, 31.12.2025), Rechenbeispiel, Anlaufstellen mit Quelle.
+- Verlinkt von: Hamburg-Seite, Bezirksseiten Wandsbek und Mitte, Nachbarstadtteilen (Jenfeld, Billstedt, Poppenbüttel, Bramfeld und untereinander). Keine Links außerhalb Hamburgs.
+- Offen für den nächsten Qualitätslauf: Grenzt Tonndorf an Marienthal (Tonndorf-Seite sagt ja, Stadt nennt nur Wandsbek, Horn, Jenfeld)? Telefonzuordnung der Seniorenberatung Poppenbüttel/Hummelsbüttel (-5263) mit lokal/hamburg.md abgleichen. Neue Stadtteilzahlen in lokal/hamburg.md nachtragen (stehen in den Seitenköpfen).
+- `build.py` ohne Warnung. Stand: 73 Seiten, Sitemap mit 78 Adressen.
