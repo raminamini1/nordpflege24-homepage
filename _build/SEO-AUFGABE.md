@@ -47,7 +47,12 @@ Grenzen, die immer gelten (Ausnahme nur für die Seitenzahl, solange oben ein So
 - Wurde am selben Tag schon ein Lauf veröffentlicht (steht im Protokoll), nur noch Fehler beheben und nichts Neues anlegen.
 - Lässt sich an einem Tag nichts sinnvoll verbessern, nichts ändern und das im Bericht sagen. Kein Ändern um des Änderns willen.
 
-Neue Seiten: das oberste offene Thema der Themenliste, von Tag zu Tag abwechselnd aus den Bereichen (nicht nur Regionen).
+Neue Seiten: Seit 12. Oktober 2026 auf Ramins Wunsch Vorrang für Hamburger Stadtteilseiten (Muster wie die Wandsbeker Seiten, siehe oben). Grund: In der Search Console (4. bis 9. Oktober) kamen die Anzeigen vor allem über Wandsbek-Suchen ("altenpflege wandsbek", "24 stunden pflege in wandsbek", "kurzzeitpflege hamburg wandsbek"). Darum an mindestens fünf von sieben Tagen eine neue Stadtteilseite. Reihenfolge nach Ramin: erst der Osten, dann der Norden, dann der Süden, dann der Westen. Innerhalb einer Himmelsrichtung zuerst die großen Stadtteile mit vielen älteren Einwohnern.
+1. Osten: restliche Stadtteile im Bezirk Wandsbek (Wandsbek, Marienthal, Eilbek, Jenfeld, Hummelsbüttel, Wellingsbüttel, Bergstedt, Duvenstedt, Lemsahl-Mellingstedt, Wohldorf-Ohlstedt), dazu Billstedt, Horn, Hamm sowie Bergedorf, Lohbrügge und Neuallermöhe.
+2. Norden: Bezirk Hamburg-Nord (Barmbek-Nord, Barmbek-Süd, Winterhude, Eppendorf, Langenhorn, Fuhlsbüttel, Ohlsdorf, Groß Borstel, Alsterdorf, Uhlenhorst, Dulsberg).
+3. Süden: Bezirk Harburg (Harburg, Neugraben-Fischbek, Wilstorf, Heimfeld, Eißendorf, Marmstorf) sowie Wilhelmsburg.
+4. Westen: Bezirke Altona und Eimsbüttel (Lurup, Osdorf, Bahrenfeld, Blankenese, Rissen, Ottensen, Eidelstedt, Niendorf, Schnelsen, Lokstedt, Stellingen, Eimsbüttel).
+An den übrigen Tagen das oberste offene Thema der Themenliste aus den anderen Bereichen. Ramin trägt neue Suchwörter aus der Search Console nach; ein Stadtteil, der dort auftaucht, kommt als Nächstes dran.
 
 Vertiefen heißt: echten Mehrwert ergänzen, zum Beispiel weitere geprüfte Zahlen oder Anlaufstellen vor Ort, ein Rechenbeispiel, eine Checkliste, eine häufige Frage mit Antwort, einen Verweis auf eine neue passende Seite. Zuerst die ältesten und kürzesten Seiten. Im Protokoll festhalten, welche Seiten vertieft wurden, damit jede Seite an die Reihe kommt.
 
