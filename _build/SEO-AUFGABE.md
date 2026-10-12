@@ -27,6 +27,17 @@ Weiter gilt, weil Angaben von Ramin fehlen: keine Kundenstimmen (nur echte), kei
 
 Für weitere Stadtteilseiten in Hamburg gilt dasselbe Muster wie bei den sieben Wandsbeker Seiten: eigene Zahlen aus den Stadtteil-Profilen des Statistikamts Nord, Lage und Quartiere, Krankenhäuser in der Umgebung, Anlaufstellen mit Quelle, eigenes Fallbeispiel, eigene Fragen. Geprüfte Angaben und Fallstricke stehen in `_build/lokal/hamburg.md`.
 
+## Vorgabe von Ramin (12. Oktober 2026): Fokus nur auf Hamburg
+
+Diese Vorgabe geht dem Wochenplan und der Themenliste vor, bis Ramin sie aufhebt.
+
+1. Gearbeitet wird nur noch an Hamburg. Reihenfolge immer: zuerst die Hamburg-Seite `/pflegedienst/hamburg/`, dann die Hamburger Stadtteile (und die sieben Bezirksseiten).
+2. Schleswig-Holstein (Kiel, Lübeck, Flensburg, Neumünster, Norderstedt, Kreis Pinneberg, Kreise Stormarn, Segeberg, Herzogtum Lauenburg, Landesseite), Niedersachsen, Bremen und Mecklenburg-Vorpommern werden komplett weggelassen: keine neuen Seiten, kein Vertiefen, keine neuen Links dorthin. Die bestehenden Seiten bleiben online und werden nicht gelöscht. Nur echte Fehler darin werden behoben.
+3. Neue Seiten: nur Hamburger Stadtteile, eine pro Tag, nach dem Muster der sieben Wandsbeker Stadtteilseiten (siehe Sonderauftrag oben und `_build/lokal/hamburg.md`). Reihenfolge: Liste "Hamburg-Stadtteile" in der Themenliste von oben.
+4. Vertiefen (auch an den Tagen, an denen der Wochenplan "vertiefen" sagt): zuerst `/pflegedienst/hamburg/`, dann die Bezirksseiten, dann die Stadtteilseiten. Ratgeber-, Leistungs- und Jobseiten nur so, dass der Hamburg-Bezug stärker wird (Hamburger Preise, Anlaufstellen, Beispiele), und erst nach den Hamburger Ortsseiten.
+5. Interne Links: Neue Stadtteilseiten werden von der Hamburg-Seite, ihrer Bezirksseite und den Nachbar-Stadtteilen verlinkt. Die Hamburg-Seite verweist auf alle Bezirke und Stadtteile.
+6. Montags bleibt die Faktenprüfung, damit nichts Falsches online steht. Sonntags werden nur Hamburger Stadtteile in die Themenliste aufgenommen.
+
 ## Ablauf jeden Tag
 
 Zuerst prüfen, ob oben ein Sonderauftrag offen ist (Stand 8. Oktober 2026: keiner). Dann `_build/seo-log.md` lesen (was wurde zuletzt gemacht), dann die Aufgabe des Wochentags erledigen. Der Wochentag richtet sich nach deutscher Zeit.
@@ -74,14 +85,7 @@ Jeder Lauf endet so:
 
 ## Themenliste
 
-Regionen (`pflegedienst`):
-- [x] Kreis Stormarn (Ahrensburg, Bad Oldesloe, Reinbek), erledigt 6. Oktober 2026
-- [x] Kreis Segeberg (Norderstedt ist schon da: Henstedt-Ulzburg, Kaltenkirchen, Bad Segeberg), erledigt 6. Oktober 2026
-- [x] Kreis Herzogtum Lauenburg (Geesthacht, Schwarzenbek, Ratzeburg), erledigt 6. Oktober 2026
-- [x] Landkreis Harburg (Buchholz, Winsen, Seevetal), erledigt 6. Oktober 2026
-- [x] Niedersachsen (Überblick), erledigt 11. Oktober 2026 (`pflegedienst/niedersachsen`)
-- [ ] Mecklenburg-Vorpommern (Überblick)
-- [x] Hamburg-Rahlstedt, Bramfeld, Farmsen-Berne, Poppenbüttel, Volksdorf, Sasel, Tonndorf (je eine eigene Seite), erledigt 8. Oktober 2026
+Hamburg-Stadtteile (`pflegedienst`, Vorrang nach der Vorgabe vom 12. Oktober 2026):
 - [ ] Hamburg-Billstedt
 - [ ] Hamburg-Wilhelmsburg
 - [ ] Hamburg-Langenhorn
@@ -90,6 +94,27 @@ Regionen (`pflegedienst`):
 - [ ] Hamburg-Barmbek
 - [ ] Hamburg-Winterhude
 - [ ] Hamburg-Lurup und Osdorf
+- [ ] Hamburg-Eppendorf
+- [ ] Hamburg-Ottensen und Bahrenfeld
+- [ ] Hamburg-Lokstedt
+- [ ] Hamburg-Eidelstedt und Schnelsen
+- [ ] Hamburg-Lohbrügge
+- [ ] Hamburg-Neugraben-Fischbek
+- [ ] Hamburg-Hamm und Horn
+- [ ] Hamburg-Jenfeld
+- [ ] Hamburg-Wellingsbüttel und Hummelsbüttel
+- [ ] Hamburg-Fuhlsbüttel und Ohlsdorf
+- [ ] Hamburg-Uhlenhorst und Eilbek
+- [ ] Hamburg-Marienthal und Wandsbek-Kern
+
+Regionen außerhalb Hamburgs (`pflegedienst`): PAUSIERT seit 12. Oktober 2026, nicht bearbeiten.
+- [x] Kreis Stormarn (Ahrensburg, Bad Oldesloe, Reinbek), erledigt 6. Oktober 2026
+- [x] Kreis Segeberg (Norderstedt ist schon da: Henstedt-Ulzburg, Kaltenkirchen, Bad Segeberg), erledigt 6. Oktober 2026
+- [x] Kreis Herzogtum Lauenburg (Geesthacht, Schwarzenbek, Ratzeburg), erledigt 6. Oktober 2026
+- [x] Landkreis Harburg (Buchholz, Winsen, Seevetal), erledigt 6. Oktober 2026
+- [x] Niedersachsen (Überblick), erledigt 11. Oktober 2026 (`pflegedienst/niedersachsen`)
+- [ ] Mecklenburg-Vorpommern (Überblick)
+- [x] Hamburg-Rahlstedt, Bramfeld, Farmsen-Berne, Poppenbüttel, Volksdorf, Sasel, Tonndorf (je eine eigene Seite), erledigt 8. Oktober 2026
 - [ ] Elmshorn
 - [ ] Pinneberg (Stadt)
 - [ ] Wedel
