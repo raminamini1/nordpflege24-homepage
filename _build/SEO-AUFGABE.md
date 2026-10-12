@@ -125,7 +125,7 @@ Ratgeber (`ratgeber`):
 - [ ] Pflege-Wohngemeinschaft: Wohngruppenzuschlag, Kosten, Suche im Norden (ergänzt 11. Oktober 2026)
 
 Leistungen (`leistungen`):
-- [ ] Nachtpflege und Nachtwache
+- [x] Nachtpflege und Nachtwache, erledigt 12. Oktober 2026 (`leistungen/nachtpflege-nachtwache`)
 - [ ] Palliativpflege zu Hause
 - [ ] Kinderkrankenpflege zu Hause
 - [ ] Wundversorgung

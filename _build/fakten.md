@@ -53,6 +53,14 @@ Hamburger Leistungskomplexe mit Punktzahlen: siehe `_build/lokal/hamburg.md`. Zu
 Entwurf Pflegeneuordnungsgesetz (Stand 10.10.2026): weiter nur Kabinettsentwurf; Sachleistungen und Pflegegeld in Pflegegrad 2 bis 5 sollen steigen, der Entlastungsbetrag in Pflegegrad 1 soll entfallen (Finanztableau des Entwurfs, Pressemitteilung des Ministeriums).
 Quellen: https://www.gesetze-im-internet.de/sgb_11/__36.html, https://www.gesetze-im-internet.de/sgb_11/__2.html, https://www.gesetze-im-internet.de/sgb_11/__120.html, https://www.gesetze-im-internet.de/sgb_5/__37.html, https://www.gesetze-im-internet.de/sgb_5/__61.html, https://www.gesetze-im-internet.de/pflbg/__4.html
 
+## 7. Nachtpflege und Nachtwache – bestätigt am 12.10.2026
+
+§ 41 SGB XI: Tages- und Nachtpflege ab PG 2, wenn häusliche Pflege nicht ausreichend sichergestellt oder zur Ergänzung/Stärkung erforderlich; umfasst Beförderung; Budget 721 / 1.357 / 1.685 / 2.085 € je Monat, für Tages- und Nachtpflege zusammen; zusätzlich zu Sachleistung, Pflegegeld, Kombination ohne Anrechnung (Abs. 3). Unterkunft, Verpflegung, Investitionskosten privat (BMG, Stand 16.03.2026); PG 1 nur Entlastungsbetrag. Antrag bei der Pflegekasse (Hamburg Service, aktualisiert 27.02.2026).
+Angebot: Stadt Kiel schreibt "derzeit keine Einrichtungen, die eine Nachtpflege anbieten" (kiel.de/de/gesundheit_soziales/pflege/index.php); ein Kieler Anbieter wirbt dagegen mit Nachtpflege, deshalb auf der Seite nur als Aussage der Stadt. Bundeszahlen (185 Plätze, 23 Gäste am 15.12.2023) nur aus socialnet-Lexikon mit Verweis auf Destatis 22412-0014/-0015; GENESIS war nicht abrufbar, deshalb nicht verwendet.
+Hamburg Nachtzuschlag: LK 101 bis 122 für Wochenende, Feiertage und 20 bis 6 Uhr (z. B. 101 284 statt 258, 103 510 statt 464, 108 57 statt 52); Wegepauschale ohne Zuschlag; Zeitvergütung Nr. 203 Betreuung 10 Punkte je Minute ohne Nachtzuschlag, umfasst Beaufsichtigung und Tag-Nacht-Rhythmus. Quelle: veröffentlichtes Leistungsverzeichnis ab 01.07.2026 (sf.hamburg, Punktwert 0,0749).
+§ 39a Abs. 2 SGB V: Krankenkassen fördern ambulante Hospizdienste für ehrenamtliche Sterbebegleitung zu Hause.
+Quellen: https://www.gesetze-im-internet.de/sgb_11/__41.html, https://www.bundesgesundheitsministerium.de/tagespflege-und-nachtpflege.html, https://www.hamburg.de/service/info/111105941/, https://www.gesetze-im-internet.de/sgb_5/__39a.html
+
 ## 12. Steuern – bestätigt
 
 Pflege-Pauschbetrag (§ 33b Abs. 6 EStG): PG 2 600 €, PG 3 1.100 €, PG 4/5 oder hilflos 1.800 € pro Jahr; nur bei unentgeltlicher, persönlicher Pflege in der eigenen oder der Wohnung der gepflegten Person; bei mehreren Pflegenden wird geteilt; für PG 1 kein Pauschbetrag. Haushaltsnahe Dienstleistungen inkl. Pflege- und Betreuungsleistungen (§ 35a Abs. 2 EStG): 20 % der Aufwendungen, höchstens 4.000 € Steuerermäßigung pro Jahr; nur Arbeitskosten, Rechnung und Überweisung nötig.
@@ -61,6 +69,7 @@ Quellen: https://www.gesetze-im-internet.de/estg/__33b.html, https://www.gesetze
 ## 13. Reformstand (vorläufig)
 
 Pflegeneuordnungsgesetz (PNOG): Referentenentwurf 05.06.2026, Kabinettsbeschluss 30.09.2026. Nur Gesetzentwurf, nicht in Kraft; Bundestag und Bundesrat stehen aus (erneut geprüft 06.10.2026: unverändert, noch keine Beratungstermine veröffentlicht; Einsetzung der Pflegestrukturkommission für 7. Oktober 2026 vorgesehen). Heute gelten unverändert die Beträge aus Abschnitt 0.
+Geprüft 12.10.2026: weiter nur Kabinettsentwurf. Beratungsfolge laut AOK-Bundesverband (https://www.aok.de/pp/gesetz/pnog/): 1. Lesung Bundestag 6.11., Anhörung 11. oder 25.11., 2./3. Lesung 11.12., 2. Durchgang Bundesrat 18.12.2026. Die AOK nennt für den 1. Durchgang im Bundesrat den 30.11.2026, der Bundesrat hat an diesem Tag aber keine Plenarsitzung (Termine 2026: 16.10., 20.11., 18.12., https://www.bundesrat.de/DE/termine/plenum/plenum.html); deshalb nicht verwendet. Einsetzung der Pflegestrukturkommission am 7.10. nicht erfolgt, verschoben (Fachpresse, 7.10.2026). Pflegestatistik 2025 noch nicht erschienen. Pflegemindestlohn und regional übliche Entlohnung unverändert gegenüber fakten-jobs.md.
 Quellen: https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/kabinett-beschliesst-pflegeneuordnungsgesetz, https://www.bundesregierung.de/breg-de/aktuelles/pflegeneuordnungsgesetz-2454862
 
 (Weitere Abschnitte folgen.)
