@@ -33,7 +33,7 @@ Diese Vorgabe geht dem Wochenplan und der Themenliste vor, bis Ramin sie aufhebt
 
 1. Gearbeitet wird nur noch an Hamburg. Reihenfolge immer: zuerst die Hamburg-Seite `/pflegedienst/hamburg/`, dann die Hamburger Stadtteile (und die sieben Bezirksseiten).
 2. Schleswig-Holstein (Kiel, Lübeck, Flensburg, Neumünster, Norderstedt, Kreis Pinneberg, Kreise Stormarn, Segeberg, Herzogtum Lauenburg, Landesseite), Niedersachsen, Bremen und Mecklenburg-Vorpommern werden komplett weggelassen: keine neuen Seiten, kein Vertiefen, keine neuen Links dorthin. Die bestehenden Seiten bleiben online und werden nicht gelöscht. Nur echte Fehler darin werden behoben.
-3. Neue Seiten: nur Hamburger Stadtteile, eine pro Tag, nach dem Muster der sieben Wandsbeker Stadtteilseiten (siehe Sonderauftrag oben und `_build/lokal/hamburg.md`). Reihenfolge: Liste "Hamburg-Stadtteile" in der Themenliste von oben.
+3. Neue Seiten: nur Hamburger Stadtteile, eine pro Tag, nach dem Muster der sieben Wandsbeker Stadtteilseiten (siehe Sonderauftrag oben und `_build/lokal/hamburg.md`). Reihenfolge: Osten, Norden, Süden, Westen, wie im Abschnitt "Ablauf jeden Tag" beschrieben.
 4. Vertiefen (auch an den Tagen, an denen der Wochenplan "vertiefen" sagt): zuerst `/pflegedienst/hamburg/`, dann die Bezirksseiten, dann die Stadtteilseiten. Ratgeber-, Leistungs- und Jobseiten nur so, dass der Hamburg-Bezug stärker wird (Hamburger Preise, Anlaufstellen, Beispiele), und erst nach den Hamburger Ortsseiten.
 5. Interne Links: Neue Stadtteilseiten werden von der Hamburg-Seite, ihrer Bezirksseite und den Nachbar-Stadtteilen verlinkt. Die Hamburg-Seite verweist auf alle Bezirke und Stadtteile.
 6. Montags bleibt die Faktenprüfung, damit nichts Falsches online steht. Sonntags werden nur Hamburger Stadtteile in die Themenliste aufgenommen.
@@ -85,7 +85,7 @@ Jeder Lauf endet so:
 
 ## Themenliste
 
-Hamburg-Stadtteile (`pflegedienst`, Vorrang nach der Vorgabe vom 12. Oktober 2026):
+Hamburg-Stadtteile (`pflegedienst`, zum Abhaken; Reihenfolge nach Himmelsrichtung, siehe "Ablauf jeden Tag"):
 - [ ] Hamburg-Billstedt
 - [ ] Hamburg-Wilhelmsburg
 - [ ] Hamburg-Langenhorn
