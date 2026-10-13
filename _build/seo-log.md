@@ -170,3 +170,13 @@
 - `build.py` ohne Warnung. Stand: 74 Seiten, Sitemap mit 79 Adressen.
 - Nächste neue Seiten (Osten): Steilshoop, Neuallermöhe, Bergstedt, Duvenstedt, Lemsahl-Mellingstedt, Wohldorf-Ohlstedt; danach Norden (Hamburg-Nord). Vertiefen als Nächstes: weitere Bezirksseiten (Harburg, Altona, Eimsbüttel, Nord).
 
+## 13. Oktober 2026, zweiter Lauf (Ramin: "ja mach doch", Punkte 1 bis 4)
+- Auf ausdrücklichen Wunsch von Ramin zusätzlich zum Morgenlauf. Ausnahme von der Grenze einer neuen Seite pro Tag.
+- 1. Stadtteile Wandsbek und Bergedorf: je ein Abschnitt mit Zahlen, Lage, Beratung und Treffpunkten auf den Bezirksseiten (keine doppelte Seite). Auf der Wandsbek-Seite den Satz über den Kreis Stormarn entfernt (außerhalb Hamburgs).
+- 2. Neu: /ratgeber/pflegedienst-kosten-hamburg/ (Punktzahlen, Ausbildungszuschlag 2026, Investitionskosten, Kostenvoranschlag, drei Beispiele) und /ratgeber/kurzzeitpflege-hamburg/ (Tagessätze 2024 bis 2027, Zuschuss 18 Euro, Notfallplätze Pflegenottelefon, alle sieben Pflegestützpunkte, Beispiel). 24-Stunden-Pflege: keine eigene Hamburg-Seite, weil sie fast gleich wäre wie /leistungen/24-stunden-pflege/ und der Wandsbek-Abschnitt; stattdessen diese Seite auf Hamburg ausgerichtet (Titel, H1, Abschnitt mit Hamburger Kosten und Anlaufstellen).
+- 3. Interne Links: `build.py` erzeugt jetzt auf jeder Stadtteilseite den sichtbaren Block "Weitere Stadtteile im Bezirk ..." (alle Geschwisterseiten und die Bezirksseite). Dazu Links von der Hamburg-Seite, von Bramfeld (Nachbar Steilshoop) und von den allgemeinen Ratgebern Kurzzeitpflege und Kosten auf die neuen Hamburg-Seiten.
+- 4. Schneller: zwei neue Stadtteilseiten /pflegedienst/hamburg-steilshoop/ und /pflegedienst/hamburg-neuallermoehe/. In `_build/SEO-AUFGABE.md` gilt ab morgen: höchstens zwei neue Seiten pro Tag.
+- Geprüft (heute abgerufen, Quellen in den Seitenköpfen und in `_build/lokal/hamburg.md`): Stadtteil-Profile 2025, hamburg.de Stadtteilseiten Steilshoop, Neuallermöhe, Wandsbek, Bergedorf, Stadtteilbeschreibung Wandsbek 2025, Bezirksämter Wandsbek und Bergedorf, BBSR, Hochbahn U5, Seniorenbüro Hamburg, Leistungsverzeichnis Hamburg, Ausbildungsfonds Pflege Hamburg, vdek Hamburg, Förderrichtlinie Kurzzeitpflege, Pflegenottelefon, Verbraucherzentrale, Servicestelle Arbeitnehmerfreizügigkeit.
+- Fallstricke: hamburg.de-Stadtteilseiten haben veraltete Einwohnerzahlen und Texte (Steilshoop U5 "2026", Bergedorf "34.000 Einwohner"): nicht verwenden. Steilshoop ist nicht der dichteste Stadtteil des Bezirks. Die Startseite wurde NICHT geändert (Titel und H1 nennen noch "Norddeutschland"; Änderung nur mit Ramins ausdrücklichem OK).
+- `build.py` ohne Warnung. Stand: 78 Seiten, Sitemap mit 83 Adressen.
+

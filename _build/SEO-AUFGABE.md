@@ -36,6 +36,13 @@ Weiter gilt, weil Angaben von Ramin fehlen: keine Kundenstimmen (nur echte), kei
 
 Für weitere Stadtteilseiten in Hamburg gilt dasselbe Muster wie bei den sieben Wandsbeker Seiten: eigene Zahlen aus den Stadtteil-Profilen des Statistikamts Nord, Lage und Quartiere, Krankenhäuser in der Umgebung, Anlaufstellen mit Quelle, eigenes Fallbeispiel, eigene Fragen. Geprüfte Angaben und Fallstricke stehen in `_build/lokal/hamburg.md`.
 
+## Entscheidung von Ramin (13. Oktober 2026): schneller, zwei neue Seiten pro Tag
+
+- Ab dem Lauf vom 14. Oktober 2026 höchstens ZWEI neue Seiten pro Tag (statt einer), beide Hamburger Stadtteile oder Hamburger Ratgeberthemen. Die Qualitätsregeln bleiben: lieber eine oder keine Seite als eine dünne.
+- Stadtteile mit demselben Namen wie ihr Bezirk (Wandsbek, Bergedorf, Harburg, Eimsbüttel, Altona-Altstadt ist anders) bekommen keine eigene Seite, sondern einen Abschnitt "Der Stadtteil ..." auf der Bezirksseite. Erledigt: Wandsbek, Bergedorf. Offen: Harburg, Eimsbüttel.
+- `build.py` erzeugt auf jeder Stadtteilseite (Gruppe "Hamburg: Stadtteile im Bezirk ...") automatisch den Block "Weitere Stadtteile im Bezirk ..." mit Links auf alle anderen Stadtteilseiten desselben Bezirks und auf die Bezirksseite. Neue Stadtteilseiten brauchen dafür nur die richtige `gruppe`. Für einen neuen Bezirk die Gruppe "Hamburg: Stadtteile im Bezirk <Name>" mit dem Namen aus `BEZIRK_SEITEN` in `build.py` verwenden.
+- Neue Hamburger Ratgeber seit 13. Oktober 2026: `ratgeber/pflegedienst-kosten-hamburg`, `ratgeber/kurzzeitpflege-hamburg`. 24-Stunden-Pflege: keine eigene Hamburg-Seite (wäre fast gleich), stattdessen `leistungen/24-stunden-pflege` auf Hamburg ausgerichtet.
+
 ## Hamburg-Geografie (Pflicht, Ramin 12. Oktober 2026)
 
 - Hamburg ist ein eigenes Bundesland (Stadtstaat). Schleswig-Holstein ist ein anderes Bundesland. Niedersachsen auch.
@@ -72,7 +79,7 @@ Zuerst prüfen, ob oben ein Sonderauftrag offen ist (Stand 8. Oktober 2026: kein
 
 Grenzen, die immer gelten (Ausnahme nur für die Seitenzahl, solange oben ein Sonderauftrag offen ist):
 
-- Höchstens eine neue Seite pro Tag, von Montag bis Sonntag, also höchstens sieben pro Woche (von Ramin am 8. Oktober 2026 so festgelegt, gilt ab dem Lauf vom 9. Oktober 2026). Viele dünne Seiten in kurzer Zeit wertet Google als Massenware und stuft die ganze Website ab. Qualität geht vor Menge: Reicht die Faktenlage an einem Tag nicht für eine gute Seite, erscheint an diesem Tag keine, und sie wird nicht nachgeholt.
+- Höchstens eine neue Seite pro Tag (seit 13. Oktober 2026 auf Ramins Wunsch: zwei, siehe oben), von Montag bis Sonntag, also höchstens sieben pro Woche (von Ramin am 8. Oktober 2026 so festgelegt, gilt ab dem Lauf vom 9. Oktober 2026). Viele dünne Seiten in kurzer Zeit wertet Google als Massenware und stuft die ganze Website ab. Qualität geht vor Menge: Reicht die Faktenlage an einem Tag nicht für eine gute Seite, erscheint an diesem Tag keine, und sie wird nicht nachgeholt.
 - Wurde am selben Tag schon ein Lauf veröffentlicht (steht im Protokoll), nur noch Fehler beheben und nichts Neues anlegen.
 - Lässt sich an einem Tag nichts sinnvoll verbessern, nichts ändern und das im Bericht sagen. Kein Ändern um des Änderns willen.
 
@@ -170,13 +177,13 @@ Bezirk Hamburg-Nord:
 
 Bezirk Wandsbek:
 - [x] Eilbek, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-eilbek`)
-- [ ] Wandsbek
+- [x] Wandsbek, erledigt 13. Oktober 2026 als Abschnitt "Der Stadtteil Wandsbek" auf der Bezirksseite `pflegedienst/hamburg-wandsbek` (gleiche Adresse, keine eigene Seite)
 - [x] Marienthal, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-marienthal`)
 - [x] Jenfeld, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-jenfeld`)
 - [x] Tonndorf (erledigt 8. Oktober 2026)
 - [x] Farmsen-Berne (erledigt 8. Oktober 2026)
 - [x] Bramfeld (erledigt 8. Oktober 2026)
-- [ ] Steilshoop
+- [x] Steilshoop, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-steilshoop`)
 - [x] Wellingsbüttel, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-wellingsbuettel`)
 - [x] Sasel (erledigt 8. Oktober 2026)
 - [x] Poppenbüttel (erledigt 8. Oktober 2026)
@@ -190,7 +197,7 @@ Bezirk Wandsbek:
 
 Bezirk Bergedorf:
 - [x] Lohbrügge, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-lohbruegge`)
-- [ ] Bergedorf
+- [x] Bergedorf, erledigt 13. Oktober 2026 als Abschnitt "Der Stadtteil Bergedorf" auf der Bezirksseite `pflegedienst/hamburg-bergedorf` (gleiche Adresse, keine eigene Seite)
 - [ ] Curslack
 - [ ] Altengamme
 - [ ] Neuengamme
@@ -202,7 +209,7 @@ Bezirk Bergedorf:
 - [ ] Moorfleet
 - [ ] Tatenberg (kaum Einwohner, keine eigene Seite)
 - [ ] Spadenland (kaum Einwohner, keine eigene Seite)
-- [ ] Neuallermöhe
+- [x] Neuallermöhe, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-neuallermoehe`)
 
 Bezirk Harburg:
 - [ ] Harburg

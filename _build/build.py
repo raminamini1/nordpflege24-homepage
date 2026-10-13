@@ -256,6 +256,31 @@ def tile(page):
             f'<p>{esc(page["kurz"])}</p></a>')
 
 
+BEZIRK_SEITEN = {'Hamburg-Mitte': 'hamburg-mitte', 'Altona': 'hamburg-altona', 'Eimsbüttel': 'hamburg-eimsbuettel',
+                 'Hamburg-Nord': 'hamburg-nord', 'Wandsbek': 'hamburg-wandsbek', 'Bergedorf': 'hamburg-bergedorf',
+                 'Harburg': 'hamburg-harburg'}
+STADTTEIL_GRUPPE = 'Hamburg: Stadtteile im Bezirk '
+
+
+def stadtteil_nav(meta, pages):
+    """Visible block on Hamburg district pages (Stadtteile): links to the other districts of the same borough."""
+    gruppe = meta.get('gruppe', '')
+    if meta['section'] != 'pflegedienst' or not gruppe.startswith(STADTTEIL_GRUPPE):
+        return ''
+    bezirk = gruppe[len(STADTTEIL_GRUPPE):]
+    geschwister = sorted((p for p in pages.values() if p.get('gruppe') == gruppe and p['key'] != meta['key']),
+                         key=lambda p: (p.get('karte') or p['h1']))
+    links = [f'<a href="{p["url"]}">{esc((p.get("karte") or p["h1"]).replace("Hamburg-", ""))}</a>' for p in geschwister]
+    bezirk_key = 'pflegedienst/' + BEZIRK_SEITEN.get(bezirk, '')
+    out = f'    <section class="page-block" aria-labelledby="stadtteile-h">\n      <h2 id="stadtteile-h">Weitere Stadtteile im Bezirk {esc(bezirk)}</h2>\n'
+    if links:
+        out += '      <p>' + ' · '.join(links) + '</p>\n'
+    if bezirk_key in pages:
+        out += f'      <p>Überblick über den ganzen Bezirk: <a href="{pages[bezirk_key]["url"]}">{esc(pages[bezirk_key]["h1"])}</a>. Alle Bezirke und Stadtteile: <a href="/pflegedienst/hamburg/">Pflegedienst in Hamburg</a>.</p>\n'
+    out += '    </section>\n'
+    return out
+
+
 def render_page(meta, pages):
     sec = SECTIONS[meta['section']]
     trail = [('Startseite', '/'), (sec['name'], f'/{meta["section"]}/'), (meta.get('krume') or meta['h1'], meta['url'])]
@@ -294,6 +319,8 @@ def render_page(meta, pages):
         for f in faq:
             out += f'        <details><summary>{esc(f["q"])}</summary><p>{f["a"]}</p></details>\n'
         out += '      </div>\n    </section>\n'
+
+    out += stadtteil_nav(meta, pages)
 
     quellen = meta.get('quellen') or []
     out += '    <aside class="sources">\n      <h2>Stand und Quellen</h2>\n'
