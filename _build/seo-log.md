@@ -180,3 +180,6 @@
 - Fallstricke: hamburg.de-Stadtteilseiten haben veraltete Einwohnerzahlen und Texte (Steilshoop U5 "2026", Bergedorf "34.000 Einwohner"): nicht verwenden. Steilshoop ist nicht der dichteste Stadtteil des Bezirks. Die Startseite wurde NICHT geändert (Titel und H1 nennen noch "Norddeutschland"; Änderung nur mit Ramins ausdrücklichem OK).
 - `build.py` ohne Warnung. Stand: 78 Seiten, Sitemap mit 83 Adressen.
 
+
+## 13. Oktober 2026, dritter Lauf (Ramin: "ja" zur Startseite)
+- Mit ausdrücklichem OK von Ramin die Startseite auf Hamburg ausgerichtet: Titel "Pflegedienst Hamburg: kostenlose Vermittlung", Beschreibung, og-Angaben, H1 "Pflegedienst finden. In Hamburg." (auch in `script.js`, das die H1 setzt; Version auf `script.js?v=4`), neuer Abschnitt "Pflegedienst in Ihrem Hamburger Bezirk" mit Links auf die 7 Bezirksseiten, die Hamburg-Seite und den Kosten-Ratgeber. Design unverändert. Die Regel "keine Startseiten-Links" gilt für die tägliche Pflege weiter.
