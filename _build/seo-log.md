@@ -159,3 +159,14 @@
 - Verlinkt von: Hamburg-Seite, Bezirksseiten Wandsbek und Mitte, Nachbarstadtteilen (Jenfeld, Billstedt, Poppenbüttel, Bramfeld und untereinander). Keine Links außerhalb Hamburgs.
 - Offen für den nächsten Qualitätslauf: Grenzt Tonndorf an Marienthal (Tonndorf-Seite sagt ja, Stadt nennt nur Wandsbek, Horn, Jenfeld)? Telefonzuordnung der Seniorenberatung Poppenbüttel/Hummelsbüttel (-5263) mit lokal/hamburg.md abgleichen. Neue Stadtteilzahlen in lokal/hamburg.md nachtragen (stehen in den Seitenköpfen).
 - `build.py` ohne Warnung. Stand: 73 Seiten, Sitemap mit 78 Adressen.
+
+## 13. Oktober 2026 (Dienstag: eine neue Seite, eine Seite vertieft)
+- Aufgabe nach Wochenplan und Vorgabe "nur Hamburg". Heute noch kein anderer Lauf.
+- Neu (1 Seite, rund 1.800 Wörter mit Kopf und Fragen): /pflegedienst/hamburg-lohbruegge/, erste Stadtteilseite im Bezirk Bergedorf (neue Gruppe "Hamburg: Stadtteile im Bezirk Bergedorf"). Lohbrügge ist im Osten der größte noch offene Stadtteil mit eigener Adresse (9.353 Menschen ab 65). Zahlen aus den Stadtteil-Profilen 2025, Lage (Großsiedlungen, Einfamilienhäuser, Boberg), Rechenbeispiel Pflegegrad 2 allein in der Wohnung (553,80 Euro Sachleistung, Einkauf über den Entlastungsbetrag, Behandlungspflege zusätzlich), Bethesda-Geriatrie und BG Klinikum, Pflegestützpunkt und Seniorenberatung Bergedorf, Treffpunkte und Seniorengruppen laut Bezirksamt, fünf Fragen.
+- Vertieft: /pflegedienst/hamburg-bergedorf/ (Bezirksseite): Grundsicherung im Alter und Hilfe zur Pflege, neuer Abschnitt "Krankenhäuser und Geriatrie im Bezirk" (Anschriften, Tagesklinik mit Fahrdienst), Hamburger Hausbesuch, neuer Abschnitt "Treffpunkte für Ältere", neue Frage zur geriatrischen Tagesklinik, Links auf Lohbrügge.
+- Verlinkt: Lohbrügge von /pflegedienst/hamburg/ und /pflegedienst/hamburg-bergedorf/ (Text und `related`). Keine Links außerhalb Hamburgs, keine von der Startseite.
+- Geprüft (heute abgerufen): Stadtteil-Profile 2025 (Statistikamt Nord), hamburg.de Stadtteil Lohbrügge, Bezirksamt Bergedorf (Beratungsangebote, Treffpunkte, Seniorengruppen), AWO Seniorentreffs, Bethesda Krankenhaus Bergedorf (Geriatrie, Kontakt), BG Klinikum Hamburg (Kontakt). Leistungsbeträge 2026 aus der Faktenprüfung vom 12. Oktober.
+- Fallstricke: Wandsbek und Bergedorf sind Stadtteil und Bezirk zugleich, die Adressen sind von den Bezirksseiten belegt (siehe `_build/lokal/hamburg.md`). Deshalb heute Lohbrügge statt Stadtteil Wandsbek. Nachbarstadtteile von Lohbrügge sind amtlich nicht genannt, darum keine Nachbarlinks.
+- `build.py` ohne Warnung. Stand: 74 Seiten, Sitemap mit 79 Adressen.
+- Nächste neue Seiten (Osten): Steilshoop, Neuallermöhe, Bergstedt, Duvenstedt, Lemsahl-Mellingstedt, Wohldorf-Ohlstedt; danach Norden (Hamburg-Nord). Vertiefen als Nächstes: weitere Bezirksseiten (Harburg, Altona, Eimsbüttel, Nord).
+

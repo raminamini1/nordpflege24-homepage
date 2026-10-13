@@ -189,7 +189,7 @@ Bezirk Wandsbek:
 - [x] Rahlstedt (erledigt 8. Oktober 2026)
 
 Bezirk Bergedorf:
-- [ ] Lohbrügge
+- [x] Lohbrügge, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-lohbruegge`)
 - [ ] Bergedorf
 - [ ] Curslack
 - [ ] Altengamme
