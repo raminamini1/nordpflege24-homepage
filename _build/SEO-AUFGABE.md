@@ -39,7 +39,7 @@ Für weitere Stadtteilseiten in Hamburg gilt dasselbe Muster wie bei den sieben 
 ## Entscheidung von Ramin (13. Oktober 2026): schneller, zwei neue Seiten pro Tag
 
 - Ab dem Lauf vom 14. Oktober 2026 höchstens ZWEI neue Seiten pro Tag (statt einer), beide Hamburger Stadtteile oder Hamburger Ratgeberthemen. Die Qualitätsregeln bleiben: lieber eine oder keine Seite als eine dünne.
-- Stadtteile mit demselben Namen wie ihr Bezirk (Wandsbek, Bergedorf, Harburg, Eimsbüttel, Altona-Altstadt ist anders) bekommen keine eigene Seite, sondern einen Abschnitt "Der Stadtteil ..." auf der Bezirksseite. Erledigt: Wandsbek, Bergedorf. Offen: Harburg, Eimsbüttel.
+- Stadtteile mit demselben Namen wie ihr Bezirk (Wandsbek, Bergedorf, Harburg, Eimsbüttel, Altona-Altstadt ist anders) bekommen keine eigene Seite, sondern einen Abschnitt "Der Stadtteil ..." auf der Bezirksseite. Erledigt: Wandsbek, Bergedorf, Harburg (14. Oktober 2026). Offen: Eimsbüttel.
 - `build.py` erzeugt auf jeder Stadtteilseite (Gruppe "Hamburg: Stadtteile im Bezirk ...") automatisch den Block "Weitere Stadtteile im Bezirk ..." mit Links auf alle anderen Stadtteilseiten desselben Bezirks und auf die Bezirksseite. Neue Stadtteilseiten brauchen dafür nur die richtige `gruppe`. Für einen neuen Bezirk die Gruppe "Hamburg: Stadtteile im Bezirk <Name>" mit dem Namen aus `BEZIRK_SEITEN` in `build.py` verwenden.
 - Neue Hamburger Ratgeber seit 13. Oktober 2026: `ratgeber/pflegedienst-kosten-hamburg`, `ratgeber/kurzzeitpflege-hamburg`. 24-Stunden-Pflege: keine eigene Hamburg-Seite (wäre fast gleich), stattdessen `leistungen/24-stunden-pflege` auf Hamburg ausgerichtet.
 
@@ -191,7 +191,7 @@ Bezirk Wandsbek:
 - [ ] Lemsahl-Mellingstedt
 - [ ] Duvenstedt
 - [ ] Wohldorf-Ohlstedt
-- [ ] Bergstedt
+- [x] Bergstedt, erledigt 14. Oktober 2026 (`pflegedienst/hamburg-bergstedt`)
 - [x] Volksdorf (erledigt 8. Oktober 2026)
 - [x] Rahlstedt (erledigt 8. Oktober 2026)
 
@@ -201,7 +201,7 @@ Bezirk Bergedorf:
 - [ ] Curslack
 - [ ] Altengamme
 - [ ] Neuengamme
-- [ ] Kirchwerder
+- [x] Kirchwerder, erledigt 14. Oktober 2026 (`pflegedienst/hamburg-kirchwerder`)
 - [ ] Ochsenwerder
 - [ ] Reitbrook (kaum Einwohner, keine eigene Seite)
 - [ ] Allermöhe
@@ -212,7 +212,7 @@ Bezirk Bergedorf:
 - [x] Neuallermöhe, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-neuallermoehe`)
 
 Bezirk Harburg:
-- [ ] Harburg
+- [x] Harburg, erledigt 14. Oktober 2026 als Abschnitt "Der Stadtteil Harburg" auf der Bezirksseite `pflegedienst/hamburg-harburg` (keine eigene Seite)
 - [ ] Neuland
 - [ ] Gut Moor (kaum Einwohner, keine eigene Seite)
 - [ ] Wilstorf
