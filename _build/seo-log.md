@@ -193,3 +193,11 @@
 - `build.py` ohne Warnung. Stand: 80 Seiten, Sitemap mit 85 Adressen.
 - Nächste neue Seiten (Osten): Duvenstedt (5.911 / 1.309 ab 65), Lemsahl-Mellingstedt, Wohldorf-Ohlstedt, Curslack, Neuengamme, Altengamme; danach Norden (Hamburg-Nord, zuerst Langenhorn, Winterhude). Vertiefen als Nächstes: Bezirksseiten Eimsbüttel (Abschnitt Stadtteil Eimsbüttel), Altona, Nord.
 - Donnerstag, 15. Oktober: Qualitätslauf (die neuen Stadtteilseiten einschließen).
+
+## 15. Oktober 2026 (Donnerstag: zwei neue Seiten, Qualität)
+- Aufgabe nach Wochenplan, Vorgabe "nur Hamburg" und Entscheidung vom 13. Oktober (höchstens zwei neue Seiten). Heute noch kein anderer Lauf.
+- Neu (2 Seiten, Walddörfer im Bezirk Wandsbek, je rund 2.000 Wörter mit Kopf und Fragen): /pflegedienst/hamburg-lemsahl-mellingstedt/ (1.736 Menschen ab 65 = 24,6 %, 86,5 % der Wohnungen in Ein- und Zweifamilienhäusern, Einkaufszentrum Tannenhof, Rechenbeispiel Pflegegrad 4 mit pflegender Ehefrau und Gemeinsamem Jahresbetrag, Wohnumfeld) und /pflegedienst/hamburg-duvenstedt/ (1.309 ab 65, 50- bis 64-Jährige 27,2 %, Busse 176/276, Rechenbeispiel Pflegegrad 3 allein im Haus mit Wäsche über den Entlastungsbetrag, Seniorennachmittag Cantatekirche).
+- Qualität (5 Seiten durchgesehen): Hamburg-Seite, Wandsbek (Walddörfer), Bergstedt, Poppenbüttel: Links auf die neuen Seiten ergänzt. Tonndorf: Marienthal aus der Liste der Nachbarn entfernt (laut hamburg.de grenzt Marienthal an Wandsbek, Horn, Jenfeld; Tonndorf nicht). Offener Punkt vom 12. Oktober damit erledigt. Titel und Beschreibungen der neuen Seiten geprüft (Lemsahl: "fast jeder vierte").
+- Geprüft (heute abgerufen): Stadtteil-Profile 2025, Meine Region (227745, 227746), hamburg.de Stadtteilseiten Duvenstedt, Lemsahl-Mellingstedt, Marienthal, Wandsbek; NSG Duvenstedter Brook; Sozialraumbeschreibung Walddörfer; Bezirksamt Wandsbek (Seniorenberatung: Walddörfer weiter "N.N.", Treffs); Cantatekirche Duvenstedt; Kirchengemeinde Oberalster-Bergstedt. Details in `_build/lokal/hamburg.md`.
+- `build.py` ohne Warnung. Stand: 82 Seiten, Sitemap mit 87 Adressen.
+- Nächste neue Seiten (Osten): Wohldorf-Ohlstedt (4.779 / 1.133 ab 65), Curslack, Neuengamme, Altengamme; danach Norden (Langenhorn, Winterhude). Vertiefen als Nächstes: Bezirksseite Eimsbüttel (Abschnitt Stadtteil Eimsbüttel), Altona, Nord.

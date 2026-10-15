@@ -188,8 +188,8 @@ Bezirk Wandsbek:
 - [x] Sasel (erledigt 8. Oktober 2026)
 - [x] Poppenbüttel (erledigt 8. Oktober 2026)
 - [x] Hummelsbüttel, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-hummelsbuettel`)
-- [ ] Lemsahl-Mellingstedt
-- [ ] Duvenstedt
+- [x] Lemsahl-Mellingstedt, erledigt 15. Oktober 2026 (`pflegedienst/hamburg-lemsahl-mellingstedt`)
+- [x] Duvenstedt, erledigt 15. Oktober 2026 (`pflegedienst/hamburg-duvenstedt`)
 - [ ] Wohldorf-Ohlstedt
 - [x] Bergstedt, erledigt 14. Oktober 2026 (`pflegedienst/hamburg-bergstedt`)
 - [x] Volksdorf (erledigt 8. Oktober 2026)
