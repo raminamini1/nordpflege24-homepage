@@ -198,8 +198,8 @@ Bezirk Wandsbek:
 Bezirk Bergedorf:
 - [x] Lohbrügge, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-lohbruegge`)
 - [x] Bergedorf, erledigt 13. Oktober 2026 als Abschnitt "Der Stadtteil Bergedorf" auf der Bezirksseite `pflegedienst/hamburg-bergedorf` (gleiche Adresse, keine eigene Seite)
-- [ ] Curslack
-- [ ] Altengamme
+- [x] Curslack, erledigt 17. Oktober 2026 (`pflegedienst/hamburg-curslack`)
+- [x] Altengamme, erledigt 17. Oktober 2026 (`pflegedienst/hamburg-altengamme`)
 - [x] Neuengamme, erledigt 16. Oktober 2026 (`pflegedienst/hamburg-neuengamme`)
 - [x] Kirchwerder, erledigt 14. Oktober 2026 (`pflegedienst/hamburg-kirchwerder`)
 - [ ] Ochsenwerder
