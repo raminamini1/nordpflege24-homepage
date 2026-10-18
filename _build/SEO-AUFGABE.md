@@ -202,9 +202,9 @@ Bezirk Bergedorf:
 - [x] Altengamme, erledigt 17. Oktober 2026 (`pflegedienst/hamburg-altengamme`)
 - [x] Neuengamme, erledigt 16. Oktober 2026 (`pflegedienst/hamburg-neuengamme`)
 - [x] Kirchwerder, erledigt 14. Oktober 2026 (`pflegedienst/hamburg-kirchwerder`)
-- [ ] Ochsenwerder
+- [x] Ochsenwerder, erledigt 18. Oktober 2026 (`pflegedienst/hamburg-ochsenwerder`)
 - [ ] Reitbrook (kaum Einwohner, keine eigene Seite)
-- [ ] Allermöhe
+- [x] Allermöhe, erledigt 18. Oktober 2026 (`pflegedienst/hamburg-allermoehe`)
 - [ ] Billwerder
 - [ ] Moorfleet
 - [ ] Tatenberg (kaum Einwohner, keine eigene Seite)
