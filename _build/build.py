@@ -18,7 +18,7 @@ import urllib.parse
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / '_build' / 'content'
 BASE = 'https://nordpflege24.de'
-DEFAULT_DATE = '2026-10-12'
+DEFAULT_DATE = '2026-10-19'
 FIRST_DATE = '2026-10-05'  # first publication of the pages without their own "erstellt"
 DEFAULT_STAND = 'Oktober 2026'
 ORG_ID = BASE + '/#organisation'

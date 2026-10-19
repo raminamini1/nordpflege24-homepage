@@ -205,8 +205,8 @@ Bezirk Bergedorf:
 - [x] Ochsenwerder, erledigt 18. Oktober 2026 (`pflegedienst/hamburg-ochsenwerder`)
 - [ ] Reitbrook (kaum Einwohner, keine eigene Seite)
 - [x] Allermöhe, erledigt 18. Oktober 2026 (`pflegedienst/hamburg-allermoehe`)
-- [ ] Billwerder
-- [ ] Moorfleet
+- [x] Billwerder, erledigt 19. Oktober 2026 (`pflegedienst/hamburg-billwerder`)
+- [x] Moorfleet, erledigt 19. Oktober 2026 (`pflegedienst/hamburg-moorfleet`)
 - [ ] Tatenberg (kaum Einwohner, keine eigene Seite)
 - [ ] Spadenland (kaum Einwohner, keine eigene Seite)
 - [x] Neuallermöhe, erledigt 13. Oktober 2026 (`pflegedienst/hamburg-neuallermoehe`)
