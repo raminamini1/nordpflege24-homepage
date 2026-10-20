@@ -165,7 +165,7 @@ Bezirk Hamburg-Nord:
 - [ ] Eppendorf
 - [ ] Groß Borstel
 - [ ] Alsterdorf
-- [ ] Winterhude
+- [x] Winterhude, erledigt 20. Oktober 2026 (`pflegedienst/hamburg-winterhude`)
 - [ ] Uhlenhorst
 - [ ] Hohenfelde
 - [ ] Barmbek-Süd
@@ -173,7 +173,7 @@ Bezirk Hamburg-Nord:
 - [ ] Barmbek-Nord
 - [ ] Ohlsdorf
 - [ ] Fuhlsbüttel
-- [ ] Langenhorn
+- [x] Langenhorn, erledigt 20. Oktober 2026 (`pflegedienst/hamburg-langenhorn`)
 
 Bezirk Wandsbek:
 - [x] Eilbek, erledigt 12. Oktober 2026 (`pflegedienst/hamburg-eilbek`)
