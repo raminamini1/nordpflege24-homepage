@@ -2,6 +2,17 @@
 
 Diese Datei ist die Arbeitsanweisung für die automatische SEO-Aufgabe. Sie läuft seit dem 7. Oktober 2026 jeden Tag (vorher wöchentlich). Sie liegt im Ordner `_build`, der auf der Website nicht abrufbar ist.
 
+## NEUESTE ENTSCHEIDUNG (Ramin, 20. Oktober 2026): Qualität statt neuer Ortsseiten – geht allem darunter vor
+
+Anlass: SEO-Audit vom 20. Oktober 2026 (76/100). Viele Ortsseiten ähneln sich zu stark (bei 18 Seiten unter 60 % eigener Text); Google kann das als Brückenseiten (Doorway Pages) werten und die ganze Website abstufen.
+
+- **Ab sofort keine neuen Stadtteil- oder Ortsseiten mehr.** Die Regeln "zwei neue Seiten pro Tag" und "alle 104 Stadtteile" sind ausgesetzt, bis Ramin sie ausdrücklich wieder freigibt.
+- **Jeden Tag stattdessen 1 bis 2 bestehende Hamburger Stadtteil- oder Bezirksseiten eigenständiger machen**, zuerst die mit dem meisten gleichen Text. Ziel: mindestens 60 % eigener Text je Seite. Wege: eigene geprüfte Zahlen aus dem Stadtteil-Profil, Lage und Quartiere, Krankenhäuser und Anlaufstellen vor Ort mit Quelle, ein eigenes Fallbeispiel, eigene Fragen. Textbausteine, die auf vielen Seiten gleich sind (Ablauf, Kosten, Pflegegrade), kürzen und stattdessen auf die passende Leistungs- oder Ratgeberseite verlinken.
+- Lässt sich eine Seite nicht sinnvoll eigenständig machen (zu wenig Ortsbezug), im Protokoll vorschlagen, sie mit der Nachbar- oder Bezirksseite zusammenzulegen. Zusammenlegen und Löschen nur nach Freigabe durch Ramin.
+- Neue Seiten nur noch als Hamburger Ratgeberthema, höchstens eine pro Woche, und nur wenn sie ein eigenes Suchbedürfnis abdeckt.
+- **Keine Angaben über Nordpflege24 selbst, die sich nicht belegen lassen:** keine Jahreszahlen ("15 Jahre"), keine Patienten- oder Vermittlungszahlen, keine Teamgrößen. Erlaubt: "langjährige Erfahrung in der Pflege". Am 20. Oktober 2026 von Startseite, /pflegedienst/hamburg/ und /jobs/hamburg/ entfernt.
+- Nordpflege24 ist ausschließlich Vermittler. Nie als Pflegedienst darstellen.
+
 ## OBERSTE REGEL (Ramin, 12. Oktober 2026): SEO NUR FÜR HAMBURG
 
 - Hamburg ist ein eigenes Bundesland (Stadtstaat). Schleswig-Holstein, Niedersachsen, Bremen und Mecklenburg-Vorpommern werden NICHT bearbeitet: keine neuen Seiten, kein Vertiefen, keine Links.
