@@ -269,3 +269,13 @@
 - Vorschlag Zusammenlegen: keiner nötig, beide Seiten haben genug Ortsbezug.
 - `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
 - Als Nächstes: Duvenstedt, Altengamme, Neuengamme, Ochsenwerder (gleiche Bausteine: Leistungsliste, Pflegestützpunkt-Kasten, Ablauf-Liste).
+
+## 22. Oktober 2026 (Donnerstag: zwei Seiten eigenständiger gemacht, keine neuen Seiten)
+- Lauf nach der Entscheidung vom 20. Oktober. Heute noch kein anderer Lauf.
+- Messung "eigener Text" (wie 21.10., Wortfolgen aus 6 Wörtern, Text und Fragen) vor der Arbeit: Duvenstedt 34,7 %, Altengamme 38,2 %, Ochsenwerder 38,6 %, Neuengamme 39,5 %, Jenfeld 41,3 %, Kirchwerder 41,4 %, Billwerder 41,9 %, Lemsahl-Mellingstedt 42,6 %, Billstedt 42,9 %.
+- Überarbeitet: /pflegedienst/hamburg-duvenstedt/ (34,7 % -> 68,8 %) und /pflegedienst/hamburg-altengamme/ (38,2 % -> 74,2 %). Gestrichen bzw. durch Links auf Leistungs- und Ratgeberseiten ersetzt: Liste "Altenpflege und Krankenpflege", Kasten Pflegestützpunkt/Seniorenberatung (jetzt Fließtext), Satz Hamburger Hausbesuch, Ablauf-Liste der Vermittlung, Standardsätze im Rechenbeispiel, Frage "Was kostet die Vermittlung?". Neu und ortsbezogen: Duvenstedt mit Einordnung der 50- bis 64-Jährigen (Verdopplung der Einwohnerzahl laut Stadt), Haustypen und Pflege, Seniorennachmittag Cantatekirche wöchentlich, neue Frage zur frühen Planung; Altengamme mit Dichte als Pflegethema, Celsa-Glocke 1487, Spieletreff 3. Donnerstag 19-21 Uhr, Bürozeiten Gemeindebüro, Magazin "Elbsegen", neue Frage für Menschen ohne Internet. Zahlen und Rechenbeispiele unverändert.
+- Geprüft (heute abgerufen): cantatekirche.de (Seniorennachmittag 22.10., 29.10., 5.11., je 15-17 Uhr), Bezirksamt Wandsbek Seniorenberatung (Walddörfer weiter "N.N."), hamburg.de Duvenstedt und Altengamme, Kirche in Vierlanden St. Nicolai und Angebote, Bezirksamt Bergedorf Beratungsangebote (unverändert).
+- Fallstricke: Besuchsdienst der KG Duvenstedt heute nicht gefunden, Satz gestrichen. Kontaktnummer Annette Scheer bei Kirche in Vierlanden zweimal verschieden (7236048 / 7236084): nicht verwendet. hamburg.de nennt Taufkessel 1308, Kirchenseite 1380: nicht verwendet. "Regionaler Seniorentag" 31.10. (Cantatekirche) als Einzeltermin nicht verwendet.
+- Vorschlag Zusammenlegen: keiner nötig.
+- `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
+- Als Nächstes: Ochsenwerder, Neuengamme, dann Jenfeld, Kirchwerder.
