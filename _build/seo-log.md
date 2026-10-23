@@ -279,3 +279,13 @@
 - Vorschlag Zusammenlegen: keiner nötig.
 - `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
 - Als Nächstes: Ochsenwerder, Neuengamme, dann Jenfeld, Kirchwerder.
+
+## 23. Oktober 2026 (Freitag: zwei Seiten eigenständiger gemacht, keine neuen Seiten)
+- Lauf nach der Entscheidung vom 20. Oktober. Heute noch kein anderer Lauf.
+- Messung "eigener Text" (wie 21.10., Wortfolgen aus 6 Wörtern, Text und Fragen) vor der Arbeit: Neuengamme 40,0 %, Jenfeld 41,3 %, Billwerder 42,1 %, Kirchwerder 42,2 %, Ochsenwerder 42,5 %, Billstedt 42,9 %, Lohbrügge 43,6 %, Lemsahl-Mellingstedt 43,7 %, Curslack 44,2 %, Allermöhe 44,6 %.
+- Überarbeitet: /pflegedienst/hamburg-neuengamme/ (40,0 % -> 83,4 %) und /pflegedienst/hamburg-ochsenwerder/ (42,5 % -> 81,5 %). Gestrichen: Liste "Altenpflege und Krankenpflege", Kasten Pflegestützpunkt/Seniorenberatung (jetzt Fließtext), Satz Hamburger Hausbesuch (auch aus den Quellen), Ablauf-Liste der Vermittlung, Frage "Was kostet die Vermittlung?", Standardzeilen im Rechenbeispiel neu formuliert. Neu und ortsbezogen: Neuengamme mit oberwärts/niederwärts, Elbe im Osten, Glocke "Maria" 1461, Brauthaus 1619 mit Flutgedenktafeln 1741/1771, offene Kirche täglich 10-17 Uhr, Beratungsstelle für körperbehinderte Menschen (Bezirksamt Bergedorf, 42891-2157 A-J, -2147 K-Z), fünf neue Fragen; Ochsenwerder mit Bracks, Schafen am Gauerter Hauptdeich, Vorgängerkirche 1332, Altar Hein Baxmann, Oortkatensee, heimatgeschichtlicher Abend 23.11.2026, fünf neue Fragen. Zahlen und Rechenbeispiele unverändert.
+- Geprüft (heute abgerufen): hamburg.de Neuengamme und Ochsenwerder, Kirche in Vierlanden (St. Johannis, Kalender), kirche-hamburg.de (Kirchenbüro Neuengamme 040 7232573), Kirchengemeinde Marschlande (Angebote und Gruppen, Termine), Bezirksamt Bergedorf Beratungsangebote und Pflegestützpunkt (Hamburg Service), Bethesda Geriatrie.
+- Fallstricke: hamburg.de Ochsenwerder nennt im Text weiter "2.536 Menschen" (veraltet), nicht verwendet. Hamburg Service nennt für den Pflegestützpunkt "Eingang D", SDZ-Seite "Eingang C": Eingang nicht genannt. kirche-neuengamme.de ist veraltet (Pastorin aus früheren Jahren), als Quelle durch kirche-hamburg.de ersetzt. Senior:innennachmittag Neuengamme nur als Einzeltermine im Kalender (Mi 15-17), kein fester Rhythmus genannt. Termine Heimatring/Bürgerrunde nur auf privater Seite, nicht verwendet.
+- Vorschlag Zusammenlegen: keiner nötig.
+- `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
+- Als Nächstes: Jenfeld, Billwerder, Kirchwerder, Billstedt (Messskript liegt nicht im Repository, Verfahren siehe oben).
