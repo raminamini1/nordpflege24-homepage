@@ -96,7 +96,7 @@ FOOTER = '''<footer class="foot">
           ''' + LOGO_SVG + '''
           <span>Nordpflege<b>24</b></span>
         </a>
-        <p>Kostenlose Vermittlung von Pflegediensten und Jobs in der Pflege. In Hamburg, Schleswig-Holstein und ganz Norddeutschland.</p>
+        <p>Kostenlose Vermittlung von Pflegediensten und Jobs in der Pflege in Hamburg.</p>
       </div>
       <div class="foot-col">
         <h2>Kontakt</h2>
@@ -128,7 +128,7 @@ FOOTER = '''<footer class="foot">
     </div>
     <div class="foot-bottom">
       <span>© 2026 Nordpflege24. Ein Angebot von RAIT Solution.</span>
-      <span class="foot-more"><a href="/pflegedienst/hamburg/">Hamburg</a> · <a href="/pflegedienst/schleswig-holstein/">Schleswig-Holstein</a> · <a href="/pflegedienst/">Norddeutschland</a></span>
+      <span class="foot-more"><a href="/pflegedienst/hamburg/">Pflegedienst Hamburg</a> · <a href="/ratgeber/">Ratgeber</a> · <a href="/pflegedienst/">Alle Orte</a></span>
     </div>
   </div>
 </footer>
@@ -295,7 +295,7 @@ def render_page(meta, pages):
         service = {'@context': 'https://schema.org', '@type': 'Service', 'name': meta['h1'], 'description': meta['description'],
                    'serviceType': meta.get('leistung', 'Vermittlung ambulanter Pflegedienste'), 'provider': org, 'url': BASE + meta['url'],
                    'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'EUR', 'description': 'Die Vermittlung ist kostenlos.'}}
-        service['areaServed'] = meta.get('ort') or ['Hamburg', 'Schleswig-Holstein', 'Norddeutschland']
+        service['areaServed'] = meta.get('ort') or ['Hamburg']
         extra += ld(service)
     faq = meta.get('faq') or []
     if faq:
