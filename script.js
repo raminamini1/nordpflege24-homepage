@@ -12,7 +12,7 @@
       hero:{
         h1:'Pflegedienst finden. In Hamburg.',
         lead:'Sie sagen uns in 30 Sekunden, was gebraucht wird. Wir finden einen Pflegedienst mit freier Kapazität und rufen innerhalb von 24 Stunden zurück.',
-        promises:['Unverbindlich','Ohne Anmeldung','Rückruf in 24 Stunden','Keine Weitergabe ohne Ihr Einverständnis']
+        promises:['Kostenlos und unverbindlich','Rückruf in 24 Stunden','Keine Weitergabe ohne Ihr Einverständnis']
       },
       steps:[
         {key:'fuer',type:'single',q:'Für wen suchen Sie Pflege?',opts:[{v:'Für einen Angehörigen'},{v:'Für mich selbst'}]},
@@ -36,7 +36,7 @@
       hero:{
         h1:'Dein Job in der Pflege.',
         lead:'Drei Klicks, kein Lebenslauf. Wir kennen viele Pflegedienste im Norden und melden uns innerhalb von 24 Stunden bei dir.',
-        promises:['Unverbindlich','Kein Lebenslauf','Rückruf in 24 Stunden','Keine Weitergabe ohne dein Einverständnis']
+        promises:['Kostenlos','Kein Lebenslauf','Rückruf in 24 Stunden','Keine Weitergabe ohne dein Einverständnis']
       },
       steps:[
         {key:'ausbildung',type:'single',q:'Was ist deine Ausbildung?',opts:[
@@ -292,4 +292,11 @@
   }catch(e){}
 
   render(false);
+
+  /* The floating WhatsApp button waits until the question box has scrolled away, so it never covers the first answers. */
+  var wa=document.querySelector('.wa');
+  if(wa){
+    var onScroll=function(){wa.classList.toggle('is-on',funnel.getBoundingClientRect().bottom<0);};
+    window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  }
 })();
