@@ -330,3 +330,16 @@
 - Vorschlag Zusammenlegen: keiner nötig.
 - `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
 - Als Nächstes: Curslack, Hummelsbüttel, Hamm, Eilbek, Wohldorf-Ohlstedt, Steilshoop.
+
+## 28. Oktober 2026 (Mittwoch: Search Console ausgewertet, eine Seite gezielt verbessert, keine neuen Seiten)
+- Erster Lauf nach der Entscheidung vom 27. Oktober (Search Console steuert die Arbeit). Heute noch kein anderer Lauf.
+- Search Console (Supermetrics GW, letzte 28 Tage): 541 Anzeigen, 2 Klicks (beide Startseite), Durchschnittsplatz rund 43,7 (nach Anzeigen gewichtet). Wochen: KW 41 57 Anzeigen/2 Klicks/Platz 49,9; KW 42 197/0/47,1; KW 43 202/0/44,3; KW 44 (nur Mo-Di) 64/0/38,1. Platz verbessert sich jede Woche.
+- Top-5-Suchbegriffe: "pflegedienst finden" (70 Anzeigen, Platz 54), "grundpflege hamburg" (28, 84), "behandlungspflege zu hause" (25, 64), "24 stunden pflege in hamburg wellingsbüttel" (17, 52), "24 stunden pflege in wandsbek" (15, 80).
+- Auswahl nach Regel (a): /pflegedienst/hamburg-wellingsbuettel/ hat die meisten Hamburger Suchbegriffe auf Platz 5 bis 30 ("pflegedienst wellingsbüttel" Platz 24, "hausbesuch wellingsbüttel" 24) plus "24 stunden pflege in hamburg wellingsbüttel" (52) und "... poppenbüttel" (60), 56 Anzeigen, 0 Klicks.
+- Überarbeitet: /pflegedienst/hamburg-wellingsbuettel/. Title neu "Pflegedienst Wellingsbüttel: Pflege und Hausbesuch" (65 Zeichen), Description klickstärker (kostenlos, Hausbesuche, Hilfe rund um die Uhr). Neue H2 "Hausbesuche in Wellingsbüttel: Arzt, Beratung, Pflege" (Hausarzt, Arztruf 116117 mit fahrendem Notdienst, Seniorenberatung, Hamburger Hausbesuch zum 80. Geburtstag bzw. ab 60 auf Anfrage, Fachstelle Albertinen-Haus 040 5581-4725, Beratungsbesuch § 37 Abs. 3 SGB XI) und neue H2 "24-Stunden-Pflege in Wellingsbüttel" (Bausteine, Link auf /leistungen/24-stunden-pflege/). Frage "Was kostet die Vermittlung?" ersetzt durch zwei Fragen (Arzt-Hausbesuch, 24-Stunden-Pflege). Fünf neue Quellen.
+- Geprüft (heute abgerufen): kvhh.net Arztruf Hamburg, hamburg.de Arztruf 116 117, hamburg.de Hamburger Hausbesuch (Sozialbehörde und Hamburg Service, Voraussetzung ab 60), gesetze-im-internet.de § 37 SGB XI.
+- Fallstricke: Ob einzelne Hausarztpraxen in Wellingsbüttel Hausbesuche machen, nicht belegbar: nur "fragen Sie direkt" geschrieben. Zahl "rund 16.000 Besuchte" aus der Pressemeldung 2024 veraltet: nicht verwendet.
+- Vorgemerkt nach Regel (c): Hamburger Ratgeber "Pflegedienst wechseln in Hamburg" ("pflegedienst wechseln worauf achten", Platz 50 auf /ratgeber/). Weitere Kandidaten: Pflegenotdienst/Notfall ("pflegenotdienst" 36, "pflege notdienst" 8). Höchstens eine neue Seite pro Woche.
+- Vorschlag Zusammenlegen: keiner nötig.
+- `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
+- Als Nächstes: /pflegedienst/hamburg-wandsbek/ ("pflegestützpunkt wandsbek" Platz 12,5, "kurzzeitpflege hamburg wandsbek" 35), /pflegedienst/hamburg/ ("häusliche pflege hamburg" 25, "pflegekasse hamburg" 21, "pflegestützpunkt hamburg mitte" 18).

@@ -8,6 +8,7 @@ Diese Datei ist die Arbeitsanweisung für die automatische SEO-Aufgabe. Sie läu
 - Reihenfolge der Tagesarbeit: (a) Hamburger Seiten und Suchbegriffe auf Platz 5 bis 30 mit Anzeigen gezielt verbessern (Title, Description, H2, Fragen, Text; ohne Keyword-Stuffing, nur belegte Fakten); (b) viele Anzeigen ohne Klicks: Title und Description klickstärker; (c) Suchbegriffe ohne passende Seite als Hamburger Ratgeberthema vormerken (höchstens eine neue Seite pro Woche); (d) danach die Seite mit dem wenigsten eigenen Text eigenständiger machen.
 - Suchbegriffe zu Orten außerhalb Hamburgs ignorieren.
 - Kurzfazit (Anzeigen, Klicks, Durchschnittsplatz, Wochentrend, Top-5-Suchbegriffe) in `_build/seo-log.md`.
+- Stand 28.10.2026: 541 Anzeigen, 2 Klicks, Platz rund 43,7; Wochen 57 -> 197 -> 202 (KW 44 angefangen: 64, Platz 38). Erledigt: Wellingsbüttel (Hausbesuch, 24-Stunden). Vorgemerkt: Ratgeber "Pflegedienst wechseln in Hamburg".
 - Stand 27.10.2026 (letzte 28 Tage): Anzeigen je Woche 57 -> 197 -> 202, Durchschnittsplatz 50 -> 44, 2 Klicks. Top: "pflegedienst finden" (54), "grundpflege hamburg" (84), "behandlungspflege zu hause" (65), "pflegedienst wellingsbüttel" (24), "kurzzeitpflege hamburg wandsbek" (35).
 
 ## NEUESTE ENTSCHEIDUNG (Ramin, 20. Oktober 2026): Qualität statt neuer Ortsseiten – geht allem darunter vor
