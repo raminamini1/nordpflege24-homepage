@@ -327,3 +327,4 @@ Ist die Liste abgearbeitet: eigene Themen ergänzen, die Menschen im Norden zur 
 - Jede Beispielperson heißt "Ein ausgedachtes Beispiel: Frau X. …". Nie echte Fälle vortäuschen.
 - Den KI-Hinweis im Quellenkasten (`_build/build.py`) und den Abschnitt "Bildnachweis und Einsatz von KI" im Impressum nie entfernen.
 - Neue Bilder vor dem Einbau mit XMP `DigitalSourceType=trainedAlgorithmicMedia` kennzeichnen.
+- Entscheidung Ramin 29.10.2026: KEIN sichtbarer KI-Hinweis auf oder an den Fotos. KI-Hinweis nur in Impressum, Datenschutz (Abschnitt 12), Quellenkasten und Bild-Metadaten.
