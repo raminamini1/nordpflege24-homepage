@@ -328,6 +328,7 @@ def render_page(meta, pages):
     if meta['section'] == 'jobs':
         note = f'Stand: {esc(meta["stand"])}. Die Angaben sind allgemeine Informationen und kein verbindliches Angebot eines Arbeitgebers.'
     out += f'      <p>{note}</p>\n'
+    out += '      <p>Dieser Text wurde mit Unterstützung von KI erstellt. Personen in Beispielen sind ausgedacht. Die Bilder sind mit KI erzeugt und zeigen keine realen Personen.</p>\n'
     if quellen:
         out += '      <ul>\n' + ''.join(
             f'        <li><a href="{esc(q["url"])}" target="_blank" rel="noopener">{esc(q["name"])}</a></li>\n' for q in quellen) + '      </ul>\n'

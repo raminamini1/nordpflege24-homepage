@@ -321,3 +321,8 @@ Jobs (`jobs`):
 - [ ] Pflege-Jobs in Niedersachsen: Löhne, Pflegeassistenz, Landkreise im Hamburger Umland (ergänzt 11. Oktober 2026; der Landespflegebericht 2024 enthält Zahlen zu Beschäftigung, Teilzeit und Ausbildung)
 
 Ist die Liste abgearbeitet: eigene Themen ergänzen, die Menschen im Norden zur Pflege zu Hause oder zu Pflegejobs wirklich suchen, und bestehende Seiten vertiefen.
+
+## KI-Transparenz (EU AI Act Art. 50, seit 29.10.2026)
+- Jede Beispielperson heißt "Ein ausgedachtes Beispiel: Frau X. …". Nie echte Fälle vortäuschen.
+- Den KI-Hinweis im Quellenkasten (`_build/build.py`) und den Abschnitt "Bildnachweis und Einsatz von KI" im Impressum nie entfernen.
+- Neue Bilder vor dem Einbau mit XMP `DigitalSourceType=trainedAlgorithmicMedia` kennzeichnen.
