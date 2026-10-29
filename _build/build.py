@@ -105,7 +105,7 @@ FOOTER = '''<footer class="foot">
           <div><dt>WhatsApp</dt><dd><a href="https://wa.me/4915157732698" target="_blank" rel="noopener">+49 1515 7732698</a></dd></div>
           <div><dt>E-Mail</dt><dd><a href="mailto:kontakt@nordpflege24.de">kontakt@nordpflege24.de</a></dd></div>
         </dl>
-        <p class="foot-note">Rückruf innerhalb von 24 Stunden.</p>
+        <p class="foot-note">Rückruf werktags innerhalb von 24 Stunden.</p>
       </div>
       <nav class="foot-col" aria-label="Angebot">
         <h2>Angebot</h2>
@@ -190,19 +190,19 @@ def cta_block(meta):
     href = '/#start'
     if meta.get('ort'):
         href = '/?ort=' + urllib.parse.quote(meta['ort']) + '#start'
-    return f'<a class="btn" href="{href}">Pflege anfragen</a><span>Kostenlos. Rückruf innerhalb von 24 Stunden.</span>'
+    return f'<a class="btn" href="{href}">Pflege anfragen</a><span>Kostenlos. Rückruf werktags innerhalb von 24 Stunden.</span>'
 
 
 def closing_band(meta):
     if meta['cta'] == 'job':
-        return ('<h2>Bereit für einen Job, der zu dir passt?</h2><p>Drei kurze Fragen, deine Telefonnummer, fertig. Wir melden uns innerhalb von 24 Stunden.</p>'
+        return ('<h2>Bereit für einen Job, der zu dir passt?</h2><p>Drei kurze Fragen, deine Telefonnummer, fertig. Wir melden uns werktags innerhalb von 24 Stunden.</p>'
                 '<a class="btn btn-light" href="/#job">Job finden</a>')
     href = '/#start'
     where = 'in Ihrer Nähe'
     if meta.get('ort'):
         href = '/?ort=' + urllib.parse.quote(meta['ort']) + '#start'
         where = ('im ' if meta['ort'].startswith(('Kreis ', 'Landkreis ')) else 'in ') + esc(meta['ort'])
-    return (f'<h2>Pflege {where} gesucht?</h2><p>Sagen Sie uns in 30 Sekunden, was gebraucht wird. Wir fragen bei den Pflegediensten nach und rufen innerhalb von 24 Stunden zurück.</p>'
+    return (f'<h2>Pflege {where} gesucht?</h2><p>Sagen Sie uns in 30 Sekunden, was gebraucht wird. Wir fragen bei den Pflegediensten nach und rufen werktags innerhalb von 24 Stunden zurück.</p>'
             f'<a class="btn btn-light" href="{href}">Pflege anfragen</a>')
 
 
@@ -401,7 +401,7 @@ def render_404():
       <p class="eyebrow">Fehler 404</p>
       <h1>Diese Seite gibt es nicht.</h1>
       <p class="lede">Vielleicht wurde sie verschoben oder die Adresse enthält einen Tippfehler. Hier geht es weiter:</p>
-      <div class="page-cta"><a class="btn" href="/#start">Pflege anfragen</a><span>Kostenlos. Rückruf innerhalb von 24 Stunden.</span></div>
+      <div class="page-cta"><a class="btn" href="/#start">Pflege anfragen</a><span>Kostenlos. Rückruf werktags innerhalb von 24 Stunden.</span></div>
     </header>
     <section class="page-wide">
       <div class="tiles">

@@ -11,8 +11,8 @@
       form:'pflege-anfrage',
       hero:{
         h1:'Pflegedienst finden. In Hamburg.',
-        lead:'Sie sagen uns in 30 Sekunden, was gebraucht wird. Wir finden einen Pflegedienst mit freier Kapazität und rufen innerhalb von 24 Stunden zurück.',
-        promises:['Kostenlos und unverbindlich','Rückruf in 24 Stunden','Keine Weitergabe ohne Ihr Einverständnis']
+        lead:'Sie sagen uns in 30 Sekunden, was gebraucht wird. Wir finden einen Pflegedienst mit freier Kapazität und rufen werktags innerhalb von 24 Stunden zurück.',
+        promises:['Kostenlos und unverbindlich','Rückruf werktags in 24 Stunden','Keine Weitergabe ohne Ihr Einverständnis']
       },
       steps:[
         {key:'fuer',type:'single',q:'Für wen suchen Sie Pflege?',opts:[{v:'Für einen Angehörigen'},{v:'Für mich selbst'}]},
@@ -25,18 +25,18 @@
           {v:'Weiß ich noch nicht',d:'Wir klären das am Telefon'}]},
         {key:'ort',type:'ort',q:'Wo wird die Pflege gebraucht?'}
       ],
-      contact:{q:'Wohin dürfen wir uns melden?',hint:'Wir rufen innerhalb von 24 Stunden zurück.',submit:'Rückruf anfordern',
+      contact:{q:'Wohin dürfen wir uns melden?',hint:'Wir rufen werktags innerhalb von 24 Stunden zurück.',submit:'Rückruf anfordern',
         note:'Möchten Sie uns noch etwas mitteilen?',
         consent:'Ich willige ein, dass Nordpflege24 (RAIT Solution, Hamburg) meine Angaben einschließlich der Angaben zum Pflegebedarf (Gesundheitsdaten) verarbeitet, um mich zurückzurufen und passende Pflegedienste zu suchen. Frage ich für eine andere Person an, ist sie einverstanden oder ich darf sie vertreten. An einen Pflegedienst gehen die Daten erst nach meiner ausdrücklichen Zustimmung. Die Einwilligung kann ich jederzeit widerrufen, zum Beispiel per E-Mail an kontakt@nordpflege24.de.'},
-      done:'Wir rufen Sie innerhalb von 24 Stunden zurück unter',
+      done:'Wir rufen Sie werktags innerhalb von 24 Stunden zurück unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuchen Sie es noch einmal oder rufen Sie uns an: '
     },
     job:{
       form:'job-anfrage',
       hero:{
         h1:'Dein Job in der Pflege.',
-        lead:'Drei Klicks, kein Lebenslauf. Wir kennen viele Pflegedienste in Hamburg und melden uns innerhalb von 24 Stunden bei dir.',
-        promises:['Kostenlos','Kein Lebenslauf','Rückruf in 24 Stunden','Keine Weitergabe ohne dein Einverständnis']
+        lead:'Drei Klicks, kein Lebenslauf. Wir kennen viele Pflegedienste in Hamburg und melden uns werktags innerhalb von 24 Stunden bei dir.',
+        promises:['Kostenlos','Kein Lebenslauf','Rückruf werktags in 24 Stunden','Keine Weitergabe ohne dein Einverständnis']
       },
       steps:[
         {key:'ausbildung',type:'single',q:'Was ist deine Ausbildung?',opts:[
@@ -47,10 +47,10 @@
         {key:'umfang',type:'single',q:'Wie viel möchtest du arbeiten?',opts:[{v:'Vollzeit'},{v:'Teilzeit'},{v:'Minijob'}]},
         {key:'ort',type:'ort',q:'Wo wohnst du?'}
       ],
-      contact:{q:'Wie erreichen wir dich?',hint:'Wir melden uns innerhalb von 24 Stunden.',submit:'Jobs anfragen',
+      contact:{q:'Wie erreichen wir dich?',hint:'Wir melden uns werktags innerhalb von 24 Stunden.',submit:'Jobs anfragen',
         note:'Möchtest du uns noch etwas mitteilen?',
         consent:'Ich willige ein, dass Nordpflege24 (RAIT Solution, Hamburg) meine Angaben verarbeitet, um mich zurückzurufen und mir passende Stellen vorzuschlagen. An einen Arbeitgeber gehen die Daten erst nach meiner ausdrücklichen Zustimmung. Die Einwilligung kann ich jederzeit widerrufen, zum Beispiel per E-Mail an kontakt@nordpflege24.de.'},
-      done:'Wir melden uns innerhalb von 24 Stunden bei dir unter',
+      done:'Wir melden uns werktags innerhalb von 24 Stunden bei dir unter',
       fail:'Das Senden hat nicht geklappt. Bitte versuch es noch einmal oder ruf uns an: '
     }
   };
