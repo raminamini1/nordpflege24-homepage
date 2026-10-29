@@ -343,3 +343,16 @@
 - Vorschlag Zusammenlegen: keiner nötig.
 - `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
 - Als Nächstes: /pflegedienst/hamburg-wandsbek/ ("pflegestützpunkt wandsbek" Platz 12,5, "kurzzeitpflege hamburg wandsbek" 35), /pflegedienst/hamburg/ ("häusliche pflege hamburg" 25, "pflegekasse hamburg" 21, "pflegestützpunkt hamburg mitte" 18).
+
+## 29. Oktober 2026 (Donnerstag: Search Console ausgewertet, zwei Seiten gezielt verbessert, keine neuen Seiten)
+- Lauf nach der Entscheidung vom 27. Oktober. Heute noch kein anderer Lauf.
+- Search Console (Supermetrics GW, letzte 28 Tage): 570 Anzeigen, 2 Klicks (beide Startseite), Durchschnittsplatz rund 44,4 (nach Anzeigen gewichtet, Seitenebene). Wochen: KW 41 57/2/Platz 49,9; KW 42 197/0/47,1; KW 43 202/0/44,3; KW 44 (Mo-Mi) 93/0/37,9. Platz verbessert sich weiter jede Woche.
+- Top-5-Suchbegriffe: "pflegedienst finden" (70 Anzeigen, Platz 54), "grundpflege hamburg" (28, 84), "behandlungspflege zu hause" (26, 64), "24 stunden pflege in hamburg wellingsbüttel" (19, 52), "24 stunden pflege in wandsbek" (16, 79).
+- Regel (a), /pflegedienst/hamburg-wandsbek/ (98 Anzeigen, 0 Klicks; "pflegestützpunkt wandsbek" Platz 12,5, "pflegedienst wohldorf-ohlstedt" 17, "pflegedienst in jenfeld" 23, "kurzzeitpflege hamburg wandsbek" 37): Title neu "Pflegedienst Wandsbek: Kurzzeitpflege, Beratung", Description mit Kurzzeitpflege-Kosten und Pflegestützpunkt. H2 "Kurzzeitpflege in Hamburg-Wandsbek: Kosten und Platzsuche" und "Pflegestützpunkt Wandsbek und Seniorenberatung". Neu: E-Mail des Stützpunkts, Termine für Rahlstedt nach Absprache, Beratung gesetzlich Versicherter ab 18, Hilfe bei Heim- und Kurzzeitpflegeplatz, COMPASS für Privatversicherte, PBM-Dach. Frage "Was kostet die Vermittlung?" ersetzt durch "Wo ist der Pflegestützpunkt Wandsbek und wann ist er geöffnet?". Zwei neue Quellen.
+- Regel (a), /pflegedienst/hamburg/ ("häusliche pflege hamburg" Platz 24, "wie finde ich einen guten pflegedienst" 21): Title "Pflegedienst Hamburg: häusliche Pflege finden". Frage "Was kostet die Vermittlung?" ersetzt durch "Wie finde ich einen guten Pflegedienst in Hamburg?" (Tour, Leistungen, Kosteninfo vor Vertragsschluss und fristlose Kündigung nach § 120 SGB XI, Pflegestützpunkte). Neue Quelle § 120 SGB XI.
+- Geprüft (heute abgerufen): hamburg.de Pflegestützpunkt Wandsbek und Rahlstedt, Sozialbehörde Pflegestützpunkte (Sprechzeiten unverändert), Bezirksamt Wandsbek Seniorenberatung (Walddörfer und Jenfeld/Marienthal weiter "N.N."), gesetze-im-internet.de § 120 SGB XI.
+- Fallstricke: Sozialbehörde-Fachinfo nennt noch "in Wandsbek zwei" Stützpunkte (veraltet seit 1. Juli 2025): nicht verwendet. Suchbegriffe mit Namen anderer Pflegedienste nicht bedient.
+- Vorgemerkt (c): weiter Ratgeber "Pflegedienst wechseln in Hamburg" (diese Woche noch keine neue Seite).
+- Vorschlag Zusammenlegen: keiner nötig.
+- `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
+- Als Nächstes: /leistungen/ ("behandlungspflege zu hause" 64, viele Anzeigen ohne Klick), /pflegedienst/hamburg-altona/ ("24 stunden pflege in altona").
