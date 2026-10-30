@@ -356,3 +356,15 @@
 - Vorschlag Zusammenlegen: keiner nötig.
 - `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
 - Als Nächstes: /leistungen/ ("behandlungspflege zu hause" 64, viele Anzeigen ohne Klick), /pflegedienst/hamburg-altona/ ("24 stunden pflege in altona").
+
+## 30. Oktober 2026 (Freitag: Search Console ausgewertet, zwei Seiten gezielt verbessert, keine neuen Seiten)
+- Lauf nach der Entscheidung vom 27. Oktober. Heute noch kein anderer Lauf.
+- Search Console (Supermetrics GW, letzte 28 Tage): 606 Anzeigen, 3 Klicks (2 Startseite, 1 /pflegedienst/hamburg/), Durchschnittsplatz rund 44,0 (nach Anzeigen gewichtet, Seitenebene). Wochen: KW 41 57/2/Platz 49,9; KW 42 197/0/47,1; KW 43 202/0/44,3; KW 44 (Mo-Do) 129/1/37,2. Erster Klick auf eine Hamburger Unterseite.
+- Top-5-Suchbegriffe: "pflegedienst finden" (70 Anzeigen, Platz 54), "grundpflege hamburg" (28, 84), "behandlungspflege zu hause" (26, 64), "24 stunden pflege in hamburg wellingsbüttel" (24, 48), "24 stunden pflege in wandsbek" (17, 79).
+- Regel (a)/(c), /ratgeber/pflegedienst-wechseln/ ("pflegedienst wechseln worauf achten" 13 Anzeigen, Platz 50, bisher nur über /ratgeber/): Statt einer neuen, fast gleichen Seite "Pflegedienst wechseln in Hamburg" die bestehende Seite auf Hamburg und den Suchbegriff ausgerichtet. Title "Pflegedienst wechseln: worauf achten? Hamburg", neue Description und H1. Neue H2 "Worauf Sie beim Wechsel achten sollten" und "Pflegedienst wechseln in Hamburg: Hilfe und Beschwerdestellen" (Punktwert nach Hamburger Leistungsverzeichnis, Pflegestützpunkte mit Sprechzeiten, Beschwerdetelefon Pflege 040 28 05 38 22, ZePAD im Bezirksamt Altona 040 42811-1659). Frage "Was tue ich, wenn ich keinen neuen Pflegedienst finde?" ersetzt durch zwei Fragen (worauf achten, Beschwerde in Hamburg). `related` jetzt mit Kosten Hamburg und /pflegedienst/hamburg/. Vier neue Quellen.
+- Regel (b), /leistungen/ (88 Anzeigen, 0 Klicks, Suchbegriffe "behandlungspflege zu hause", "krankenpflege zu hause", "ambulante nachtpflege zu hause"): Title und Description der Übersicht in `build.py` neu ("Pflege zu Hause: Behandlungspflege bis Nachtpflege", Description mit Hamburg und kostenloser Vermittlung).
+- Geprüft (heute abgerufen): gesetze-im-internet.de § 120 SGB XI, hamburg.de Pflegestützpunkte (Sprechzeiten unverändert), Beschwerdetelefon Pflege (Nummern, Zeiten, Träger), Wohn-Pflege-Aufsicht/ZePAD, Bezirksamt Altona "Ambulanter Pflegedienst Mängel melden".
+- Damit ist das vorgemerkte Thema "Pflegedienst wechseln in Hamburg" erledigt, ohne neue Seite. Diese Woche keine neue Seite.
+- Vorschlag Zusammenlegen: keiner nötig.
+- `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
+- Als Nächstes: /leistungen/behandlungspflege/ auf "behandlungspflege zu hause" ausrichten, /pflegedienst/hamburg-altona/ ("24 stunden pflege in altona"), Ratgeber-Kandidat Pflegenotdienst Hamburg ("pflegenotdienst" 36, "pflege notdienst" 8).

@@ -34,8 +34,8 @@ SECTIONS = {
     },
     'leistungen': {
         'name': 'Leistungen',
-        'title': 'Ambulante Pflege zu Hause: alle Leistungen | Nordpflege24',
-        'description': 'Von Grundpflege bis Intensivpflege: Welche Leistungen ein ambulanter Pflegedienst zu Hause erbringt, wer sie bezahlt und wie Nordpflege24 kostenlos vermittelt.',
+        'title': 'Pflege zu Hause: Behandlungspflege bis Nachtpflege | Nordpflege24',
+        'description': 'Krankenpflege, Behandlungspflege und Nachtpflege zu Hause in Hamburg: was ein ambulanter Pflegedienst leistet und wer zahlt. Vermittlung kostenlos.',
         'h1': 'Pflege zu Hause: unsere Leistungen im Überblick',
         'lede': 'Welche Hilfe ein ambulanter Pflegedienst leistet, wer die Kosten trägt und wie Sie über Nordpflege24 einen Dienst mit freier Kapazität finden.',
         'cta': 'pflege',
