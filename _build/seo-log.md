@@ -368,3 +368,14 @@
 - Vorschlag Zusammenlegen: keiner nötig.
 - `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
 - Als Nächstes: /leistungen/behandlungspflege/ auf "behandlungspflege zu hause" ausrichten, /pflegedienst/hamburg-altona/ ("24 stunden pflege in altona"), Ratgeber-Kandidat Pflegenotdienst Hamburg ("pflegenotdienst" 36, "pflege notdienst" 8).
+
+## 31. Oktober 2026 (Samstag: Search Console ausgewertet, eine Seite gezielt verbessert, keine neuen Seiten)
+- Lauf nach der Entscheidung vom 27. Oktober. Heute noch kein anderer Lauf.
+- Search Console (Supermetrics GW, letzte 28 Tage): 630 Anzeigen, 3 Klicks (2 Startseite, 1 /pflegedienst/hamburg/), Durchschnittsplatz rund 42,7 (nach Anzeigen gewichtet, Seitenebene). Wochen: KW 41 57/2/Platz 49,9; KW 42 197/0/47,1; KW 43 202/0/44,3; KW 44 (Mo-Fr) 153/1/37,3.
+- Top-5-Suchbegriffe: "pflegedienst finden" (70 Anzeigen, Platz 54), "grundpflege hamburg" (28, 84), "behandlungspflege zu hause" (26, 64), "24 stunden pflege in hamburg wellingsbüttel" (24, 48), "häusliche pflege hamburg" (19, 16,7).
+- Regel (a), /pflegedienst/hamburg/ (244 Anzeigen, 1 Klick; "häusliche pflege hamburg" Platz 16,7, "pflegekasse hamburg" 21, "pflegestützpunkte hamburg" 18, "pflegestützpunkt hamburg mitte" 18, "pflegenoten" 8, "pflegelotse hamburg" 35): Description neu (häusliche Pflege, kostenlos, Pflegekasse, Pflegestützpunkte mit Telefon). Neue H2 "Pflegekasse in Hamburg: Antrag und Beratung" (Pflegekasse bei der eigenen Krankenkasse § 46 SGB XI, Beratungstermin binnen zwei Wochen oder Gutschein, auf Wunsch zu Hause § 7b SGB XI, vdek-Pflegelotse mit Qualitätsprüfungen, neue Qualitätsdarstellung ambulant seit 1. Juli 2026). H2 Pflegestützpunkte umbenannt in "Pflegestützpunkte in Hamburg: Adressen und Telefon". Neue Frage "Welche Pflegekasse ist in Hamburg für mich zuständig?", Frage zur freien Kapazität gestrichen (doppelt). Fehler behoben: Frage nannte "bisher neun Stadtteile", richtig 32; Rückruf jetzt "werktags innerhalb von 24 Stunden". Drei neue Quellen.
+- Geprüft (heute abgerufen): gesetze-im-internet.de § 46 und § 7b SGB XI, vdek Pflegelotse (Seite und Portal).
+- Vorgemerkt (c): Ratgeber Pflegenotdienst Hamburg ("pflegenotdienst" 36, "notfall pflegedienst" 53, "pflege notdienst" 8). Diese Woche keine neue Seite.
+- Vorschlag Zusammenlegen: keiner nötig.
+- `build.py` ohne Warnung. 92 Seiten, Sitemap 97 Adressen.
+- Als Nächstes: /leistungen/behandlungspflege/ auf "behandlungspflege zu hause", /pflegedienst/hamburg-wandsbek/ ("kurzzeitpflege hamburg wandsbek" 40), /pflegedienst/hamburg-altona/.
